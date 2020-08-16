@@ -81,7 +81,7 @@ This website serves as the main portal for all content related to this course. T
 {% for values in site.data.info.links -%}
   {% assign label = values[0] -%}
   {% assign item = site.data.info.links[label] -%}
-  <li {% if forloop.first %}class="bump"{% endif %}>
+  <li {% if forloop.first or item.line %}class="bump"{% endif %}>
   {% if item.icon -%}
     <span class="fa-li"><i class="{{ item.icon }}"></i></span>
   {% endif -%}
