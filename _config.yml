@@ -1,0 +1,70 @@
+title: "CS 212 Software Development"
+subtitle: "CS 212-01, CS 212-02 &bullet; Fall 2020"
+
+name: "Sophie Engle"
+timezone: "America/Los_Angeles"
+
+repository: "usf-cs212-fall2020/usf-cs212-fall2020.github.io"
+github: [metadata]
+
+kramdown:
+  auto_ids: true
+
+include: ["favicon.ico"]
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
+
+permalink: /guides/:title:output_ext
+
+collections:
+  general:
+    title: "General Guides"
+    output: true
+    permalink: /guides/:collection/:name:output_ext
+
+  eclipse:
+    title: "Eclipse Guides"
+    output: true
+    permalink: /guides/:collection/:name:output_ext
+
+  homework:
+    title: "Homework Guides"
+    output: true
+    permalink: /guides/:collection/:name:output_ext
+
+  projects:
+    title: "Project Guides"
+    output: true
+    permalink: /guides/:collection/:name:output_ext
+
+description: >-
+   This course gives students experience with advanced programming topics, including inheritance and polymorphism, multithreaded programming, networking, database programming, and web development. Students will also learn techniques for designing, debugging, refactoring, and reviewing code.
+
+links:
+   piazza: "https://piazza.com/usfca/fall2020/cs212/home"
+   canvas: "https://usfca.instructure.com/courses/1594619"
+   github: "https://github.com/usf-cs212-fall2020"
+
+   zoom:
+     - name: "CS 212-01 Lecture"
+       link: ""
+
+     - name: "CS 212-02 Lecture"
+       link: ""
+
+     - name: "CS 212L-01 Lab"
+       link: ""
+
+     - name: "CS 212L-02 Lab"
+       link: ""
+
+     - name: "Office Hours"
+       link: "https://usfca.zoom.us/j/98397885780"
+
+     - name: "TA Office Hours"
+       link: ""
