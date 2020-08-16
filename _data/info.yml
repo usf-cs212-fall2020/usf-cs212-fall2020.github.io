@@ -7,11 +7,18 @@ blurb: |
   This course gives students experience with advanced programming topics, including inheritance and polymorphism, multithreaded programming, networking, database programming, and web development. Students will also learn techniques for designing, debugging, refactoring, and reviewing code.
 
 links:
+  syllabus:
+    name: 'Syllabus'
+    icon: 'far fa-file-alt'
+    link: '/syllabus.html'
+    info: 'official course and university policies'
+
   github:
     name: 'Github'
     icon: 'fab fa-github-alt'
     link: 'https://github.com/usf-cs212-fall2020'
     info: 'lecture code, homework templates, and project tests'
+    line: true
 
   piazza:
     name: 'Piazza'
@@ -25,43 +32,62 @@ links:
     link: 'https://usfca.instructure.com/courses/1594619'
     info: 'grades and assignment deadlines'
 
+  polls:
+    name: 'Live Polls'
+    icon: 'far fa-poll-people'
+    link: 'https://PollEv.com/sjengle'
+    info: 'live anonymous polls'
+    line: true
+
+  suggestions:
+    name: 'Suggestion Box'
+    icon: 'far fa-box-ballot'
+    link: 'https://docs.google.com/forms/d/e/1FAIpQLSfCj9UrtNNz06GDqn5zeWHy57kSGjrU5tPshFGwbu8Xnm_9zQ/viewform?usp=sf_link'
+    info: 'anonymous course suggestions'
+
 streams:
   lecture1:
     name: 'CS 212-01 Lecture'
     icon: 'far fa-chalkboard-teacher'
-    link: 'https://usfca.zoom.us/test'
+    room: '998 7326 3891'
+    link: 'https://usfca.zoom.us/j/99873263891'
     info: 'livestreams of lecture for CS 212-01'
 
   lecture2:
     name: 'CS 212-02 Lecture'
     icon: 'far fa-chalkboard-teacher'
-    link: 'https://usfca.zoom.us/test'
+    room: '949 1721 3734'
+    link: 'https://usfca.zoom.us/j/94917213734'
     info: 'livestreams of lecture for CS 212-02'
 
   lab1:
     name: 'CS 212L-01 Lab'
     icon: 'far fa-users-class'
-    link: 'https://usfca.zoom.us/test'
+    room: '991 1044 4721'
+    link: 'https://usfca.zoom.us/j/99110444721'
     info: 'livestreams of lab for CS 212L-01'
     line: true
 
   lab2:
     name: 'CS 212L-02 Lab'
     icon: 'far fa-users-class'
-    link: 'https://usfca.zoom.us/test'
+    room: '931 6737 5825'
+    link: 'https://usfca.zoom.us/j/93167375825'
     info: 'livestreams of lab for CS 212L-02'
 
   instructor:
     name: 'Office Hours'
     icon: 'far fa-user-clock'
     info: 'instructor office hours'
-    link: '#'
+    room: '983 9788 5780'
+    link: 'https://usfca.zoom.us/j/98397885780'
     line: true
 
   reviews:
     name: 'Code Reviews'
     icon: 'far fa-laptop-code'
-    link: '#'
+    room: '962 3801 8780'
+    link: 'https://usfca.zoom.us/j/96238018780'
     info: 'one-on-one project code reviews'
 
 pages:
@@ -70,10 +96,10 @@ pages:
     link: '/schedule.html'
     info: 'a detailed weekly schedule with links to lecture materials and assignment deadlines'
 
-  - name: 'Syllabus'
-    icon: 'far fa-file-alt'
-    link: '/syllabus.html'
-    info: 'the official course and university policies'
+  # - name: 'Syllabus'
+  #   icon: 'far fa-file-alt'
+  #   link: '/syllabus.html'
+  #   info: 'the official course and university policies'
 
   - name: 'Guides'
     icon: 'far fa-book'
