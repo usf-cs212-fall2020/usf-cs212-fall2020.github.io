@@ -19,7 +19,23 @@ layout: guides
 
 ## Summary
 
-Pending
+This syllabus is similar to a contract between students and the instructor, and as such it is quite long (with many sections required by the university). A few key points from this syllabus are highlighted here:
+
+  - We will primarily use Piazza for all asynchronous communication for this class, not email. See: [Communication Policy](#communication-policy)
+
+  - You should be stuck for an hour on a problem before seeking help, but you should definitely seek help if you have been stuck for an hour. See: [Getting Help](#asynchronous-communication)
+
+  - Do not cheat. This includes working too closely with your classmates or the CS tutors. See: [Cheating Policy](#cheating-policy)
+
+  - You must pass at least one exam to earn a C or higher letter grade in this class. See: [Pass Requirements](#pass-requirements)
+
+  - You must make enough progress on projects to earn a C or higher letter grade in this class. See: [Pass Requirements](#pass-requirements)
+
+  - Attendance is required one per week and late submissions are not accepted; but there are automatic exceptions granted for certain situations. See: [Policy Exceptions](#policy-exceptions)
+
+  - Treat this class like a part-time job and plan to spend 10 to 20 hours coding per week outside of class. See: [Credit Hour Policy](#credit-hour-policy)
+
+You are still required to read through the entire syllabus below.
 
 ## Course Details
 {: .page-header }
@@ -340,6 +356,8 @@ Most asynchronous course-related communication will be handled using [Piazza]({{
   - **Make posts specific to solutions or grades private** to the instructor and teacher assistants. This replaces directly emailing the instructor regarding the course. If you email the instructor directly, you will be asked to make a private post on Piazza before receiving an answer.
 
   - **Follow the 1 hour rule.** You should be stuck on a problem between 30 minutes to 1 hour before asking for help, but should immediately ask for help if stuck over 1 hour. Worst case, you figure out the answer before we are able to help. Best case, we can help you get unstuck!
+
+  - **Post exact details when possible.** You will get a solution faster if you include as many details as possible when asking for help. This might include exact error messages, stack traces, which tests are failing and passing, console or log output, and more. If you forget, we will have to ask you for this detail which can extend how long it takes to get help.
 
 In addition to [Piazza]({{ site.data.info.links.piazza.link }}), the instructor will also use [Canvas]({{ site.data.info.links.canvas.link }}) to notify students of missing assignments or warn about low grades.
 
