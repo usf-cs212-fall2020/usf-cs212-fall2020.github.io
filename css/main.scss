@@ -90,10 +90,6 @@ strike,
   text-decoration: line-through;
 }
 
-div.highlight {
-  margin-bottom: 1em;
-}
-
 li p {
   margin-bottom: 1em;
 }
@@ -109,8 +105,8 @@ has-text-danger a {
   text-decoration: currentColor underline dotted;
 }
 
-.content li.bump {
-  margin-top: 0.8rem;
+.button a {
+  color: inherit;
 }
 
 @media print {
@@ -124,11 +120,36 @@ has-text-danger a {
   }
 }
 
-/* fix font-awesome lists */
+/* custom classes */
+
+.page-header {
+  border-bottom: 1px solid $grey-light;
+  text-transform: uppercase;
+  letter-spacing: 0.01rem;
+  padding-bottom: 0.125rem;
+}
+
+.content li.bump {
+  margin-top: 0.8rem;
+}
+
+/* syntax highlighter styles */
+div.highlight {
+  margin-bottom: 1em;
+}
+
+/* anchorjs styles */
+.anchorjs-link {
+  font-family: "Font Awesome 5 Pro";
+  color: $usf-gray;
+}
+
+/* font-awesome styles */
 ul.fa-ul li {
   list-style-type: none;
 }
 
+/*
 textarea.copy {
   font-family: $family-monospace;
   font-size: 0.9em;
@@ -139,3 +160,4 @@ textarea.copy {
 
   margin-bottom: 1em;
 }
+*/

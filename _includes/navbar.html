@@ -30,6 +30,7 @@
       </div>
 
       <div class="navbar-end">
+        {% comment -%}
         {% for values in site.data.info.links -%}
         {% assign label = values[0] -%}
         {% assign item = site.data.info.links[label] -%}
@@ -40,6 +41,32 @@
           <span>{{ item.name }}</span>
         </a>
         {% endfor -%}
+        {% endcomment %}
+
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link">
+            <span class="icon">
+              <i class="far fa-link fa-fw"></i>
+            </span>
+            <span>Quick Links</span>
+          </a>
+
+          <div class="navbar-dropdown is-right">
+            {% for values in site.data.info.links -%}
+            {% assign label = values[0] -%}
+            {% assign item = site.data.info.links[label] -%}
+            {% if item.line -%}
+            <hr class="navbar-divider">
+            {% endif -%}
+            <a class="navbar-item" href="{{ item.link }}" title="{{ item.info }}">
+              <span class="icon">
+                <i class="{{ item.icon }} fa-fw"></i>
+              </span>
+              <span>{{ item.name }}</span>
+            </a>
+            {% endfor -%}
+          </div>
+        </div>
 
         <div class="navbar-item has-dropdown is-hoverable">
           <a class="navbar-link">
