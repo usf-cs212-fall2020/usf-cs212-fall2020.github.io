@@ -1,0 +1,220 @@
+<style>
+.custom div.tile.is-parent {
+  padding: 0.5rem 0.25rem;
+}
+
+.custom div.tile .notification {
+  padding: 0.75rem;
+}
+
+.custom .heading {
+  margin-bottom: 0px;
+}
+</style>
+
+<div class="tile is-ancestor custom">
+<div class="tile is-vertical">
+  <!-- row -->
+  <div class="tile">
+    <div class="tile is-parent is-vertical">
+      <div class="tile is-child notification is-invisible">
+        <span class="heading">&nbsp;</span>
+        &nbsp;
+      </div>
+
+      <div class="tile is-child notification is-invisible">
+        <span class="heading">&nbsp;</span>
+        &nbsp;
+      </div>
+    </div>
+
+    <div class="tile is-parent">
+      <div class="tile is-child"></div>
+    </div>
+
+    <div class="tile is-parent">
+      <div class="tile is-child"></div>
+    </div>
+
+    <div class="tile is-parent">
+      <div class="tile is-child"></div>
+    </div>
+
+    <div class="tile is-parent">
+      <div class="tile is-child notification is-usf-plum">
+        <span class="heading">Fri 11:00–12:30a</span>
+        <a href="{{ site.data.info.streams.instructor.link }}">Office Hours</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- row -->
+  <div class="tile">
+    <div class="tile is-parent is-vertical">
+      <div class="tile is-child notification is-invisible">
+        <span class="heading">&nbsp;</span>
+        &nbsp;
+      </div>
+
+      <div class="tile is-child notification is-invisible">
+        <span class="heading">&nbsp;</span>
+        &nbsp;
+      </div>
+    </div>
+
+    <div class="tile is-parent">
+      <div class="tile is-child notification">
+        <span class="heading">Tue 12:45–02:30p</span>
+        CS 212-01 Videos,
+        <a href="{{ site.data.info.streams.reviews.link }}">Code Reviews</a>
+      </div>
+    </div>
+
+    <div class="tile is-parent">
+      <div class="tile is-child"></div>
+    </div>
+
+    <div class="tile is-parent">
+      <div class="tile is-child notification is-primary">
+        <span class="heading">Thu 12:45–02:30p</span>
+        <a href="{{ site.data.info.streams.lecture1.link }}">CS 212-01 Lecture</a>
+      </div>
+    </div>
+
+    <div class="tile is-parent">
+      <div class="tile is-child notification">
+        <span class="heading">Fri 12:45–02:30p</span>
+        <a href="{{ site.data.info.streams.reviews.link }}">Code Reviews</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- row -->
+  <div class="tile">
+    <div class="tile is-parent is-vertical">
+      <div class="tile is-child notification is-invisible">
+        <span class="heading">&nbsp;</span>
+        &nbsp;
+      </div>
+
+      <div class="tile is-child notification is-invisible">
+        <span class="heading">&nbsp;</span>
+        &nbsp;
+      </div>
+    </div>
+
+    <div class="tile is-parent">
+      <div class="tile is-child notification">
+        <span class="heading">Tue 02:45–04:15p</span>
+        <a href="{{ site.data.info.streams.reviews.link }}">Code Reviews</a>
+      </div>
+    </div>
+
+    <div class="tile is-parent">
+      <div class="tile is-child"></div>
+    </div>
+
+    <div class="tile is-parent">
+      <div class="tile is-child notification is-usf-plum">
+        <span class="heading">Thu 02:45–04:15p</span>
+        <a href="{{ site.data.info.streams.instructor.link }}">Office Hours</a>
+      </div>
+    </div>
+
+    <div class="tile is-parent is-vertical">
+      <div class="tile is-child notification">
+        <span class="heading">Fri 02:45–03:15p</span>
+        <a href="{{ site.data.info.streams.reviews.link }}">Code Reviews</a>
+      </div>
+
+      <div class="tile is-child notification is-usf-blue">
+        <span class="heading">Fri 03:30–04:35p</span>
+        <a href="{{ site.data.info.streams.lab1.link }}">CS 212L-01 Lab</a>,
+        <a href="{{ site.data.info.streams.reviews.link }}">Code Reviews</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- row -->
+  <div class="tile">
+    <div class="tile is-parent is-vertical">
+      <div class="tile is-child notification is-invisible">
+        <span class="heading">&nbsp;</span>
+        &nbsp;
+      </div>
+
+      <div class="tile is-child notification is-invisible">
+        <span class="heading">&nbsp;</span>
+        &nbsp;
+      </div>
+    </div>
+
+    <div class="tile is-parent">
+      <div class="tile is-child notification">
+        <span class="heading">
+          Tue 04:35–06:20p
+        </span>
+        CS 212-02 Videos,
+        <a href="{{ site.data.info.streams.reviews.link }}">Code Reviews</a>
+      </div>
+    </div>
+
+    <div class="tile is-parent">
+      <div class="tile is-child"></div>
+    </div>
+
+    <div class="tile is-parent">
+      <div class="tile is-child notification is-primary">
+        <span class="heading">Thu 04:35–06:20p</span>
+        <a href="{{ site.data.info.streams.lecture2.link }}">CS 212-02 Lecture</a>
+      </div>
+    </div>
+
+    <div class="tile is-parent is-vertical">
+      <div class="tile is-child notification is-usf-blue">
+        <span class="heading">Fri 04:45–05:50p</span>
+        <a href="{{ site.data.info.streams.lab2.link }}">CS 212L-02 Lab</a>,
+        <a href="{{ site.data.info.streams.reviews.link }}">Code Reviews</a>
+      </div>
+
+      <div class="tile is-child notification">
+        <span class="heading">Fri 06:00–06:20p</span>
+        <a href="{{ site.data.info.streams.reviews.link }}">Code Reviews</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- row
+  <div class="tile">
+    <div class="tile is-parent is-vertical">
+      <div class="tile is-child notification is-invisible">
+        <span class="heading">&nbsp;</span>
+        &nbsp;
+      </div>
+
+      <div class="tile is-child notification is-invisible">
+        <span class="heading">&nbsp;</span>
+        &nbsp;
+      </div>
+    </div>
+
+    <div class="tile is-parent">
+      <div class="tile is-child"></div>
+    </div>
+
+    <div class="tile is-parent">
+      <div class="tile is-child"></div>
+    </div>
+
+    <div class="tile is-parent">
+      <div class="tile is-child"></div>
+    </div>
+
+    <div class="tile is-parent">
+      <div class="tile is-child"></div>
+    </div>
+  </div>
+  -->
+
+</div> <!-- end vertical -->
+</div> <!-- end ancestor -->
