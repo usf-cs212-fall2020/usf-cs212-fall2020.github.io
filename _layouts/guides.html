@@ -12,10 +12,17 @@
 <link rel="stylesheet" href="{{ '/css/main.css' | absolute_url }}">
 <link rel="stylesheet" href="{{ '/css/style.css' | absolute_url }}">
 <link rel="stylesheet" href="{{ '/css/all.min.css' | absolute_url }}">
+<script src="https://cdn.jsdelivr.net/npm/anchor-js/anchor.min.js"></script>
 </head>
 
 <!-- body -->
 <body>
+
+<script>
+  anchors.options.placement = 'left';
+  anchors.options.visible = 'hover';
+  anchors.options.icon = '\uf02e';
+</script>
 
 {% include header.html %}
 
@@ -24,15 +31,7 @@
 <section class="section">
   <div class="container">
 
-    <article class="message is-danger">
-      <div class="message-header">
-        <p>COVID-19 Notice</p>
-      </div>
-      <div class="message-body">
-        Due to the COVID-19 outbreak, this website is being retired effective March 15, 2020. All future updates will be moved to <a href="{{ site.data.info.links.canvas.link }}">Canvas</a> for online instruction as advised by the university.
-      </div>
-    </article>
-
+    {% if page.category == false %}
     {%- assign category = site.collections | where: 'label', page.collection | first -%}
     <nav class="breadcrumb is-small" aria-label="breadcrumbs">
       <ul>
@@ -41,6 +40,7 @@
         <li class="is-active"><a href="#" aria-current="page">{{ page.title }}</a></li>
       </ul>
     </nav>
+    {% endif %}
 
     <h2 class="title is-2">{{ page.title }}</h2>
 
@@ -75,6 +75,10 @@
 </section>
 
 {% include footer.html %}
+
+<script>
+anchors.add().remove('.no-anchor');
+</script>
 
 <!-- end -->
 </body>
