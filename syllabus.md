@@ -1,6 +1,6 @@
 ---
 title: Course Syllabus
-category: Course Syllabus
+hidecrumbs: true
 navbar: Syllabus
 layout: guides
 ---
