@@ -54,14 +54,114 @@ icons_special:
   stream: &icon_stream
     label: Stream
     class: far fa-signal-stream
+  officehours: &icon_officehours
+    label: Office Hours
+    class: far fa-user-clock
 
 projects:
   - project1f: &project1f
-    text: 'Project 1 Inverted Index'
-    icon: *icon_project
-    type: 'has-text-usf-plum'
-    date: 2020-09-15
-    link: false
+      text: 'Project 1 Inverted Index'
+      icon: *icon_project
+      type: 'has-text-usf-plum'
+      date: 2020-09-15
+
+  - project1d: &project1d
+      text: 'Project 1 Code Review'
+      icon: *icon_project
+      type: 'has-text-usf-plum'
+      date: 2020-10-06
+
+  - project2f: &project2f
+      text: 'Project 2 Partial Search'
+      icon: *icon_project
+      type: 'has-text-usf-plum'
+      date: 2020-10-06
+
+  - project2d: &project2d
+      text: 'Project 2 Code Review'
+      icon: *icon_project
+      type: 'has-text-usf-plum'
+      date: 2020-10-27
+
+  - project3f: &project3f
+      text: 'Project 3 Multithreading'
+      icon: *icon_project
+      type: 'has-text-usf-plum'
+      date: 2020-10-27
+
+  - project3d: &project3d
+      text: 'Project 3 Code Review'
+      icon: *icon_project
+      type: 'has-text-usf-plum'
+      date: 2020-11-17
+
+  - project4f: &project4f
+      text: 'Project 4 Web Crawler'
+      icon: *icon_project
+      type: 'has-text-usf-plum'
+      date: 2020-11-17
+
+  - project4d: &project4d
+      text: 'Project 4 Search Engine'
+      icon: *icon_project
+      type: 'has-text-usf-plum'
+      date: 2020-12-08
+
+homework:
+  - argumentmap: &argumentmap
+      text: 'ArgumentMap'
+      icon: *icon_homework
+      date: 2020-08-28
+
+  - simplejsonwriter: &simplejsonwriter
+      text: 'SimpleJsonWriter'
+      icon: *icon_homework
+      date: 2020-09-04
+
+  - textfilestemmer: &textfilestemmer
+      text: 'TextFileStemmer'
+      icon: *icon_homework
+      date: 2020-09-11
+
+  - textfileindex: &textfileindex
+      text: 'TextFileIndex'
+      icon: *icon_homework
+      date: 2020-09-18
+
+  - textfilefinder: &textfilefinder
+      text: 'TextFileFinder'
+      icon: *icon_homework
+      date: 2020-09-25
+
+  - loggingsetup: &loggingsetup
+      text: 'LoggingSetup'
+      icon: *icon_homework
+      date: 2020-10-02
+
+  - readwritelock: &readwritelock
+      text: 'ReadWriteLock'
+      icon: *icon_homework
+      date: 2020-10-16
+
+  - primefinder: &primefinder
+      text: 'PrimeFinder'
+      icon: *icon_homework
+      date: 2020-10-23
+
+  - linkparser: &linkparser
+      text: 'LinkParser'
+      icon: *icon_homework
+      date: 2020-10-30
+
+  - htmlfetcher: &htmlfetcher
+      text: 'HtmlFetcher'
+      icon: *icon_homework
+      date: 2020-11-06
+
+  - htmlcleaner: &htmlcleaner
+      text: 'HtmlCleaner'
+      icon: *icon_homework
+      date: 2020-11-13
 
 rows:
   - false
@@ -107,6 +207,14 @@ weeks:
               - zoom: lecture1
               - zoom: lecture2
 
+          - label: 'Lecture (Live)'
+            items:
+              - text: 'File IO'
+                type: 'has-text-grey'
+
+              - text: 'Exceptions'
+                type: 'has-text-grey'
+
       - date: 2020-08-21
         sections:
           - label: 'Livestream'
@@ -114,11 +222,38 @@ weeks:
               - zoom: lab1
               - zoom: lab2
 
+          - label: 'Lab (Live)'
+            items:
+              - text: 'Pending'
+                type: 'has-text-grey'
+
+          - label: 'Assignments'
+            dates: true
+            items:
+              - <<: *argumentmap
+
+          - label: 'Dates and Deadlines'
+            dates: true
+            items:
+              - text: 'Week 01 Attendance'
+                date: 2020-08-21
+                icon: *icon_attendance
+                link: 'https://usfca.instructure.com/courses/1594619/assignments/6987920'
+
+              - text: 'Add Deadline'
+                date: 2020-08-21
+                show: true
+                icon: *icon_date
+                type: 'bump'
+
   - week: 2
     days:
       - date: 2020-08-25
         sections:
           - label: 'Content'
+            items:
+              - text: 'Data Structures'
+                type: 'has-text-grey'
 
       - date: 2020-08-27
         sections:
@@ -127,6 +262,14 @@ weeks:
               - zoom: lecture1
               - zoom: lecture2
 
+          - label: 'Lecture (Live)'
+            items:
+              - text: 'Iteration'
+                type: 'has-text-grey'
+
+              - text: 'Search'
+                type: 'has-text-grey'
+
       - date: 2020-08-28
         sections:
           - label: 'Livestream'
@@ -134,11 +277,33 @@ weeks:
               - zoom: lab1
               - zoom: lab2
 
+          - label: 'Lab (Live)'
+            items:
+              - text: 'Pending'
+                type: 'has-text-grey'
+
+          - label: 'Assignments'
+            dates: true
+            items:
+              - <<: *simplejsonwriter
+
+          - label: 'Dates and Deadlines'
+            dates: true
+            items:
+              - <<: *argumentmap
+
+              - text: 'Week 02 Attendance'
+                date: 2020-08-28
+                icon: *icon_attendance
+                link: 'https://usfca.instructure.com/courses/1594619/assignments/6987921'
   - week: 3
     days:
       - date: 2020-09-01
         sections:
           - label: 'Content'
+            items:
+              - text: 'Object Oriented Programming'
+                type: 'has-text-grey'
 
       - date: 2020-09-03
         sections:
@@ -147,6 +312,11 @@ weeks:
               - zoom: lecture1
               - zoom: lecture2
 
+          - label: 'Lecture (Live)'
+            items:
+              - text: 'Mutability'
+                type: 'has-text-grey'
+
       - date: 2020-09-04
         sections:
           - label: 'Livestream'
@@ -154,11 +324,40 @@ weeks:
               - zoom: lab1
               - zoom: lab2
 
+          - label: 'Lab (Live)'
+            items:
+              - text: 'Pending'
+                type: 'has-text-grey'
+
+          - label: 'Assignments'
+            dates: true
+            items:
+              - <<: *textfilestemmer
+
+          - label: 'Dates and Deadlines'
+            dates: true
+            items:
+              - <<: *simplejsonwriter
+
+              - text: 'Week 03 Attendance'
+                date: 2020-09-04
+                icon: *icon_attendance
+                link: 'https://usfca.instructure.com/courses/1594619/assignments/6987922'
+
+              - text: 'Drop Deadline'
+                date: 2020-09-04
+                show: true
+                icon: *icon_date
+                type: 'bump'
+
   - week: 4
     days:
       - date: 2020-09-08
         sections:
           - label: 'Content'
+            items:
+              - text: 'Inheritance'
+                type: 'has-text-grey'
 
       - date: 2020-09-10
         sections:
@@ -167,6 +366,11 @@ weeks:
               - zoom: lecture1
               - zoom: lecture2
 
+          - label: 'Lecture (Live)'
+            items:
+              - text: 'Inheritance'
+                type: 'has-text-grey'
+
       - date: 2020-09-11
         sections:
           - label: 'Livestream'
@@ -174,11 +378,38 @@ weeks:
               - zoom: lab1
               - zoom: lab2
 
+          - label: 'Lab (Live)'
+            items:
+              - text: 'Pending'
+                type: 'has-text-grey'
+
+          - label: 'Assignments'
+            dates: true
+            items:
+              - <<: *textfileindex
+
+          - label: 'Dates and Deadlines'
+            dates: true
+            items:
+              - <<: *textfilestemmer
+
+              - text: 'Week 04 Attendance'
+                date: 2020-09-11
+                icon: *icon_attendance
+                link: 'https://usfca.instructure.com/courses/1594619/assignments/6987924'
   - week: 5
     days:
       - date: 2020-09-15
         sections:
           - label: 'Content'
+            items:
+              - text: 'Lambda Functions'
+                type: 'has-text-grey'
+
+          - label: 'Dates and Deadlines'
+            dates: true
+            items:
+              - <<: *project1f
 
       - date: 2020-09-17
         sections:
@@ -187,6 +418,11 @@ weeks:
               - zoom: lecture1
               - zoom: lecture2
 
+          - label: 'Lecture (Live)'
+            items:
+              - text: 'Stream Pipelines'
+                type: 'has-text-grey'
+
       - date: 2020-09-18
         sections:
           - label: 'Livestream'
@@ -194,11 +430,36 @@ weeks:
               - zoom: lab1
               - zoom: lab2
 
+          - label: 'TA Hours'
+            items:
+              - text: 'Homework Help'
+                icon: *icon_homework
+
+              - text: 'Project Help'
+                icon: *icon_project
+
+          - label: 'Assignments'
+            dates: true
+            items:
+              - <<: *textfilefinder
+
+          - label: 'Dates and Deadlines'
+            dates: true
+            items:
+              - <<: *textfileindex
+
+              - text: 'Week 05 Attendance'
+                date: 2020-09-18
+                icon: *icon_attendance
+                link: 'https://usfca.instructure.com/courses/1594619/assignments/6987923'
   - week: 6
     days:
       - date: 2020-09-22
         sections:
           - label: 'Content'
+            items:
+              - text: 'Logging'
+                type: 'has-text-grey'
 
       - date: 2020-09-24
         sections:
@@ -207,6 +468,11 @@ weeks:
               - zoom: lecture1
               - zoom: lecture2
 
+          - label: 'Lecture (Live)'
+            items:
+              - text: 'Exam 1 Review'
+                icon: *icon_exam
+
       - date: 2020-09-25
         sections:
           - label: 'Livestream'
@@ -214,11 +480,43 @@ weeks:
               - zoom: lab1
               - zoom: lab2
 
+          - label: 'TA Hours'
+            items:
+              - text: 'Homework Help'
+                icon: *icon_homework
+
+              - text: 'Project Help'
+                icon: *icon_project
+
+          - label: 'Assignments'
+            dates: true
+            items:
+              - <<: *loggingsetup
+
+          - label: 'Dates and Deadlines'
+            dates: true
+            items:
+              - <<: *textfilefinder
+
+              - text: 'Week 06 Attendance'
+                date: 2020-09-25
+                icon: *icon_attendance
+                link: 'https://usfca.instructure.com/courses/1594619/assignments/6987926'
+
   - week: 7
     days:
       - date: 2020-09-29
         sections:
-          - label: 'Content'
+          - label: 'Livestream'
+            items:
+              - zoom: lecture1
+              - zoom: lecture2
+
+          - label: 'Lecture (Live)'
+            items:
+              - text: 'Exam 2'
+                type: 'has-text-weight-bold has-text-danger'
+                icon: *icon_exam
 
       - date: 2020-10-01
         sections:
@@ -227,6 +525,12 @@ weeks:
               - zoom: lecture1
               - zoom: lecture2
 
+          - label: 'Lecture (Live)'
+            items:
+              - text: 'Exam 2 Retake'
+                type: 'has-text-weight-bold has-text-danger'
+                icon: *icon_exam
+
       - date: 2020-10-02
         sections:
           - label: 'Livestream'
@@ -234,11 +538,38 @@ weeks:
               - zoom: lab1
               - zoom: lab2
 
+          - label: 'TA Hours'
+            items:
+              - text: 'Homework Help'
+                icon: *icon_homework
+
+              - text: 'Project Help'
+                icon: *icon_project
+
+          - label: 'Dates and Deadlines'
+            dates: true
+            items:
+              - <<: *loggingsetup
+
+              - text: 'Week 07 Attendance'
+                date: 2020-10-02
+                icon: *icon_attendance
+                link: 'https://usfca.instructure.com/courses/1594619/assignments/6987927'
+
   - week: 8
     days:
       - date: 2020-10-06
         sections:
           - label: 'Content'
+            items:
+              - text: 'Multithreading'
+                type: 'has-text-grey'
+
+          - label: 'Dates and Deadlines'
+            dates: true
+            items:
+              - <<: *project1d
+              - <<: *project2f
 
       - date: 2020-10-08
         sections:
@@ -247,6 +578,11 @@ weeks:
               - zoom: lecture1
               - zoom: lecture2
 
+          - label: 'Lecture (Live)'
+            items:
+              - text: 'Multithreading'
+                type: 'has-text-grey'
+
       - date: 2020-10-09
         sections:
           - label: 'Livestream'
@@ -254,11 +590,35 @@ weeks:
               - zoom: lab1
               - zoom: lab2
 
+          - label: 'TA Hours'
+            items:
+              - text: 'Homework Help'
+                icon: *icon_homework
+
+              - text: 'Project Help'
+                icon: *icon_project
+
+          - label: 'Assignments'
+            dates: true
+            items:
+              - <<: *readwritelock
+
+          - label: 'Dates and Deadlines'
+            dates: true
+            items:
+              - text: 'Week 08 Attendance'
+                date: 2020-10-06
+                icon: *icon_attendance
+                link: 'https://usfca.instructure.com/courses/1594619/assignments/6987929'
+
   - week: 9
     days:
       - date: 2020-10-13
         sections:
           - label: 'Content'
+            items:
+              - text: 'Multithreading'
+                type: 'has-text-grey'
 
       - date: 2020-10-15
         sections:
@@ -267,6 +627,11 @@ weeks:
               - zoom: lecture1
               - zoom: lecture2
 
+          - label: 'Lecture (Live)'
+            items:
+              - text: 'Multithreading'
+                type: 'has-text-grey'
+
       - date: 2020-10-16
         sections:
           - label: 'Livestream'
@@ -274,11 +639,37 @@ weeks:
               - zoom: lab1
               - zoom: lab2
 
+          - label: 'TA Hours'
+            items:
+              - text: 'Homework Help'
+                icon: *icon_homework
+
+              - text: 'Project Help'
+                icon: *icon_project
+
+          - label: 'Assignments'
+            dates: true
+            items:
+              - <<: *primefinder
+
+          - label: 'Dates and Deadlines'
+            dates: true
+            items:
+              - <<: *readwritelock
+
+              - text: 'Week 09 Attendance'
+                date: 2020-10-16
+                icon: *icon_attendance
+                link: 'https://usfca.instructure.com/courses/1594619/assignments/6987930'
+
   - week: 10
     days:
       - date: 2020-10-20
         sections:
           - label: 'Content'
+            items:
+              - text: 'Regular Expressions'
+                type: 'has-text-grey'
 
       - date: 2020-10-22
         sections:
@@ -287,6 +678,11 @@ weeks:
               - zoom: lecture1
               - zoom: lecture2
 
+          - label: 'Lecture (Live)'
+            items:
+              - text: 'Software Testing'
+                type: 'has-text-grey'
+
       - date: 2020-10-23
         sections:
           - label: 'Livestream'
@@ -294,11 +690,43 @@ weeks:
               - zoom: lab1
               - zoom: lab2
 
+          - label: 'TA Hours'
+            items:
+              - text: 'Homework Help'
+                icon: *icon_homework
+
+              - text: 'Project Help'
+                icon: *icon_project
+
+          - label: 'Assignments'
+            dates: true
+            items:
+              - <<: *linkparser
+
+          - label: 'Dates and Deadlines'
+            dates: true
+            items:
+              - <<: *primefinder
+
+              - text: 'Week 10 Attendance'
+                date: 2020-10-23
+                icon: *icon_attendance
+                link: 'https://usfca.instructure.com/courses/1594619/assignments/6987931'
+
   - week: 11
     days:
       - date: 2020-10-27
         sections:
           - label: 'Content'
+            items:
+              - text: 'Sockets'
+                type: 'has-text-grey'
+
+          - label: 'Dates and Deadlines'
+            dates: true
+            items:
+              - <<: *project2d
+              - <<: *project3f
 
       - date: 2020-10-29
         sections:
@@ -307,6 +735,19 @@ weeks:
               - zoom: lecture1
               - zoom: lecture2
 
+          - label: 'Lecture (Live)'
+            items:
+              - text: 'Servlets'
+                type: 'has-text-grey'
+
+          - label: 'Dates and Deadlines'
+            dates: true
+            items:
+              - text: 'Project Cutoff'
+                icon: *icon_warning
+                type: 'has-text-weight-bold has-text-danger'
+                link: '/syllabus.html#pass-requirements'
+
       - date: 2020-10-30
         sections:
           - label: 'Livestream'
@@ -314,11 +755,43 @@ weeks:
               - zoom: lab1
               - zoom: lab2
 
+          - label: 'TA Hours'
+            items:
+              - text: 'Homework Help'
+                icon: *icon_homework
+
+              - text: 'Project Help'
+                icon: *icon_project
+
+          - label: 'Assignments'
+            dates: true
+            items:
+              - <<: *htmlfetcher
+
+          - label: 'Dates and Deadlines'
+            dates: true
+            items:
+              - <<: *linkparser
+
+              - text: 'Week 11 Attendance'
+                date: 2020-10-30
+                icon: *icon_attendance
+                link: 'https://usfca.instructure.com/courses/1594619/assignments/6987932'
+
+              - text: 'Withdraw Deadline'
+                date: 2020-10-30
+                show: true
+                icon: *icon_date
+                type: 'bump'
+
   - week: 12
     days:
       - date: 2020-11-03
         sections:
           - label: 'Content'
+            items:
+              - text: 'Servlets'
+                type: 'has-text-grey'
 
       - date: 2020-11-05
         sections:
@@ -327,6 +800,11 @@ weeks:
               - zoom: lecture1
               - zoom: lecture2
 
+          - label: 'Lecture (Live)'
+            items:
+              - text: 'Sessions'
+                type: 'has-text-grey'
+
       - date: 2020-11-06
         sections:
           - label: 'Livestream'
@@ -334,11 +812,38 @@ weeks:
               - zoom: lab1
               - zoom: lab2
 
+          - label: 'TA Hours'
+            items:
+              - text: 'Homework Help'
+                icon: *icon_homework
+
+              - text: 'Project Help'
+                icon: *icon_project
+
+
+          - label: 'Assignments'
+            dates: true
+            items:
+              - <<: *htmlcleaner
+
+          - label: 'Dates and Deadlines'
+            dates: true
+            items:
+              - <<: *htmlfetcher
+
+              - text: 'Week 12 Attendance'
+                date: 2020-11-06
+                icon: *icon_attendance
+                link: 'https://usfca.instructure.com/courses/1594619/assignments/6987933'
+
   - week: 13
     days:
       - date: 2020-11-10
         sections:
           - label: 'Content'
+            items:
+              - text: 'SQL'
+                type: 'has-text-grey'
 
       - date: 2020-11-12
         sections:
@@ -347,6 +852,11 @@ weeks:
               - zoom: lecture1
               - zoom: lecture2
 
+          - label: 'Lecture (Live)'
+            items:
+              - text: 'SQL'
+                type: 'has-text-grey'
+
       - date: 2020-11-13
         sections:
           - label: 'Livestream'
@@ -354,11 +864,44 @@ weeks:
               - zoom: lab1
               - zoom: lab2
 
+          - label: 'TA Hours'
+            items:
+              - text: 'Homework Help'
+                icon: *icon_homework
+
+              - text: 'Project Help'
+                icon: *icon_project
+
+          - label: 'Dates and Deadlines'
+            dates: true
+            items:
+              - <<: *htmlcleaner
+
+              - text: 'Week 13 Attendance'
+                date: 2020-11-13
+                icon: *icon_attendance
+                link: 'https://usfca.instructure.com/courses/1594619/assignments/6987934'
+
   - week: 14
     days:
       - date: 2020-11-17
         sections:
-          - label: 'Content'
+          - label: 'Livestream'
+            items:
+              - zoom: lecture1
+              - zoom: lecture2
+
+          - label: 'Lecture (Live)'
+            items:
+              - text: 'Exam 2'
+                type: 'has-text-weight-bold has-text-danger'
+                icon: *icon_exam
+
+          - label: 'Dates and Deadlines'
+            dates: true
+            items:
+              - <<: *project3d
+              - <<: *project4f
 
       - date: 2020-11-19
         sections:
@@ -367,6 +910,12 @@ weeks:
               - zoom: lecture1
               - zoom: lecture2
 
+          - label: 'Lecture (Live)'
+            items:
+              - text: 'Exam 2 Retake'
+                type: 'has-text-weight-bold has-text-danger'
+                icon: *icon_exam
+
       - date: 2020-11-20
         sections:
           - label: 'Livestream'
@@ -374,31 +923,56 @@ weeks:
               - zoom: lab1
               - zoom: lab2
 
+          - label: 'TA Hours'
+            items:
+              - text: 'Project Help'
+                icon: *icon_project
+
+          - label: 'Dates and Deadlines'
+            dates: true
+            items:
+              - text: 'Week 14 Attendance'
+                date: 2020-11-20
+                icon: *icon_attendance
+                link: 'https://usfca.instructure.com/courses/1594619/assignments/6987936'
+
   - week: 15
     days:
       - date: 2020-11-24
         sections:
-          - label: 'Content'
+          - label: 'No Class'
+            items:
+              - text: 'Thanksgiving Recess'
+                icon:
+                  class: 'far fa-pumpkin'
+                type: 'has-text-grey'
 
       - date: 2020-11-26
         sections:
-          - label: 'Livestream'
+          - label: 'No Class'
             items:
-              - zoom: lecture1
-              - zoom: lecture2
+              - text: 'Thanksgiving Recess'
+                icon:
+                  class: 'far fa-pumpkin'
+                type: 'has-text-grey'
 
       - date: 2020-11-27
         sections:
-          - label: 'Livestream'
+          - label: 'No Class'
             items:
-              - zoom: lab1
-              - zoom: lab2
+              - text: 'Thanksgiving Recess'
+                icon:
+                  class: 'far fa-pumpkin'
+                type: 'has-text-grey'
 
   - week: 16
     days:
       - date: 2020-12-01
         sections:
           - label: 'Content'
+            items:
+              - text: 'JDBC'
+                type: 'has-text-grey'
 
       - date: 2020-12-03
         sections:
@@ -407,7 +981,7 @@ weeks:
               - zoom: lecture1
               - zoom: lecture2
 
-          - label: 'Content'
+          - label: 'Lecture (Live)'
             items:
               - text: 'JDBC'
                 type: 'has-text-grey'
@@ -436,9 +1010,14 @@ weeks:
   - week: false
     text: 'Finals'
     days:
-      - date: 2020-12-07
+      - date: ''
         sections:
-          - label: 'to Fri 12/10'
+          - label: 'Mon 12/07 to Fri 12/10'
             items:
               - text: 'Final Code Reviews'
                 icon: *icon_project
+
+          - label: 'Dates and Deadlines'
+            items:
+              - <<: *project4d
+                text: '<strong>Due: </strong> Project 4 Search Engine'
