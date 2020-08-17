@@ -1,0 +1,444 @@
+# icons with legend
+icons:
+  website: &icon_website
+    label: Website
+    class: far fa-link
+  code: &icon_code
+    label: Code
+    class: far fa-code
+  slides: &icon_slides
+    label: Slides
+    class: far fa-chalkboard-teacher
+  video: &icon_video
+    label: Video
+    class: far fa-video
+  project: &icon_project
+    label: Project
+    class: far fa-code-branch
+  homework: &icon_homework
+    label: Homework
+    class: far fa-laptop-code
+  participation: &icon_participation
+    label: Participation
+    class: far fa-ballot-check
+  attendance: &icon_attendance
+    label: Attendance
+    class: far fa-users-class
+  quiz: &icon_quiz
+    label: Quiz
+    class: far fa-edit
+  exam: &icon_exam
+    label: Exam
+    class: far fa-tasks
+  date: &icon_date
+    label: Date
+    class: far fa-calendar-alt
+
+# icons without legend
+icons_special:
+  warning: &icon_warning
+    label: Warning
+    class: fas fa-exclamation-triangle
+  youtube: &icon_youtube
+    label: YouTube
+    class: fab fa-youtube
+  pending: &icon_pending
+    label: Pending
+    class: far fa-question-square
+  evals: &icon_evals
+    label: Special
+    class: far fa-users-class
+  presentation: &icon_presentation
+    label: Presentation
+    class: far fa-user-chart
+  stream: &icon_stream
+    label: Stream
+    class: far fa-signal-stream
+
+projects:
+  - project1f: &project1f
+    text: 'Project 1 Inverted Index'
+    icon: *icon_project
+    type: 'has-text-usf-plum'
+    date: 2020-09-15
+    link: false
+
+rows:
+  - false
+  - true
+
+weeks:
+  - week: 1
+    days:
+      - date: 2020-08-18
+        sections:
+          - label: 'Content'
+            items:
+              - text: 'Introduction'
+
+              - icon: *icon_website
+                text: 'Syllabus'
+                link: '/syllabus.html'
+                type: 'bump'
+
+          - label: 'Assignments'
+            dates: true
+            items:
+              - text: 'Course Syllabus'
+                icon: *icon_quiz
+                date: 2020-08-20
+
+              - text: 'Piazza Setup'
+                icon: *icon_participation
+                date: 2020-08-20
+
+          - label: 'Dates and Deadlines'
+            dates: true
+            items:
+              - text: 'Courses Begin'
+                date: 2020-08-18
+                show: true
+                icon: *icon_date
+
+      - date: 2020-08-20
+        sections:
+          - label: 'Livestream'
+            items:
+              - zoom: lecture1
+              - zoom: lecture2
+
+      - date: 2020-08-21
+        sections:
+          - label: 'Livestream'
+            items:
+              - zoom: lab1
+              - zoom: lab2
+
+  - week: 2
+    days:
+      - date: 2020-08-25
+        sections:
+          - label: 'Content'
+
+      - date: 2020-08-27
+        sections:
+          - label: 'Livestream'
+            items:
+              - zoom: lecture1
+              - zoom: lecture2
+
+      - date: 2020-08-28
+        sections:
+          - label: 'Livestream'
+            items:
+              - zoom: lab1
+              - zoom: lab2
+
+  - week: 3
+    days:
+      - date: 2020-09-01
+        sections:
+          - label: 'Content'
+
+      - date: 2020-09-03
+        sections:
+          - label: 'Livestream'
+            items:
+              - zoom: lecture1
+              - zoom: lecture2
+
+      - date: 2020-09-04
+        sections:
+          - label: 'Livestream'
+            items:
+              - zoom: lab1
+              - zoom: lab2
+
+  - week: 4
+    days:
+      - date: 2020-09-08
+        sections:
+          - label: 'Content'
+
+      - date: 2020-09-10
+        sections:
+          - label: 'Livestream'
+            items:
+              - zoom: lecture1
+              - zoom: lecture2
+
+      - date: 2020-09-11
+        sections:
+          - label: 'Livestream'
+            items:
+              - zoom: lab1
+              - zoom: lab2
+
+  - week: 5
+    days:
+      - date: 2020-09-15
+        sections:
+          - label: 'Content'
+
+      - date: 2020-09-17
+        sections:
+          - label: 'Livestream'
+            items:
+              - zoom: lecture1
+              - zoom: lecture2
+
+      - date: 2020-09-18
+        sections:
+          - label: 'Livestream'
+            items:
+              - zoom: lab1
+              - zoom: lab2
+
+  - week: 6
+    days:
+      - date: 2020-09-22
+        sections:
+          - label: 'Content'
+
+      - date: 2020-09-24
+        sections:
+          - label: 'Livestream'
+            items:
+              - zoom: lecture1
+              - zoom: lecture2
+
+      - date: 2020-09-25
+        sections:
+          - label: 'Livestream'
+            items:
+              - zoom: lab1
+              - zoom: lab2
+
+  - week: 7
+    days:
+      - date: 2020-09-29
+        sections:
+          - label: 'Content'
+
+      - date: 2020-10-01
+        sections:
+          - label: 'Livestream'
+            items:
+              - zoom: lecture1
+              - zoom: lecture2
+
+      - date: 2020-10-02
+        sections:
+          - label: 'Livestream'
+            items:
+              - zoom: lab1
+              - zoom: lab2
+
+  - week: 8
+    days:
+      - date: 2020-10-06
+        sections:
+          - label: 'Content'
+
+      - date: 2020-10-08
+        sections:
+          - label: 'Livestream'
+            items:
+              - zoom: lecture1
+              - zoom: lecture2
+
+      - date: 2020-10-09
+        sections:
+          - label: 'Livestream'
+            items:
+              - zoom: lab1
+              - zoom: lab2
+
+  - week: 9
+    days:
+      - date: 2020-10-13
+        sections:
+          - label: 'Content'
+
+      - date: 2020-10-15
+        sections:
+          - label: 'Livestream'
+            items:
+              - zoom: lecture1
+              - zoom: lecture2
+
+      - date: 2020-10-16
+        sections:
+          - label: 'Livestream'
+            items:
+              - zoom: lab1
+              - zoom: lab2
+
+  - week: 10
+    days:
+      - date: 2020-10-20
+        sections:
+          - label: 'Content'
+
+      - date: 2020-10-22
+        sections:
+          - label: 'Livestream'
+            items:
+              - zoom: lecture1
+              - zoom: lecture2
+
+      - date: 2020-10-23
+        sections:
+          - label: 'Livestream'
+            items:
+              - zoom: lab1
+              - zoom: lab2
+
+  - week: 11
+    days:
+      - date: 2020-10-27
+        sections:
+          - label: 'Content'
+
+      - date: 2020-10-29
+        sections:
+          - label: 'Livestream'
+            items:
+              - zoom: lecture1
+              - zoom: lecture2
+
+      - date: 2020-10-30
+        sections:
+          - label: 'Livestream'
+            items:
+              - zoom: lab1
+              - zoom: lab2
+
+  - week: 12
+    days:
+      - date: 2020-11-03
+        sections:
+          - label: 'Content'
+
+      - date: 2020-11-05
+        sections:
+          - label: 'Livestream'
+            items:
+              - zoom: lecture1
+              - zoom: lecture2
+
+      - date: 2020-11-06
+        sections:
+          - label: 'Livestream'
+            items:
+              - zoom: lab1
+              - zoom: lab2
+
+  - week: 13
+    days:
+      - date: 2020-11-10
+        sections:
+          - label: 'Content'
+
+      - date: 2020-11-12
+        sections:
+          - label: 'Livestream'
+            items:
+              - zoom: lecture1
+              - zoom: lecture2
+
+      - date: 2020-11-13
+        sections:
+          - label: 'Livestream'
+            items:
+              - zoom: lab1
+              - zoom: lab2
+
+  - week: 14
+    days:
+      - date: 2020-11-17
+        sections:
+          - label: 'Content'
+
+      - date: 2020-11-19
+        sections:
+          - label: 'Livestream'
+            items:
+              - zoom: lecture1
+              - zoom: lecture2
+
+      - date: 2020-11-20
+        sections:
+          - label: 'Livestream'
+            items:
+              - zoom: lab1
+              - zoom: lab2
+
+  - week: 15
+    days:
+      - date: 2020-11-24
+        sections:
+          - label: 'Content'
+
+      - date: 2020-11-26
+        sections:
+          - label: 'Livestream'
+            items:
+              - zoom: lecture1
+              - zoom: lecture2
+
+      - date: 2020-11-27
+        sections:
+          - label: 'Livestream'
+            items:
+              - zoom: lab1
+              - zoom: lab2
+
+  - week: 16
+    days:
+      - date: 2020-12-01
+        sections:
+          - label: 'Content'
+
+      - date: 2020-12-03
+        sections:
+          - label: 'Livestream'
+            items:
+              - zoom: lecture1
+              - zoom: lecture2
+
+          - label: 'Content'
+            items:
+              - text: 'JDBC'
+                type: 'has-text-grey'
+
+              - text: "What's Next"
+                type: 'has-text-grey'
+
+          - label: 'Dates and Deadlines'
+            dates: true
+            items:
+              - text: 'Classes End'
+                icon: *icon_date
+                show: true
+                date: 2020-12-03
+
+      - date: ''
+        sections:
+          - label: 'End of Semester Deadlines'
+            items:
+              - text: 'Week 16 Attendance'
+                date: 2020-12-04
+                icon: *icon_attendance
+                show: true
+                link: 'https://usfca.instructure.com/courses/1594619/assignments/6987937'
+
+  - week: false
+    text: 'Finals'
+    days:
+      - date: 2020-12-07
+        sections:
+          - label: 'to Fri 12/10'
+            items:
+              - text: 'Final Code Reviews'
+                icon: *icon_project
