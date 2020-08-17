@@ -191,14 +191,21 @@ weeks:
     days:
       - date: 2020-08-18
         sections:
-          - label: 'Content'
+          - label: 'Livestream'
             items:
-              - text: 'Introduction'
+              - zoom: lecture1
+              - zoom: lecture2
+
+          - label: 'Lecture (Live)'
+            items:
+              - text: 'Getting Started'
+                link: '/guides/general/getting-started.html'
+                icon: *icon_website
 
               - icon: *icon_website
                 text: 'Syllabus'
                 link: '/syllabus.html'
-                type: 'bump'
+
 
           - label: 'Assignments'
             dates: true
