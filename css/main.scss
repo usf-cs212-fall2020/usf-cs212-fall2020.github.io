@@ -120,6 +120,12 @@ li p {
   }
 }
 
+img.is-bordered {
+  border: 1px solid $grey-light;
+  border-radius: 0.8rem;
+  padding: 1rem;
+}
+
 /* custom classes */
 
 .page-header {

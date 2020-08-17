@@ -1,7 +1,7 @@
 ---
-title: Eclipse Guides
+title: Homework Guides
 navbar: Guides
-layout: default
+layout: guides
 ---
 
 {%- assign pages = site.collections | where: 'label', page.collection | first -%}
