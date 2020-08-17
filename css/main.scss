@@ -95,12 +95,12 @@ li p {
 }
 
 [class^="has-text-usf-"] a,
-has-text-primary a,
-has-text-link a,
-has-text-info a,
-has-text-success a,
-has-text-warning a,
-has-text-danger a {
+.has-text-primary a,
+.has-text-link a,
+.has-text-info a,
+.has-text-success a,
+.has-text-warning a,
+.has-text-danger a {
   color: inherit;
   text-decoration: currentColor underline dotted;
 }
