@@ -407,6 +407,8 @@ Activities that are **asynchronous** are those that occur outside of class time,
 
 See the [Attendance](#attendance) requirement for this course. You are expected to be on-time to all live lectures and labs to minimize disruption.
 
+Attend the section of lecture and lab for which you are registered. Keeping the class sizes balanced is important for interactive exercises. One-time exceptions on non-exam days are allowed with pre-approval.
+
 Attendance is mandatory for all one-on-one code review appointments. You must be on-time to these appointments. If you arrive more than 5 minutes late, the appointment will be canceled. You risk a grade penalty for repeated canceled or missed appointments.
 
 ### Late Policy
