@@ -202,10 +202,19 @@ weeks:
                 link: '/guides/general/getting-started.html'
                 icon: *icon_website
 
+              - icon: *icon_slides
+                text: 'Introduction'
+                link: 'https://docs.google.com/presentation/d/e/2PACX-1vQpEGFDpnAd6Sy_VDRrIn0yBNzUFZPFk0qt52qtCi8hrMwl823VMOP6atJ1yC0dZUEigQ9mc6uBimH6/pub?start=false&loop=false&delayms=3000'
+                type: 'bump'
+
               - icon: *icon_website
                 text: 'Syllabus'
                 link: '/syllabus.html'
 
+              - icon: *icon_code
+                text: 'Project Euler'
+                link: 'https://github.com/usf-cs212-fall2020/lectures/tree/main/ProjectEuler'
+                type: 'bump'
 
           - label: 'Assignments'
             dates: true
