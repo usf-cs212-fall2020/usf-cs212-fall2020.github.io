@@ -221,12 +221,13 @@ weeks:
             items:
               - text: 'Course Syllabus'
                 icon: *icon_quiz
-                date: 2020-08-20
+                date: 2020-08-25
                 link: 'https://usfca.instructure.com/courses/1594619/assignments/6991813'
 
               - text: 'Piazza Setup'
                 icon: *icon_participation
-                date: 2020-08-20
+                date: 2020-08-25
+                link: 'https://usfca.instructure.com/courses/1594619/assignments/6992007'
 
           - label: 'Dates and Deadlines'
             dates: true
@@ -290,6 +291,20 @@ weeks:
             items:
               - text: 'Data Structures'
                 type: 'has-text-grey'
+
+          - label: 'Dates and Deadlines'
+            dates: true
+            items:
+              - text: 'Course Syllabus'
+                icon: *icon_quiz
+                date: 2020-08-25
+                link: 'https://usfca.instructure.com/courses/1594619/assignments/6991813'
+
+              - text: 'Piazza Setup'
+                icon: *icon_participation
+                date: 2020-08-25
+                link: 'https://usfca.instructure.com/courses/1594619/assignments/6992007'
+
 
       - date: 2020-08-27
         sections:
