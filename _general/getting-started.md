@@ -13,15 +13,25 @@ Most weeks, Tuesday lecture will be replaced with *asynchronous* content such as
 
 However, to make sure we are well-acquainted, **the entire first week will be conducted synchronously**. See the [Getting Started with Zoom](/guides/general/getting-started-with-zoom.html) guide if you are unfamiliar with Zoom. Otherwise, on the first day, join the appropriate Zoom meeting for your scheduled section:
 
-| Section | Date/Time | Zoom Meeting |
-|:--------|:----------|:-------------|
-| CS 212-01 Lecture | Tue/Thu, 12:45-2:30p | [{{ site.data.info.streams.lecture1.room }}]({{ site.data.info.streams.lecture1.link }}) |
-| CS 212-02 Lecture | Tue/Thu, 04:35-6:20p | [{{ site.data.info.streams.lecture2.room }}]({{ site.data.info.streams.lecture2.link }}) |
-| CS 212L-01 Lab    | Fri, 3:30-4:35p | [{{ site.data.info.streams.lab1.room }}]({{ site.data.info.streams.lab1.link }}) |
-| CS 212L-02 Lab    | Fri, 4:45-5:50p | [{{ site.data.info.streams.lab2.room }}]({{ site.data.info.streams.lab2.link }}) |
+| Section | Date/Time | Zoom Meeting | iCal |
+|:--------|:----------|:-------------|:----:|
+| CS 212-01 Lecture | Tue/Thu, 12:45-2:30p | [{{ site.data.info.streams.lecture1.room }}]({{ site.data.info.streams.lecture1.link }}) | [<i class="fas fa-calendar-alt"></i>]({{ site.data.info.streams.lecture1.ical }}) |
+| CS 212-02 Lecture | Tue/Thu, 04:35-6:20p | [{{ site.data.info.streams.lecture2.room }}]({{ site.data.info.streams.lecture2.link }}) | [<i class="fas fa-calendar-alt"></i>]({{ site.data.info.streams.lecture2.ical }}) |
+| CS 212L-01 Lab    | Fri, 3:30-4:35p | [{{ site.data.info.streams.lab1.room }}]({{ site.data.info.streams.lab1.link }}) | [<i class="fas fa-calendar-alt"></i>]({{ site.data.info.streams.lab1.ical }}) |
+| CS 212L-02 Lab    | Fri, 4:45-5:50p | [{{ site.data.info.streams.lab2.room }}]({{ site.data.info.streams.lab2.link }}) | [<i class="fas fa-calendar-alt"></i>]({{ site.data.info.streams.lab2.ical }}) |
 {: class="table is-hoverable" style="width: auto;" }
 
 **Please attend the correct section.** If you are on a waitlist, attend the section you are waitlisted for.
+
+## Office Hours
+
+Here are the Zoom links for office hours:
+
+| Person | Date/Time | Zoom Meeting | iCal |
+|:--------|:----------|:-------------|:----:|
+| Sophie Engle | Thu, 2:45-4:15p | [{{ site.data.info.streams.instructor.room }}]({{ site.data.info.streams.instructor.link }}) | [<i class="fas fa-calendar-alt"></i>]({{ site.data.info.streams.instructor.ical }}) |
+| Sophie Engle | Fri, 11:00-12:30p | [{{ site.data.info.streams.instructor.room }}]({{ site.data.info.streams.instructor.link }}) | [<i class="fas fa-calendar-alt"></i>]({{ site.data.info.streams.instructor.ical }}) |
+{: class="table is-hoverable" style="width: auto;" }
 
 ## Weekly Overview
 

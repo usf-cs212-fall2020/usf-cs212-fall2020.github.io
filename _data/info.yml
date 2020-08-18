@@ -52,6 +52,7 @@ streams:
     room: '998 7326 3891'
     link: 'https://usfca.zoom.us/j/99873263891'
     info: 'livestreams of lecture for CS 212-01'
+    ical: 'https://usfca.zoom.us/meeting/tJ0lcOqqqDgiE9X_r4ezN_OMuWkcNdKcZga9/ics?icsToken=98tyKuChpjwpGNKWuBCGRox5Go_Cb-rwpnZHj_plow2xBjp9XSzbI9VJMZx7O9vq'
 
   lecture2:
     name: 'CS 212-02 Lecture'
@@ -59,6 +60,7 @@ streams:
     room: '949 1721 3734'
     link: 'https://usfca.zoom.us/j/94917213734'
     info: 'livestreams of lecture for CS 212-02'
+    ical: 'https://usfca.zoom.us/meeting/tJAkdu6qrzgtGdBb_7qXnQWpZchns4lfSj68/ics?icsToken=98tyKuCspzotGNWWtxqDRowIHYj4KOrzmHZajad_niCyEhhdUzTmDOFKPKErHN7j'
 
   lab1:
     name: 'CS 212L-01 Lab'
@@ -67,6 +69,7 @@ streams:
     link: 'https://usfca.zoom.us/j/99110444721'
     info: 'livestreams of lab for CS 212L-01'
     line: true
+    ical: 'https://usfca.zoom.us/meeting/tJ0sdumsqj8tGNWne5Xr5zxfFr3isEutWPvL/ics?icsToken=98tyKuChrzoqHtCRtxuGRox5BYj4c-jwiClajY1qkhqwOzIGeBvwEPARO6FaBczn'
 
   lab2:
     name: 'CS 212L-02 Lab'
@@ -74,6 +77,7 @@ streams:
     room: '931 6737 5825'
     link: 'https://usfca.zoom.us/j/93167375825'
     info: 'livestreams of lab for CS 212L-02'
+    ical: 'https://usfca.zoom.us/meeting/tJcsce6rqT4iGNHMZ39m3BplVqe88aErg9Or/ics?icsToken=98tyKuCrrz0tGdOQuBuCRowqBY_oKOnwtiVHjY11sSW2Wi0AQBP6APNHaup-NcrX'
 
   instructor:
     name: 'Office Hours'
@@ -82,6 +86,7 @@ streams:
     room: '983 9788 5780'
     link: 'https://usfca.zoom.us/j/98397885780'
     line: true
+    ical: 'https://usfca.zoom.us/meeting/tJwufu6gpj4tEtS62vvt6Yus5esF5Hw7sYXD/ics?icsToken=98tyKuCgrTItEtyQtxGHRow-A4r4KPzxiCVaj7duyk3zFTQFWxblY-dRFOdXB4_D'
 
   reviews:
     name: 'Code Reviews'
