@@ -191,10 +191,15 @@ weeks:
     days:
       - date: 2020-08-18
         sections:
-          - label: 'Livestream'
+          - label: 'Recordings'
             items:
-              - zoom: lecture1
-              - zoom: lecture2
+              - icon: *icon_video
+                text: 'CS 212-01 Lecture'
+                link: 'https://usfca.zoom.us/rec/share/u491HaHbrXlOYKfuykrVcPAzJMe_aaa8hiIf-vEEnh2gg7XIB4yR37R-o1YgRd7s?startTime=1597779197000'
+
+              - icon: *icon_video
+                text: 'CS 212-02 Lecture'
+                link: 'https://usfca.zoom.us/rec/share/uM9ZK-j92XFJY9bs01nmHfQvFInnX6a80yUd_vsMyirrxz3tfGiQT-211Ozhsrk?startTime=1597792822000'
 
           - label: 'Lecture (Live)'
             items:
@@ -210,11 +215,6 @@ weeks:
               - icon: *icon_website
                 text: 'Syllabus'
                 link: '/syllabus.html'
-
-              - icon: *icon_code
-                text: 'Project Euler'
-                link: 'https://github.com/usf-cs212-fall2020/lectures/tree/main/ProjectEuler'
-                type: 'bump'
 
           - label: 'Assignments'
             dates: true
@@ -246,8 +246,13 @@ weeks:
 
           - label: 'Lecture (Live)'
             items:
+              - icon: *icon_code
+                text: 'Project Euler'
+                link: 'https://github.com/usf-cs212-fall2020/lectures/tree/main/ProjectEuler'
+
               - text: 'File IO'
                 type: 'has-text-grey'
+                type: 'bump'
 
               - text: 'Exceptions'
                 type: 'has-text-grey'
