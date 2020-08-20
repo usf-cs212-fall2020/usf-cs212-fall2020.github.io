@@ -79,8 +79,15 @@ streams:
     info: 'livestreams of lab for CS 212L-02'
     ical: 'https://usfca.zoom.us/meeting/tJcsce6rqT4iGNHMZ39m3BplVqe88aErg9Or/ics?icsToken=98tyKuCrrz0tGdOQuBuCRowqBY_oKOnwtiVHjY11sSW2Wi0AQBP6APNHaup-NcrX'
 
+  reviews:
+    name: 'Code Reviews'
+    icon: 'far fa-laptop-code'
+    room: '962 3801 8780'
+    link: 'https://usfca.zoom.us/j/96238018780'
+    info: 'one-on-one project code reviews'
+
   instructor:
-    name: 'Office Hours'
+    name: 'Office Hours (Sophie)'
     icon: 'far fa-user-clock'
     info: 'instructor office hours'
     room: '983 9788 5780'
@@ -88,12 +95,26 @@ streams:
     line: true
     ical: 'https://usfca.zoom.us/meeting/tJwufu6gpj4tEtS62vvt6Yus5esF5Hw7sYXD/ics?icsToken=98tyKuCgrTItEtyQtxGHRow-A4r4KPzxiCVaj7duyk3zFTQFWxblY-dRFOdXB4_D'
 
-  reviews:
-    name: 'Code Reviews'
-    icon: 'far fa-laptop-code'
-    room: '962 3801 8780'
-    link: 'https://usfca.zoom.us/j/96238018780'
-    info: 'one-on-one project code reviews'
+  taeve:
+    name: 'Office Hours (Eve)'
+    icon: 'far fa-user-clock'
+    info: 'teacher assistant office hours'
+    room: '924 6684 3637'
+    link: 'https://usfca.zoom.us/j/92466843637'
+
+  tajose:
+    name: 'Office Hours (José)'
+    icon: 'far fa-user-clock'
+    info: 'teacher assistant office hours'
+    room: '945 2632 9030'
+    link: 'https://usfca.zoom.us/j/94526329030'
+
+  talev:
+    name: 'Office Hours (Lev)'
+    icon: 'far fa-user-clock'
+    info: 'teacher assistant office hours'
+    room: '576 432 4618'
+    link: 'https://zoom.us/j/5764324618?pwd=UGlZRkxDQUxLR1I5cTFZenlMMUxxdz09'
 
 pages:
   - name: 'Schedule'

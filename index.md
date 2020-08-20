@@ -70,7 +70,14 @@ ul.icons > li > i {
 
 Find the regular weekly schedule below. Note this may change due to holidays, additions, or cancellations. Always check the [Canvas]({{ side.data.info.links.canvas.link }}) calendar for the most recent schedule.
 
-{% include overview.html %}
+{::nomarkdown}
+<div class="has-text-centered">
+
+{% include overview.svg %}
+
+</div>
+{:/}
+
 
 ## Navigation
 

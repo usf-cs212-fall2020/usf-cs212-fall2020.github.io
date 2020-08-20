@@ -124,11 +124,11 @@ The instructor and instructor office hours for this course will be:
         <div class="column">
           <strong>Sophie Engle</strong><br/>
           <i class="fa-fw fas fa-calendar-alt "></i>
-          <span>Thursdays, 2:45pm &ndash; 4:15pm</span>
+          <span>Thu 2:45 &ndash; 4:15pm</span>
           <br/>
 
           <i class="fa-fw fas fa-calendar-alt "></i>
-          <span>Fridays, 11:00pm &ndash; 12:30pm</span>
+          <span>Fri 11:00 &ndash; 12:30pm</span>
           <br/>
 
           <i class="fa-fw fas fa-signal-stream "></i>
@@ -144,7 +144,105 @@ The instructor and instructor office hours for this course will be:
   </div>
 </div>
 
-The teacher assistant and teacher assistant office hours for this course will be posted on [Piazza]({{ site.data.info.links.piazza.link }}) at the start of the semester.
+The teacher assistant and teacher assistant office hours for this course will be:
+
+<div class="columns">
+  <div class="column is-narrow">
+    <div class="box">
+      <!-- nested columns for profile photo -->
+      <div class="columns is-mobile is-variable is-1">
+        <div class="column is-narrow">
+          <div class="image is-64x64">
+            <img class="is-rounded" src="/images/corella.jpg">
+          </div>
+        </div>
+
+        <div class="column">
+          <strong>José Corella</strong><br/>
+          <i class="fa-fw fas fa-calendar-alt "></i>
+          <span>Mon 10:00 &ndash; 11:00am</span>
+          <br/>
+
+          <i class="fa-fw fas fa-calendar-alt "></i>
+          <span>Wed 10:00 &ndash; 11:00am</span>
+          <br/>
+
+          <i class="fa-fw fas fa-signal-stream "></i>
+          Zoom: <a href="{{ site.data.info.streams.tajose.link }}">{{ site.data.info.streams.tajose.room }}</a>
+          <br/>
+
+          <i class="fa-fw fas fa-tasks bump"></i>
+          Labs, Projects
+        </div>
+      </div>
+      <!-- end nested columns -->
+    </div>
+  </div>
+
+  <div class="column is-narrow">
+    <div class="box">
+      <!-- nested columns for profile photo -->
+      <div class="columns is-mobile is-variable is-1">
+        <div class="column is-narrow">
+          <div class="image is-64x64">
+            <img class="is-rounded" src="/images/matson.jpeg">
+          </div>
+        </div>
+
+        <div class="column">
+          <strong>Eve</strong>lyn <strong>Matson</strong><br/>
+          <i class="fa-fw fas fa-calendar-alt "></i>
+          <span>Tue 10:30 &ndash; 11:30am</span>
+          <br/>
+
+          <i class="fa-fw fas fa-calendar-alt "></i>
+          <span>Thu 10:30 &ndash; 11:30am</span>
+          <br/>
+
+          <i class="fa-fw fas fa-signal-stream "></i>
+          Zoom: <a href="{{ site.data.info.streams.taeve.link }}">{{ site.data.info.streams.taeve.room }}</a>
+          <br/>
+
+          <i class="fa-fw fas fa-tasks bump"></i>
+          Lab 1, Piazza
+        </div>
+      </div>
+      <!-- end nested columns -->
+    </div>
+  </div>  
+
+  <div class="column is-narrow">
+    <div class="box">
+      <!-- nested columns for profile photo -->
+      <div class="columns is-mobile is-variable is-1">
+        <div class="column is-narrow">
+          <div class="image is-64x64">
+            <img class="is-rounded" src="/images/weinstein.jpg">
+          </div>
+        </div>
+
+        <div class="column">
+          <strong>Lev</strong>in <strong>Weinstein</strong><br/>
+          <i class="fa-fw fas fa-calendar-alt "></i>
+          <span>Mon 2:00 &ndash; 3:30pm</span>
+          <br/>
+
+          <i class="fa-fw fas fa-calendar-alt "></i>
+          <span>Wed 1:00 &ndash; 2:00pm</span>
+          <br/>
+
+          <i class="fa-fw fas fa-signal-stream "></i>
+          Zoom: <a href="{{ site.data.info.streams.talev.link }}">{{ site.data.info.streams.talev.room }}</a>
+          <br/>
+
+          <i class="fa-fw fas fa-tasks bump"></i>
+          Lab 2, Homework, Piazza
+        </div>
+      </div>
+      <!-- end nested columns -->
+    </div>
+  </div>    
+</div>
 
 <i class="fas fa-envelope-open-text"></i>
 See the [Communication Policy](#communication-policy) for how to contact the instructor and TAs.

@@ -29,15 +29,27 @@ Here are the Zoom links for office hours:
 
 | Person | Date/Time | Zoom Meeting | iCal |
 |:--------|:----------|:-------------|:----:|
-| Sophie Engle | Thu, 2:45-4:15p | [{{ site.data.info.streams.instructor.room }}]({{ site.data.info.streams.instructor.link }}) | [<i class="fas fa-calendar-alt"></i>]({{ site.data.info.streams.instructor.ical }}) |
-| Sophie Engle | Fri, 11:00-12:30p | [{{ site.data.info.streams.instructor.room }}]({{ site.data.info.streams.instructor.link }}) | [<i class="fas fa-calendar-alt"></i>]({{ site.data.info.streams.instructor.ical }}) |
+| Sophie Engle | Thu 2:45-4:15p, Fri 11:00-12:30p | [{{ site.data.info.streams.instructor.room }}]({{ site.data.info.streams.instructor.link }}) | [<i class="fas fa-calendar-alt"></i>]({{ site.data.info.streams.instructor.ical }}) |
+| José Corella | Mon and Wed 10:00–11:00a | [{{ site.data.info.streams.tajose.room }}]({{ site.data.info.streams.tajose.link }}) | |
+| **Eve**lyn Matson | Tue and Thu 10:30–11:30a | [{{ site.data.info.streams.taeve.room }}]({{ site.data.info.streams.taeve.link }}) | |
+| **Lev**in Weinstein | Mon 2:00–3:30p, Wed 1:00–2:00p | [{{ site.data.info.streams.talev.room }}]({{ site.data.info.streams.talev.link }}) | |
 {: class="table is-hoverable" style="width: auto;" }
+
+
+
+
 
 ## Weekly Overview
 
 Below you can find the current weekly overview for this class. This may change week-to-week, but gives you an idea of what to expect for most of the semester.
 
-{% include overview.html %}
+{::nomarkdown}
+<div class="has-text-centered">
+
+{% include overview.svg %}
+
+</div>
+{:/}
 
 ## Subscribe to Calendar
 
