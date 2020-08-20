@@ -62,8 +62,6 @@ ul.icons > li > i {
   {%- assign beg_index = beg_index | minus: 1 -%}
 {%- endif -%}
 
-{{ beg_index }}
-
 {% for week in site.data.schedule.weeks offset:beg_index limit:3 %}
 {% include week.html week = week %}
 {% endfor %}
