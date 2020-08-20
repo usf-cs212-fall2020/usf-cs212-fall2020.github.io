@@ -250,12 +250,14 @@ weeks:
                 text: 'Project Euler'
                 link: 'https://github.com/usf-cs212-fall2020/lectures/tree/main/ProjectEuler'
 
-              - text: 'File IO'
-                type: 'has-text-grey'
+              - text: 'Exceptions'
+                link: 'https://docs.google.com/presentation/d/e/2PACX-1vQ9O8lagJ1nfU7a0_TP3myuw5gE1DTQn3bo6dkShBStLiDnKTG7DfHZo9T6L5JYgKsKW_D6hkxvN3dy/pub?start=false&loop=false&delayms=3000'
+                icon: *icon_slides
                 type: 'bump'
 
-              - text: 'Exceptions'
-                type: 'has-text-grey'
+              - text: 'Files and Exceptions'
+                icon: *icon_code
+                link: 'https://github.com/usf-cs212-fall2020/lectures/tree/main/FilesExceptions'
 
       - date: 2020-08-21
         sections:
