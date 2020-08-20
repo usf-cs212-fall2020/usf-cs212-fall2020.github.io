@@ -48,11 +48,10 @@ ul.icons > li > i {
 {%- assign beg_index = 0 -%}
 
 {%- if today > beg_date -%}
-  {%- assign end_index = site.data.schedule.weeks | size | minus: 1 -%}
-
+  {%- assign end_index = site.data.schedule.weeks | size | minus:1 -%}
   {%- for week in site.data.schedule.weeks limit:end_index -%}
-    {%- if week.date -%}
-      {%- assign as_seconds = week.date | date: '%s' | abs -%}
+    {%- if week.days -%}
+      {%- assign as_seconds = week.days[0].date | date: '%s' | abs -%}
       {%- if as_seconds > today -%}
         {%- break -%}
       {%- endif -%}
