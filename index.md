@@ -44,7 +44,7 @@ ul.icons > li > i {
 
 {%- assign today_date = 'now' | date: '%Y-%m-%d' -%}
 {%- assign today = today_date | date: '%s'| abs -%}
-{%- assign beg_date = '2020-08-18' | date: '%s' | abs -%}
+{%- assign beg_date = '2020-08-25' | date: '%s' | abs -%}
 {%- assign beg_index = 0 -%}
 
 {%- if today > beg_date -%}
@@ -61,6 +61,8 @@ ul.icons > li > i {
 
   {%- assign beg_index = beg_index | minus: 1 -%}
 {%- endif -%}
+
+{{ beg_index }}
 
 {% for week in site.data.schedule.weeks offset:beg_index limit:3 %}
 {% include week.html week = week %}
