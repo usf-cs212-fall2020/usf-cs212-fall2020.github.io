@@ -363,6 +363,11 @@ weeks:
           - label: 'Dates and Deadlines'
             dates: true
             items:
+              - text: 'Homework Setup'
+                icon: *icon_participation
+                link: 'https://usfca.instructure.com/courses/1594619/assignments/6995254'
+                date: 2020-08-28
+                              
               - <<: *argumentmap
 
               - text: 'Week 02 Attendance'
