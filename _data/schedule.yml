@@ -291,6 +291,17 @@ weeks:
 
               - <<: *argumentmap
 
+              - text: 'Piazza Participation 1'
+                link: 'https://usfca.instructure.com/courses/1594619/assignments/6995422'
+                icon: *icon_participation
+                date: 2020-10-09
+                type: 'bump'
+
+              - text: 'CS or Tech Event'
+                link: 'https://usfca.instructure.com/courses/1594619/assignments/6995419'
+                icon: *icon_participation
+                date: 2020-12-04
+
           - label: 'Dates and Deadlines'
             dates: true
             items:
@@ -367,7 +378,7 @@ weeks:
                 icon: *icon_participation
                 link: 'https://usfca.instructure.com/courses/1594619/assignments/6995254'
                 date: 2020-08-28
-                              
+
               - <<: *argumentmap
 
               - text: 'Week 02 Attendance'
@@ -681,13 +692,23 @@ weeks:
             items:
               - <<: *readwritelock
 
+              - text: 'Piazza Participation 2'
+                link: 'https://usfca.instructure.com/courses/1594619/assignments/6995423'
+                icon: *icon_participation
+                date: 2020-12-04
+
           - label: 'Dates and Deadlines'
             dates: true
             items:
               - text: 'Week 08 Attendance'
-                date: 2020-10-06
+                date: 2020-10-09
                 icon: *icon_attendance
                 link: 'https://usfca.instructure.com/courses/1594619/assignments/6987929'
+
+              - text: 'Piazza Participation 1'
+                link: 'https://usfca.instructure.com/courses/1594619/assignments/6995422'
+                icon: *icon_participation
+                date: 2020-10-09
 
   - week: 9
     days:
@@ -1085,8 +1106,19 @@ weeks:
                 show: true
                 link: 'https://usfca.instructure.com/courses/1594619/assignments/6987937'
 
-  - week: false
-    text: 'Finals'
+              - text: 'Piazza Participation 2'
+                link: 'https://usfca.instructure.com/courses/1594619/assignments/6995423'
+                icon: *icon_participation
+                date: 2020-12-04
+                show: true
+
+              - text: 'CS or Tech Event'
+                link: 'https://usfca.instructure.com/courses/1594619/assignments/6995419'
+                icon: *icon_participation
+                date: 2020-12-04
+                show: true
+
+  - text: 'Finals'
     days:
       - date: ''
         sections:
