@@ -273,12 +273,22 @@ weeks:
 
           - label: 'Lab (Live)'
             items:
-              - text: 'Pending'
-                type: 'has-text-grey'
+              - text: 'Java and Eclipse Setup'
+                icon: *icon_website
+                link: '/guides/eclipse/'
+
+              - text: 'Homework Setup'
+                icon: *icon_website
+                link: '/guides/homework/'
 
           - label: 'Assignments'
             dates: true
             items:
+              - text: 'Homework Setup'
+                icon: *icon_participation
+                link: 'https://usfca.instructure.com/courses/1594619/assignments/6995254'
+                date: 2020-08-28
+
               - <<: *argumentmap
 
           - label: 'Dates and Deadlines'
