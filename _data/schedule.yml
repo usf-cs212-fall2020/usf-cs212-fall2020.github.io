@@ -268,8 +268,9 @@ weeks:
         sections:
           - label: 'Livestream'
             items:
-              - zoom: lab1
-              - zoom: lab2
+              - icon: *icon_video
+                text: 'CS 212 Lab'
+                link: 'https://usfca.zoom.us/rec/share/3-EyBZXN2XFLQafSxW7wU59wEaf_eaa8hyBMq_MOmkxUOkSlX_UpuXz81O3G9IdV?startTime=1598053121000'
 
           - label: 'Lab (Live)'
             items:
