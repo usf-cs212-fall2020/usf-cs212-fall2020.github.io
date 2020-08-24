@@ -57,6 +57,9 @@ icons_special:
   officehours: &icon_officehours
     label: Office Hours
     class: far fa-user-clock
+  nothing: &icon_nothing
+    label: Placeholder
+    class: ''
 
 projects:
   - project1f: &project1f
@@ -323,8 +326,44 @@ weeks:
         sections:
           - label: 'Content'
             items:
+              - text: 'ArgumentMap'
+                icon: *icon_video
+                more: '<a href="https://github.com/usf-cs212-fall2020/homework-ArgumentMap-template">(Code)</a>'
+
+              - text: 'Paths and Files'
+                icon: *icon_video
+                more: '<a href="https://docs.google.com/presentation/d/e/2PACX-1vR4muxa7N0mdswKrt2M1_ec38GMvktWPROVIPwqFEoFntBQZLKAZxxe-n5fjBDqPi9UWYHptmuo-NaV/pub?start=false&loop=false&delayms=3000">(Slides)</a>'
+                type: 'bump'
+
+              - text: 'DirectoryStream Demo'
+                icon: *icon_video
+                more: '<a href="https://github.com/usf-cs212-fall2020/lectures/blob/main/FilesExceptions/src/main/java/DirectoryStreamDemo.java">(Code)</a>'
+
               - text: 'Data Structures'
-                type: 'has-text-grey'
+                icon: *icon_video
+                more: '<a href="https://docs.google.com/presentation/d/e/2PACX-1vSlmirCTp0N-DSy-wXDxY4dPrukCVevF_7SF9z3XPEr7LI6o3kUlQKI-TO1wCbHVNj4xoGqdpPmofkj/pub?start=false&loop=false&delayms=3000">(Slides)</a>'
+                type: 'bump'
+
+              - text: 'Collections Framework'
+                icon: *icon_video
+                more: '<a href="https://docs.google.com/presentation/d/e/2PACX-1vQLEEqWnSNKyveuyhTDhw-2me8xy3Mf78cGsqDhUDIWXgFlr_2UIjz6YbXj2zu0qWVk7ImuExxaFd3t/pub?start=false&loop=false&delayms=3000">(Slides)</a>'
+
+              - text: 'Data Structures Demos'
+                icon: *icon_video
+                more: '<a href="https://github.com/usf-cs212-fall2020/lectures/tree/main/DataStructures">(Code)</a>'
+
+          - label: 'Assignments'
+            dates: true
+            items:
+              - text: 'Paths and Files'
+                icon: *icon_quiz
+                date: 2020-08-27
+                link: 'https://usfca.instructure.com/courses/1594619/quizzes'
+
+              - text: 'Data Structures'
+                icon: *icon_quiz
+                date: 2020-08-27
+                link: 'https://usfca.instructure.com/courses/1594619/quizzes/2364178'
 
           - label: 'Dates and Deadlines'
             dates: true
@@ -354,6 +393,19 @@ weeks:
 
               - text: 'Search'
                 type: 'has-text-grey'
+
+          - label: 'Dates and Deadlines'
+            dates: true
+            items:
+              - text: 'Paths and Files'
+                icon: *icon_quiz
+                date: 2020-08-27
+                link: 'https://usfca.instructure.com/courses/1594619/quizzes'
+
+              - text: 'Data Structures'
+                icon: *icon_quiz
+                date: 2020-08-27
+                link: 'https://usfca.instructure.com/courses/1594619/quizzes/2364178'
 
       - date: 2020-08-28
         sections:
