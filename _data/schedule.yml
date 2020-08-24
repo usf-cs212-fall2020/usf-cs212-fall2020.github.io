@@ -328,6 +328,7 @@ weeks:
             items:
               - text: 'ArgumentMap'
                 icon: *icon_video
+                link: 'https://usfca.zoom.us/rec/share/_vZrCKve1mRIBYWR0UrjGagMIMfseaa82iBK-fALyxvr4HmTo3YFresxeMB3s6cQ?startTime=1598299058000'
                 more: '<a href="https://github.com/usf-cs212-fall2020/homework-ArgumentMap-template">(Code)</a>'
 
               - text: 'Paths and Files'
@@ -338,6 +339,7 @@ weeks:
 
               - text: 'DirectoryStream Demo'
                 icon: *icon_video
+                link: 'https://usfca.zoom.us/rec/share/ydEkP5LhqHxLT6OS2XPTXbcrEL3VX6a8gykY-PVfmh4csGhB_-rGTgLVB4J_mJwG?startTime=1598299849000'
                 more: '<a href="https://github.com/usf-cs212-fall2020/lectures/blob/main/FilesExceptions/src/main/java/DirectoryStreamDemo.java">(Code)</a>'
 
               - text: 'Data Structures'
@@ -351,8 +353,14 @@ weeks:
                 icon: *icon_video
                 more: '<a href="https://docs.google.com/presentation/d/e/2PACX-1vQLEEqWnSNKyveuyhTDhw-2me8xy3Mf78cGsqDhUDIWXgFlr_2UIjz6YbXj2zu0qWVk7ImuExxaFd3t/pub?start=false&loop=false&delayms=3000">(Slides)</a>'
 
-              - text: 'Data Structures Demos'
+              - text: 'Collection Demo'
                 icon: *icon_video
+                link: 'https://usfca.zoom.us/rec/share/35NZD6z5-zxIYdKct1DlV_8vAdvGT6a8hCAe_vsJmkqL6blMPzwcKVIgS9PEBeMJ?startTime=1598301359000'
+                more: '<a href="https://github.com/usf-cs212-fall2020/lectures/tree/main/DataStructures">(Code)</a>'
+
+              - text: 'Map Demo'
+                icon: *icon_video
+                link: 'https://usfca.zoom.us/rec/share/-5UkAJ_i0F9LG4mSxF_zRIoGQ9v-T6a8hnQcq6FZmEsH-_C6hNL-25uSO7bXPIAG?startTime=1598302552000'
                 more: '<a href="https://github.com/usf-cs212-fall2020/lectures/tree/main/DataStructures">(Code)</a>'
 
           - label: 'Assignments'
