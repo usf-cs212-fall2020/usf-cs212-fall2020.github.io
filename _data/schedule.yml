@@ -331,6 +331,7 @@ weeks:
                 more: '<a href="https://github.com/usf-cs212-fall2020/homework-ArgumentMap-template">(Code)</a>'
 
               - text: 'Paths and Files'
+                link: 'https://usfca.zoom.us/rec/share/-ZErdOjO0HNOUrP_2VzZQv4fBtT_X6a8gSYar_NemU1sWKNHVt4VLatiGO5qEymt'
                 icon: *icon_video
                 more: '<a href="https://docs.google.com/presentation/d/e/2PACX-1vR4muxa7N0mdswKrt2M1_ec38GMvktWPROVIPwqFEoFntBQZLKAZxxe-n5fjBDqPi9UWYHptmuo-NaV/pub?start=false&loop=false&delayms=3000">(Slides)</a>'
                 type: 'bump'
@@ -340,11 +341,13 @@ weeks:
                 more: '<a href="https://github.com/usf-cs212-fall2020/lectures/blob/main/FilesExceptions/src/main/java/DirectoryStreamDemo.java">(Code)</a>'
 
               - text: 'Data Structures'
+                link: 'https://usfca.zoom.us/rec/share/wtdIELH-2WZJTrfo-lqEBfN4EoL7aaa80CQf-voKy0YKRZRPEzzyTe6fGn2C9JSu?startTime=1598294115000'
                 icon: *icon_video
                 more: '<a href="https://docs.google.com/presentation/d/e/2PACX-1vSlmirCTp0N-DSy-wXDxY4dPrukCVevF_7SF9z3XPEr7LI6o3kUlQKI-TO1wCbHVNj4xoGqdpPmofkj/pub?start=false&loop=false&delayms=3000">(Slides)</a>'
                 type: 'bump'
 
               - text: 'Collections Framework'
+                link: 'https://usfca.zoom.us/rec/share/ycloDIzsrTJLea_IyUfxc6wEPaXkX6a8gXRL_KdcmkeU3lWFaAQqDtEJVwY7wD80?startTime=1598295367000'
                 icon: *icon_video
                 more: '<a href="https://docs.google.com/presentation/d/e/2PACX-1vQLEEqWnSNKyveuyhTDhw-2me8xy3Mf78cGsqDhUDIWXgFlr_2UIjz6YbXj2zu0qWVk7ImuExxaFd3t/pub?start=false&loop=false&delayms=3000">(Slides)</a>'
 
