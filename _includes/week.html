@@ -43,6 +43,9 @@
             {%- else %}
             <span>{{ item.text }}</span>
             {%- endif %}
+            {%- if item.more %}
+            {{ item.more }}
+            {%- endif -%}
           </li>
           {%- endfor %}
         </ul>
