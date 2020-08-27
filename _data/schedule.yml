@@ -399,11 +399,17 @@ weeks:
 
           - label: 'Lecture (Live)'
             items:
-              - text: 'Iteration'
-                type: 'has-text-grey'
+              - text: 'Data Structures Demos'
+                icon: *icon_code
+                link: 'https://github.com/usf-cs212-fall2020/lectures/tree/main/DataStructures'
 
-              - text: 'Search'
-                type: 'has-text-grey'
+          - label: 'Assignments'
+            dates: true
+            items:
+              - text: 'Using Maps'
+                icon: *icon_quiz
+                link: 'https://usfca.instructure.com/courses/1594619/quizzes/2364183'
+                date: 2020-09-03
 
           - label: 'Dates and Deadlines'
             dates: true
@@ -469,6 +475,14 @@ weeks:
             items:
               - text: 'Mutability'
                 type: 'has-text-grey'
+
+          - label: 'Dates and Deadlines'
+            dates: true
+            items:
+              - text: 'Using Maps'
+                icon: *icon_quiz
+                link: 'https://usfca.instructure.com/courses/1594619/quizzes/2364183'
+                date: 2020-09-03
 
       - date: 2020-09-04
         sections:
