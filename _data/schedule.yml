@@ -438,8 +438,9 @@ weeks:
 
           - label: 'Lab (Live)'
             items:
-              - text: 'Pending'
-                type: 'has-text-grey'
+              - text: 'Comparing Files in Eclipse'
+                link: '/guides/eclipse/comparing-files.html'
+                icon: *icon_website
 
           - label: 'Assignments'
             dates: true

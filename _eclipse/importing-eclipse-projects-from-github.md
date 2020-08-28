@@ -3,9 +3,6 @@ layout: guides
 navbar: Guides
 title: Importing Eclipse Projects from Github
 key: 3
-tags:
-  - text: 'New'
-    type: 'is-primary'
 ---
 
 Follow these steps to import an Eclipse project from your Github repository. These steps assume you have already followed the [Java and Eclipse Setup](/guides/eclipse/java-and-eclipse-setup.html) and [Configuring Eclipse](/guides/eclipse/configuring-eclipse.html) guides.

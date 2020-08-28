@@ -3,9 +3,6 @@ layout: guides
 navbar: Guides
 title: Java and Eclipse Setup
 key: 1
-tags:
-  - text: 'New'
-    type: 'is-primary'
 ---
 
 <style>

@@ -3,10 +3,6 @@ layout: guides
 navbar: Guides
 title: Configuring Eclipse
 key: 2
-
-tags:
-  - text: 'New'
-    type: 'is-primary'
 ---
 
 <style>
