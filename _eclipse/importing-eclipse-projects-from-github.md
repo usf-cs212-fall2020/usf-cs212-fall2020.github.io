@@ -36,7 +36,7 @@ You first need to add the Github repository to Eclipse. Log into Github and open
 
       The fields should automatically fill in based on the link you copied in Github. (If not, hit cancel, copy the link, and then re-open the dialog window.)
 
-  4. Click the "Next" button, make sure the `master` repository is selected, and click the "Next" button again. If you are storing your CS 212 code in a specific folder, click the "Browse" button and select it in the following dialog window:
+  4. Click the "Next" button, make sure the `main` branch is selected, and click the "Next" button again. If you are storing your CS 212 code in a specific folder, click the "Browse" button and select it in the following dialog window:
 
       ![Screenshot]({{ "/images/eclipse-clone-git-repository-destination.png" | relative_url }}){: style="width: calc(525px * 0.75);"}  
 
