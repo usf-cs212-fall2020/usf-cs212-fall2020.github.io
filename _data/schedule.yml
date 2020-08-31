@@ -474,6 +474,7 @@ weeks:
             items:
               - text: 'Object Oriented Programming'
                 icon: *icon_video
+                link: 'https://usfca.zoom.us/rec/share/xZFXDaDVqn5Of4HGwhrxeY4ADIvaaaa80CQer6cEnUiO5sNZ7Rsweu8rdiGnbHdi?startTime=1598903297000'
                 more: '<a href="https://docs.google.com/presentation/d/e/2PACX-1vTBTFRnSUWBU0LGVsBuJWhkE3hAvDPTwVb9YmCFmYWKj2n_P4LfILnEb7MTqNUikqEIAJ_eN98ILA2L/pub?start=false&loop=false&delayms=3000">(Slides)</a>'
 
               - text: 'Widget and WidgetDemo'
@@ -483,10 +484,12 @@ weeks:
 
               - text: 'StaticDemo'
                 icon: *icon_video
+                link: 'https://usfca.zoom.us/rec/share/5JduJIn79lhLbrOU2EbzWo8lGqHZX6a8hCce-fcMmk2xqnvsAUyDKfTVWi5PYIa0?startTime=1598909165000'
                 more: '<a href="https://github.com/usf-cs212-fall2020/lectures/blob/main/ObjectOrientedProgramming/src/main/java/StaticDemo.java">(Code)</a>'
 
               - text: 'ObjectDemo'
                 icon: *icon_video
+                link: 'https://usfca.zoom.us/rec/share/yv55NrT6sWdLWa_t5lvFSJ8PQZnBT6a823AX-voJzUwbL1RTI5i4IUKdHNy-mPPi?startTime=1598910529000'
                 more: '<a href="https://github.com/usf-cs212-fall2020/lectures/blob/main/ObjectOrientedProgramming/src/main/java/ObjectDemo.java">(Code)</a>'
 
               - text: 'HashcodeDemo'
