@@ -492,9 +492,22 @@ weeks:
                 link: 'https://usfca.zoom.us/rec/share/yv55NrT6sWdLWa_t5lvFSJ8PQZnBT6a823AX-voJzUwbL1RTI5i4IUKdHNy-mPPi?startTime=1598910529000'
                 more: '<a href="https://github.com/usf-cs212-fall2020/lectures/blob/main/ObjectOrientedProgramming/src/main/java/ObjectDemo.java">(Code)</a>'
 
+              - text: 'StringDemo'
+                icon: *icon_video
+                link: 'https://usfca.zoom.us/rec/share/4JBoDOrq1iROX4HhuUjQXoU6OJrmaaa80HcXqftbz0q6dIe-kU8MZa7we0INGhKX?startTime=1598912610000'
+                more: '<a href="https://github.com/usf-cs212-fall2020/lectures/blob/main/ObjectOrientedProgramming/src/main/java/StringDemo.java">(Code)</a>'
+
               - text: 'HashcodeDemo'
                 icon: *icon_video
                 more: '<a href="https://github.com/usf-cs212-fall2020/lectures/blob/main/ObjectOrientedProgramming/src/main/java/HashCodeDemo.java">(Code)</a>'
+
+          - label: 'Assignments'
+            dates: true
+            items:
+              - text: 'Static vs Instance'
+                icon: *icon_quiz
+                link: 'https://usfca.instructure.com/courses/1594619/quizzes/2364179'
+                date: 2020-09-03
 
       - date: 2020-09-03
         sections:
