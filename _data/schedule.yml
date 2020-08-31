@@ -529,7 +529,7 @@ weeks:
                 icon: *icon_quiz
                 link: 'https://usfca.instructure.com/courses/1594619/quizzes/2364179'
                 date: 2020-09-03
-                more: '<em>Due BEFORE Class</em>'
+                more: '<br/><em>Due BEFORE Class</em>'
 
               - text: 'Using Maps'
                 icon: *icon_quiz
