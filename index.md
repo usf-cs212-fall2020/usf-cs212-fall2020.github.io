@@ -52,17 +52,18 @@ ul.icons > li > i {
   {%- for week in site.data.schedule.weeks limit:end_index -%}
     {%- if week.days -%}
       {%- assign as_seconds = week.days[0].date | date: '%s' | abs -%}
+      {%- assign as_seconds = as_seconds | minus: 86400 -%}
+      {%- assign as_seconds = as_seconds | minus: 86400 -%}
       {%- if as_seconds > today -%}
         {%- break -%}
       {%- endif -%}
     {%- endif -%}
     {%- assign beg_index = forloop.index0 -%}
   {%- endfor -%}
-
-  {%- assign beg_index = beg_index | minus: 1 -%}
 {%- endif -%}
 
-{% for week in site.data.schedule.weeks offset:beg_index limit:3 %}
+
+{% for week in site.data.schedule.weeks offset:beg_index limit:2 %}
 {% include week.html week = week %}
 {% endfor %}
 
