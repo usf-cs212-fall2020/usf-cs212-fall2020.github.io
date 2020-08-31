@@ -476,6 +476,23 @@ weeks:
                 icon: *icon_video
                 more: '<a href="https://docs.google.com/presentation/d/e/2PACX-1vTBTFRnSUWBU0LGVsBuJWhkE3hAvDPTwVb9YmCFmYWKj2n_P4LfILnEb7MTqNUikqEIAJ_eN98ILA2L/pub?start=false&loop=false&delayms=3000">(Slides)</a>'
 
+              - text: 'Widget and WidgetDemo'
+                icon: *icon_video
+                more: '<a href="https://github.com/usf-cs212-fall2020/lectures/blob/main/ObjectOrientedProgramming/src/main/java/Widget.java">(Code)</a>'
+                type: 'bump'
+
+              - text: 'StaticDemo'
+                icon: *icon_video
+                more: '<a href="https://github.com/usf-cs212-fall2020/lectures/blob/main/ObjectOrientedProgramming/src/main/java/StaticDemo.java">(Code)</a>'
+
+              - text: 'ObjectDemo'
+                icon: *icon_video
+                more: '<a href="https://github.com/usf-cs212-fall2020/lectures/blob/main/ObjectOrientedProgramming/src/main/java/ObjectDemo.java">(Code)</a>'
+
+              - text: 'HashcodeDemo'
+                icon: *icon_video
+                more: '<a href="https://github.com/usf-cs212-fall2020/lectures/blob/main/ObjectOrientedProgramming/src/main/java/HashCodeDemo.java">(Code)</a>'
+
       - date: 2020-09-03
         sections:
           - label: 'Livestream'
@@ -485,8 +502,9 @@ weeks:
 
           - label: 'Lecture (Live)'
             items:
-              - text: 'Mutability'
-                type: 'has-text-grey'
+              - text: 'Object Oriented Programming'
+                icon: *icon_code
+                link: "https://github.com/usf-cs212-fall2020/lectures/blob/main/ObjectOrientedProgramming/"
 
           - label: 'Dates and Deadlines'
             dates: true
