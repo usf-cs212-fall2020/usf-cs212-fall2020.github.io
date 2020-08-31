@@ -473,7 +473,8 @@ weeks:
           - label: 'Content'
             items:
               - text: 'Object Oriented Programming'
-                type: 'has-text-grey'
+                icon: *icon_video
+                more: '<a href="https://docs.google.com/presentation/d/e/2PACX-1vTBTFRnSUWBU0LGVsBuJWhkE3hAvDPTwVb9YmCFmYWKj2n_P4LfILnEb7MTqNUikqEIAJ_eN98ILA2L/pub?start=false&loop=false&delayms=3000">(Slides)</a>'
 
       - date: 2020-09-03
         sections:
