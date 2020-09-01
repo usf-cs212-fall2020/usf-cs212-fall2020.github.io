@@ -497,9 +497,9 @@ weeks:
                 link: 'https://usfca.zoom.us/rec/share/4JBoDOrq1iROX4HhuUjQXoU6OJrmaaa80HcXqftbz0q6dIe-kU8MZa7we0INGhKX?startTime=1598912610000'
                 more: '<a href="https://github.com/usf-cs212-fall2020/lectures/blob/main/ObjectOrientedProgramming/src/main/java/StringDemo.java">(Code)</a>'
 
-              - text: 'HashcodeDemo'
-                icon: *icon_video
-                more: '<a href="https://github.com/usf-cs212-fall2020/lectures/blob/main/ObjectOrientedProgramming/src/main/java/HashCodeDemo.java">(Code)</a>'
+              # - text: 'HashcodeDemo'
+              #   icon: *icon_video
+              #   more: '<a href="https://github.com/usf-cs212-fall2020/lectures/blob/main/ObjectOrientedProgramming/src/main/java/HashCodeDemo.java">(Code)</a>'
 
           - label: 'Assignments'
             dates: true
