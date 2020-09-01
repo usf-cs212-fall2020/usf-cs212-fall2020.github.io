@@ -479,6 +479,7 @@ weeks:
 
               - text: 'Widget and WidgetDemo'
                 icon: *icon_video
+                link: 'https://usfca.zoom.us/rec/share/wuByK5Tt0V1JGc_q-G6FBK0NBsPbeaa8hyAd-_FfnUeiCz1dazeun7x8CSPXIedD?startTime=1598985941000'
                 more: '<a href="https://github.com/usf-cs212-fall2020/lectures/blob/main/ObjectOrientedProgramming/src/main/java/Widget.java">(Code)</a>'
                 type: 'bump'
 
