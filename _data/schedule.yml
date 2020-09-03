@@ -770,7 +770,7 @@ weeks:
 
           - label: 'Lecture (Live)'
             items:
-              - text: 'Exam 2'
+              - text: 'Exam 1'
                 type: 'has-text-weight-bold has-text-danger'
                 icon: *icon_exam
 
@@ -783,7 +783,7 @@ weeks:
 
           - label: 'Lecture (Live)'
             items:
-              - text: 'Exam 2 Retake'
+              - text: 'Exam 1 Retake'
                 type: 'has-text-weight-bold has-text-danger'
                 icon: *icon_exam
 
