@@ -512,10 +512,15 @@ weeks:
 
       - date: 2020-09-03
         sections:
-          - label: 'Livestream'
+          - label: 'Recordings'
             items:
-              - zoom: lecture1
-              - zoom: lecture2
+              - icon: *icon_video
+                text: 'CS 212-01 Lecture'
+                link: 'https://usfca.zoom.us/rec/share/D4Qtx0mZoCgdnOi3Ajd1oeWfndDBmWimurkE9rGquDqJUQzlAJjdryQ-PtvrX1Q.5ETeC827miOKmXlN?startTime=1599161636000'
+
+              - icon: *icon_video
+                text: 'CS 212-02 Lecture'
+                link: 'https://usfca.zoom.us/rec/share/bU_CeUtlqCHMk0E393p8lmEgsSHPD4QHO22qoPBzurQ8PExb4voEQUY7K6KmtIvc.npk7GamR5YNygHp7?startTime=1599175263000'
 
           - label: 'Lecture (Live)'
             items:
@@ -557,10 +562,15 @@ weeks:
 
       - date: 2020-09-04
         sections:
-          - label: 'Livestream'
+          - label: 'Recordings'
             items:
-              - zoom: lab1
-              - zoom: lab2
+              - icon: *icon_video
+                text: 'CS 212L-01 Lab'
+                link: 'https://usfca.zoom.us/rec/share/0r75FOZgVIH5AU9mK6zlN6sTKZaq3Wyh4j2fou_QwdiMbBs8NynKQv4UA-cbkUFT.GtKnWAh80NgOeBS1?startTime=1599258759000'
+
+              - icon: *icon_video
+                text: 'CS 212L-02 Lab'
+                link: 'https://usfca.zoom.us/rec/share/TMCW_AcEL4IieNMcvMQKQYkxKRIiUPkatLqHtIEthLrGyix1ZXC3cMISGn8DzM2S.EchOXDhqkw2F82nU?startTime=1599263168000'
 
           - label: 'Lab (Live)'
             items:
