@@ -66,7 +66,7 @@ projects:
       text: 'Project 1 Inverted Index'
       icon: *icon_project
       type: 'has-text-usf-plum'
-      date: 2020-09-15
+      date: 2020-09-22
       link: '/guides/projects/project-1.html'
 
   - project1d: &project1d
@@ -80,7 +80,7 @@ projects:
       text: 'Project 2 Partial Search'
       icon: *icon_project
       type: 'has-text-usf-plum'
-      date: 2020-10-06
+      date: 2020-10-13
       link: 'https://usfca.instructure.com/courses/1594619/assignments/6987887'
 
   - project2d: &project2d
@@ -94,7 +94,7 @@ projects:
       text: 'Project 3 Multithreading'
       icon: *icon_project
       type: 'has-text-usf-plum'
-      date: 2020-10-27
+      date: 2020-11-03
       link: 'https://usfca.instructure.com/courses/1594619/assignments/6987889'
 
   - project3d: &project3d
@@ -108,7 +108,7 @@ projects:
       text: 'Project 4 Web Crawler'
       icon: *icon_project
       type: 'has-text-usf-plum'
-      date: 2020-11-17
+      date: 2020-12-01
       link: 'https://usfca.instructure.com/courses/1594619/assignments/6987891'
 
   - project4d: &project4d
@@ -676,7 +676,6 @@ weeks:
           - label: 'Dates and Deadlines'
             dates: true
             items:
-              - <<: *project1f
 
       - date: 2020-09-17
         sections:
@@ -727,6 +726,11 @@ weeks:
             items:
               - text: 'Logging'
                 type: 'has-text-grey'
+
+          - label: 'Dates and Deadlines'
+            dates: true
+            items:
+              - <<: *project1f
 
       - date: 2020-09-24
         sections:
@@ -836,7 +840,6 @@ weeks:
             dates: true
             items:
               - <<: *project1d
-              - <<: *project2f
 
       - date: 2020-10-08
         sections:
@@ -896,6 +899,11 @@ weeks:
             items:
               - text: 'Multithreading'
                 type: 'has-text-grey'
+
+          - label: 'Dates and Deadlines'
+            dates: true
+            items:
+              - <<: *project2f
 
       - date: 2020-10-15
         sections:
@@ -1003,7 +1011,6 @@ weeks:
             dates: true
             items:
               - <<: *project2d
-              - <<: *project3f
 
       - date: 2020-10-29
         sections:
@@ -1069,6 +1076,11 @@ weeks:
             items:
               - text: 'Servlets'
                 type: 'has-text-grey'
+
+          - label: 'Dates and Deadlines'
+            dates: true
+            items:
+              - <<: *project3f
 
       - date: 2020-11-05
         sections:
@@ -1178,7 +1190,6 @@ weeks:
             dates: true
             items:
               - <<: *project3d
-              - <<: *project4f
 
       - date: 2020-11-19
         sections:
@@ -1250,6 +1261,11 @@ weeks:
             items:
               - text: 'JDBC'
                 type: 'has-text-grey'
+
+          - label: 'Dates and Deadlines'
+            dates: true
+            items:
+              - <<: *project4f
 
       - date: 2020-12-03
         sections:
