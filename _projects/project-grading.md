@@ -9,17 +9,99 @@ blurb: |
 ---
 
 ## Functionality Grade
+{: .page-header }
 
-Pending
+The following sections detail how to get your project functionality graded.
+
+### Eligibility
+
+Before making a request, you should make sure you are eligible to have your functionality verified:
+
+  - Do you have credit for the functionality of the previous project?
+
+      For example, if you are on project 3, you must already have a non-zero functionality grade for project 2. If you are on project 1, you can skip this check.
+
+  - Do you have credit for the design of the previous 2 projects?
+
+      For example, if you are on project 3, you must already have a non-zero design grade for project 1. You cannot work more than 1 project ahead! If you are on project 1 or 2, you can skip this check.
+
+  - Do you have a release for this project that 100% passed the verification action?
+
+If you answered yes to all of the above, you can request to have your functionality grade updated.
+
+### Requesting Grade
+
+To request an update to your functionality grade, you must create a **project verification issue** on Github.
+
+  1. Click the "Issues" tab on Github and click the green "New issue" button.
+
+  1. Click the "Get started" button for the "Project Verification Issue" template:
+
+      ![Screenshot]({{ "/images/verification-issue.png" | relative_url }}){: style="width: 500px;"}
+
+  1. Verify the issue is automatically assigned to `josecorella`. Jose is the teacher assistant that will process these issues.
+
+  1. Verify the issue has the `verify` label automatically applied. We use this to tell the difference between verification and code review requests.
+
+  1. Add the project label, either `project1`, `project2`, `project3`, or `project4`, in all lowercase with no spaces. These labels should already exist. We use these labels to track how long it takes to progress on specific projects.
+
+  1. Add the issue to a project [milestone](https://guides.github.com/features/issues/#filtering), either `Project 1`, `Project 2`, `Project 3`, or `Project 4`, with proper capitalization and spacing. You will likely have to create this milestone.
+
+  1. Fill in the `[FIELD_NAME]` fields in the issue title and body. Replace the `[` and `]` square bracket symbols. For example, `[FULL_NAME]` might be replaced with `Sophie Engle` instead.
+
+  1. Check the boxes for the checklist at the bottom of the issue.
+
+Save the issue and wait for the teacher assistant to respond. If you haven't received a response in 48 hours, please post on Piazza.
+
+You only need to do this once per project.
+
+### Project Checkpoints
+
+Your functionality grade will be based on the **date you created the issue** that passed verification. If the issue date is before the checkpoint deadline, you will earn 100% on the project functionality. If the issue date is after the checkpoint deadline, your grade will be deducted 10% (up to a maximum of 30%) per week.
+
+The functionality deadline schedule is below (assume all deadlines are at 11:59pm):
+
+- Pending
 
 ## Design Grade
+{: .page-header }
 
 Pending
 
-## Extra Credit
+## Other Considerations
+{: .page-header }
 
-Pending
+Concerned about your grade or falling behind?
 
+Regardless, **don't cheat**. I *often* catch it. It gets messy. There are consequences. You do NOT end up saving time, effort, reputation, or stress. You DO miss one of the few (if not only) one-on-one personalized learning experiences you'll ever get in college.
+
+Instead, please see below.
+
+### Working Ahead
+
+Worried about the deadline schedule and how slow code reviews progress?
+
+You *can* work ahead on the functionality of the next project after passing verification, just **not in the `main` branch** used for the current project and code reviews.
+
+If you want to work ahead, [create a separate branch](/guides/general/using-branches.html) for the next project. You can even create releases from that branch, allowing you to pass functionality for the next project while still undergoing code review for the current project.
+
+However, you have to be comfortable with branching and merging in `git` if you choose this route. It is very easy to cause merge conflicts that can be difficult to resolve.
+
+You **cannot** work more than one project ahead than the project currently under code review. Your efforts at that point are better spent on passing code review for the current project.
+
+<i class="fas fa-exclamation-triangle"></i>
+If your `main` branch includes functionality for the next project, you'll be asked to remove it and reschedule the code review. This could cost you a week, and undo your efforts to work ahead!
+{: .notification }
+
+### Extra Credit
+
+Worried about those project points you missed due to late submissions? You can request extra credit opportunities in a **public post** on Piazza. These opportunities will be specific to the project, can be completed at any time, and are open to all students that missed points on that project.
+
+Examples of extra credit opportunities include: creating unit tests for one of your classes, adding the ability to output compact JSON files, adding a new (but minor) feature, generating the actual Javadoc files for your project, and more.
+
+Extra credit is not meant to be time consuming---especially given that many students that need it have already fallen behind in class.
+
+Extra credit must be pre-approved on Piazza before it will be awarded. To receive credit, make a private post to the "Instructors" group confirming you completed the extra credit with a link to the public post that has the approval.
 
 {% comment %}
 ## Eligibility
