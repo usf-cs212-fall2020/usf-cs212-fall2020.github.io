@@ -60,6 +60,9 @@ icons_special:
   nothing: &icon_nothing
     label: Placeholder
     class: ''
+  time: &icon_time
+    label: Time
+    class: far fa-alarm-clock
 
 projects:
   - project1f: &project1f
@@ -669,7 +672,7 @@ weeks:
             dates: true
             items:
               - text: 'Due BEFORE Class'
-                icon: *icon_nothing
+                icon: *icon_time
 
               - text: 'Keywords'
                 icon: *icon_quiz
@@ -687,7 +690,8 @@ weeks:
                 date: 2020-09-10
 
               - text: 'Due at 11:56pm'
-                icon: *icon_nothing
+                icon: *icon_time
+                type: 'bump'
 
               - text: 'Instance vs Identifier'
                 icon: *icon_quiz
