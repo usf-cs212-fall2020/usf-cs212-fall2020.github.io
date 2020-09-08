@@ -605,8 +605,53 @@ weeks:
         sections:
           - label: 'Content'
             items:
-              - text: 'Inheritance'
-                type: 'has-text-grey'
+              - text: 'Inheritance Relationships'
+                icon: *icon_video
+                link: 'https://usfca.zoom.us/rec/share/y_2ePyejsyAG5Xjxij31T6gWCC7x1bc63FLmkWjWsjjw9OwLYzYkzLqO4TiW-hE.-GPxr6A7ZEviL6Dl?startTime=1599509001000'
+                more: '(<a href="https://docs.google.com/presentation/d/e/2PACX-1vRXMjoGijTyzIhE9b9eAumFCWhSoaSt4vNkgw8C7iW7ipU0j5yrNhy_GUX3eoPhtoJyOY1pMoYM6NmL/pub?start=false&loop=false&delayms=3000">Slides</a>)'
+
+              - text: 'Abstract and Interfaces'
+                icon: *icon_video
+                link: 'https://usfca.zoom.us/rec/share/_YTx-uoklKHpIK68p-LQyZkH7TyorP2G_R8EhwVpO6F-wklln9mo1JEv6-q-I0_-.e2enkbWH_LaE8As8?startTime=1599523352000'
+                more: '(<a href="https://docs.google.com/presentation/d/e/2PACX-1vR9VPazQo4HvtbOFqkuZXaAfABXH6tONhQU8lhK2PA1KHgvtLG9LTLgo5zc6P7PDXSw-3pCVhQfO3Cf/pub?start=false&loop=false&delayms=3000">Slides</a>)'
+
+              - text: 'Object Class'
+                icon: *icon_video
+                link: 'https://usfca.zoom.us/rec/share/KKKPDe20ynzvClTMU1wamguiQFtwlPyEIu1OR86jURQAXgVK1z4bANbd9D3PAq1w.cmKM7f5hgia1_XaO?startTime=1599522091000'
+                more: '(<a href="https://docs.google.com/presentation/d/e/2PACX-1vRpa4YoGGEdY-0J6au4DbviOM5OAVglFLqCu8uRRuSTQE_PsV3CHk_Gu272__xyPglnl5lBUaHSZZHb/pub?start=false&loop=false&delayms=3000">Slides</a>)'
+
+              - text: 'Final Keyword'
+                icon: *icon_video
+                link: 'https://usfca.zoom.us/rec/share/ihtkHsgKwDaL34Uelm0z15lMuI4YeN66yOB_bHbbZ5Yk0LI6Z6EBXaonZyEQg9NN.g30GWKHilLWbs7jG?startTime=1599512661000'
+                more: '(<a href="https://docs.google.com/presentation/d/e/2PACX-1vTod_L2MMgjoTuvQTp9QZWOtlwfOJXnhGSX6e9VM2FvDuxRSKcd9_BYEwMHMc9VheszlN9SRETgSapa/pub?start=false&loop=false&delayms=3000">Slides</a>)'
+
+              - text: 'Collections Revisited'
+                icon: *icon_video
+                link: 'https://usfca.zoom.us/rec/share/bHtM4l4E_Tc12fzZlrsgyCX9_XptTLuXzl-7p-BlmAgJ2GNj15Qg9bnS_JLA41lS.DgkIpW6lgdqvPGtA?startTime=1599519792000'
+                more: '(<a href="https://docs.google.com/presentation/d/e/2PACX-1vTCd-FZ8uJ4PHvrL_cxqUv-31Khz2oKkffWLux64w3wWiB-oDWndO3Hu7qaWYy1tOLiFIYjhy5915O9/pub?start=false&loop=false&delayms=3000">Slides</a>)'
+
+              - text: 'Casting'
+                icon: *icon_video
+                link: 'https://usfca.zoom.us/rec/share/ppQ8F0bvKDxYpGaa_9yB2f2CUQ6Yfz9ej79unJ4DOroBqbIa3KWIDlNPw-auzL1W.VW3TMXog9gE0K0xv?startTime=1599510921000'
+                more: '(<a href="https://docs.google.com/presentation/d/e/2PACX-1vTAHr90z-dzSHJaNCkwEXIeW_fjbzb_kdY7Upztiajk035Hurj-eeD3ks8sII6PQRoOGtEAkGcGlnoW/pub?start=false&loop=false&delayms=3000">Slides</a>)'
+
+          - label: 'Assignments'
+            dates: true
+            items:
+              - text: 'Keywords'
+                icon: *icon_quiz
+                link: 'https://usfca.instructure.com/courses/1594619/quizzes/2364181'
+                date: 2020-09-10
+
+              - text: 'Casting'
+                icon: *icon_quiz
+                link: 'https://usfca.instructure.com/courses/1594619/quizzes/2364185'
+                date: 2020-09-10
+
+              - text: 'Collections Revisited'
+                icon: *icon_quiz
+                link: 'https://usfca.instructure.com/courses/1594619/quizzes/2364167'
+                date: 2020-09-10
 
       - date: 2020-09-10
         sections:
@@ -623,6 +668,27 @@ weeks:
           - label: 'Dates and Deadlines'
             dates: true
             items:
+              - text: 'Due BEFORE Class'
+                icon: *icon_nothing
+
+              - text: 'Keywords'
+                icon: *icon_quiz
+                link: 'https://usfca.instructure.com/courses/1594619/quizzes/2364181'
+                date: 2020-09-10
+
+              - text: 'Casting'
+                icon: *icon_quiz
+                link: 'https://usfca.instructure.com/courses/1594619/quizzes/2364185'
+                date: 2020-09-10
+
+              - text: 'Collections Revisited'
+                icon: *icon_quiz
+                link: 'https://usfca.instructure.com/courses/1594619/quizzes/2364167'
+                date: 2020-09-10
+
+              - text: 'Due at 11:56pm'
+                icon: *icon_nothing
+
               - text: 'Instance vs Identifier'
                 icon: *icon_quiz
                 date: 2020-09-10
