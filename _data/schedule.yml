@@ -638,6 +638,12 @@ weeks:
                 link: 'https://usfca.zoom.us/rec/share/ppQ8F0bvKDxYpGaa_9yB2f2CUQ6Yfz9ej79unJ4DOroBqbIa3KWIDlNPw-auzL1W.VW3TMXog9gE0K0xv?startTime=1599510921000'
                 more: '(<a href="https://docs.google.com/presentation/d/e/2PACX-1vTAHr90z-dzSHJaNCkwEXIeW_fjbzb_kdY7Upztiajk035Hurj-eeD3ks8sII6PQRoOGtEAkGcGlnoW/pub?start=false&loop=false&delayms=3000">Slides</a>)'
 
+              - text: 'Project Setup'
+                icon: *icon_video
+                type: 'bump strong has-text-usf-plum'
+                link: 'https://usfca.zoom.us/rec/share/u4qrR_ZMs2WmPkdykXZvmixtELiqJaXl1kbk9L3HV71vH-gHedRinkMKuwbsv_mc.cwakg9xrPcgSUC4b?startTime=1599623355000'
+                more: '(<a href="guides/projects/project-setup.html">Guide</a>)'
+
           - label: 'Assignments'
             dates: true
             items:
