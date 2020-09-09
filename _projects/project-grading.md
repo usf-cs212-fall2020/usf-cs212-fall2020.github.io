@@ -51,7 +51,15 @@ To request an update to your functionality grade, you must create a **project ve
 
   1. Check the boxes for the checklist at the bottom of the issue.
 
-Save the issue and wait for the teacher assistant to respond. If you haven't received a response in 48 hours, please post on Piazza.
+Save and open the issue. For an example, see the [example issue](https://github.com/usf-cs212-fall2020/project-template/issues/1) in the `project-template` repository.
+
+Within 10 minutes, the github-actions bot should add a comment to the issue. The bot will check for any issues with the issue title, assignees, labels, and milestone. If everything looks good, the bot will also attempt to verify whether the release passed the tests.
+
+If there are any issues, the github-actions bot will close the issue. You must make the required changes and re-open the issue to continue.
+
+If there are no issues, the issue will remain open for the teacher assistant. The teacher assistant will respond once your grade is updated on Canvas. If you haven't received a response in 48 hours, please post on Piazza.
+
+If you do not receive a comment from the bot within 10 minutes, try closing and re-opening the issue. If that still doesn't work, please reach out to us on Piazza with a link to your issue.
 
 You only need to do this once per project.
 

@@ -18,6 +18,14 @@ The project is broken into two separate Github repositories and Eclipse projects
 
 When we verify the functionality and review the design of your project, we will only checkout the **SearchEngine** project each time. This helps avoid having to re-copy the large test files over and over again.
 
+## Walkthrough Video
+
+You can find a walkthrough video of these steps here:
+
+<https://usfca.zoom.us/rec/share/u4qrR_ZMs2WmPkdykXZvmixtELiqJaXl1kbk9L3HV71vH-gHedRinkMKuwbsv_mc.cwakg9xrPcgSUC4b?startTime=1599623355000>
+
+Use the same password as the other recordings.
+
 ## Create and Import Projects
 
 Below is a quick summary of the one-time setup needed for the project:
@@ -32,10 +40,6 @@ Below is a quick summary of the one-time setup needed for the project:
 
       **These two projects must be located in the same parent directory!** For example `repos/project-username` and `repos/project-tests` share the same parent directory `repos`.
 
-  1. Verify you can run the `Project1Test.java` set of tests in the "SearchEngineTests" project in Eclipse.
-
-  1. Verify you can make, commit, and push changes to `Driver.java` in the "SearchEngine" project in Eclipse.
-
 After importing into Eclipse it should look like this:
 
 ![Screenshot]({{ "/images/project-eclipse.png" | relative_url }}){: style="width: 250px;"}
@@ -43,6 +47,20 @@ After importing into Eclipse it should look like this:
 Important files or directories are highlighted in blue. Your view will not have this highlighting.
 
 Once setup, you do not need to go through these steps again.
+
+## Verify Setup
+
+Once you have everything imported into Eclipse, try these steps to verify everything is setup correctly:
+
+  1. Verify you can run the `Project1Test.java` set of tests in the "SearchEngineTests" project in Eclipse.
+
+  1. Verify you can make, commit, and push changes to `Driver.java` in the "SearchEngine" project in Eclipse.
+
+  1. Create your first release. Enter `v1.0.0` as the tag version and leave the other fields unchanged. There is an [example release](https://github.com/usf-cs212-fall2020/project-template/releases/tag/v1.0.0) in the `project-template` repository.
+
+  1. Go to the "Actions" tab and make sure the verification script ran for the `v1.0.0` release. There is an [example action](https://github.com/usf-cs212-fall2020/project-template/actions/runs/245586549) in the `project-template` repository. It *should* fail, since you don't have any code yet.
+
+If you are able to complete all of the above, you should be ready to start your project!
 
 ## Folder Structure
 
