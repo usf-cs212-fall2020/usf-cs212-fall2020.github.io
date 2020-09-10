@@ -3,15 +3,6 @@ title: Welcome
 navbar: Home
 ---
 
-<article class="message is-usf-gold">
-  <div class="message-header">
-    <p>Getting Started with Remote Learning</p>
-  </div>
-  <div class="message-body">
-    The first week of lectures will be conducted synchronously via Zoom. See the <a href="/guides/general/getting-started.html">Getting Started</a> guide for details on how to join and what to expect for your first day.
-  </div>
-</article>
-
 Welcome to <strong class="has-text-usf-green">CS {{ site.data.info.code }} {{ site.data.info.name }}</strong> for <strong class="has-text-usf-green">{{ site.data.info.term }}</strong>. {{ site.data.info.blurb }}
 
 ## Upcoming Schedule
