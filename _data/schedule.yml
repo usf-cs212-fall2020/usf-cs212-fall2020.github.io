@@ -672,7 +672,25 @@ weeks:
           - label: 'Lecture (Live)'
             items:
               - text: 'Inheritance'
-                type: 'has-text-grey'
+                icon: *icon_code
+                link: 'https://github.com/usf-cs212-fall2020/lectures/tree/main/Inheritance'
+
+              - text: 'Nested Classes'
+                icon: *icon_slides
+                link: 'https://docs.google.com/presentation/d/e/2PACX-1vTKar__z2oMKYiiUF_6G0jV06Pda5eF4M89focz-2QJGMYSN102712eUR8neFdlB96UdFl8GBaNQ0Dn/pub?start=false&loop=false&delayms=3000'
+                type: 'bump'
+
+              - text: 'Generic Types'
+                icon: *icon_slides
+                link: 'https://docs.google.com/presentation/d/e/2PACX-1vR3emcaoJyzOHdttpErEIDB8JcYhsnqCzzdxVxR5hs2yc7Ej62Z37aywR7hxRdJfcI8R4Ie6YVlHG0Z/pub?start=false&loop=false&delayms=3000'
+
+          - label: 'Assignments'
+            dates: true
+            items:
+              - text: 'Nested Classes'
+                icon: *icon_quiz
+                date: 2020-09-18
+                link: 'https://usfca.instructure.com/courses/1594619/quizzes/2365041'
 
           - label: 'Dates and Deadlines'
             dates: true
