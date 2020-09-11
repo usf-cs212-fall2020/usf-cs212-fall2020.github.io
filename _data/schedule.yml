@@ -746,12 +746,18 @@ weeks:
 
           - label: 'Lab (Live)'
             items:
-              - text: 'Pending'
-                type: 'has-text-grey'
+              - text: 'Project Setup'
+                type: *icon_website
+                link: 'guides/projects/project-setup.html'
 
           - label: 'Assignments'
             dates: true
             items:
+              - text: 'Project Setup'
+                icon: *icon_participation
+                link: 'https://usfca.instructure.com/courses/1594619/assignments/7002405'
+                date: 2020-09-18
+
               - <<: *textfileindex
 
           - label: 'Dates and Deadlines'
@@ -812,6 +818,11 @@ weeks:
             dates: true
             items:
               - <<: *textfileindex
+
+              - text: 'Project Setup'
+                icon: *icon_participation
+                link: 'https://usfca.instructure.com/courses/1594619/assignments/7002405'
+                date: 2020-09-18
 
               - text: 'Week 05 Attendance'
                 date: 2020-09-18
