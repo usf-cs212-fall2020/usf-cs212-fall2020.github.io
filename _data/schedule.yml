@@ -747,7 +747,7 @@ weeks:
           - label: 'Lab (Live)'
             items:
               - text: 'Project Setup'
-                type: *icon_website
+                icon: *icon_website
                 link: 'guides/projects/project-setup.html'
 
           - label: 'Assignments'
