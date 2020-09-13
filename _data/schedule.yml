@@ -739,10 +739,15 @@ weeks:
 
       - date: 2020-09-11
         sections:
-          - label: 'Livestream'
+          - label: 'Recordings'
             items:
-              - zoom: lab1
-              - zoom: lab2
+              - icon: *icon_video
+                text: 'CS 212L-01 Lab'
+                link: 'https://usfca.zoom.us/rec/share/2h63IKJKV99Vyxw6ofu7LkNhS6XDcZCGX_c6WgQgiAa4xthoViHoJOw6OEh_igYs.D0XqlecUlq4Eoo5l?startTime=1599862767000'
+
+              - icon: *icon_video
+                text: 'CS 212L-02 Lab'
+                link: 'https://usfca.zoom.us/rec/share/yw7FSXq4pqS1Dz6HWXrcUWEVxm5gUqWTv9otGbIZLCu-h6w4WQgc22WKC2oltOaU.uR60J9_5P32WjDm8?startTime=1599867275000'
 
           - label: 'Lab (Live)'
             items:
