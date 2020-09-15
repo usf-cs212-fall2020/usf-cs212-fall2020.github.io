@@ -814,7 +814,7 @@ weeks:
               - text: 'Java Features'
                 icon: *icon_quiz
                 link: 'https://usfca.instructure.com/courses/1594619/quizzes/2364174'
-                date: 2020-09-17
+                date: 2020-09-22
 
       - date: 2020-09-17
         sections:
@@ -834,18 +834,6 @@ weeks:
           - label: 'Dates and Deadlines'
             dates: true
             items:
-              - text: 'Due BEFORE Class'
-                icon: *icon_time
-
-              - text: 'Java Features'
-                icon: *icon_quiz
-                link: 'https://usfca.instructure.com/courses/1594619/quizzes/2364174'
-                date: 2020-09-17
-
-              - text: 'Due at 11:59pm'
-                icon: *icon_time
-                type: 'bump'
-
               - text: 'Nested Classes'
                 icon: *icon_quiz
                 date: 2020-09-17
@@ -902,6 +890,12 @@ weeks:
             dates: true
             items:
               - <<: *project1f
+
+              - text: 'Java Features'
+                icon: *icon_quiz
+                link: 'https://usfca.instructure.com/courses/1594619/quizzes/2364174'
+                date: 2020-09-22
+                type: 'bump'
 
       - date: 2020-09-24
         sections:
