@@ -694,7 +694,7 @@ weeks:
             items:
               - text: 'Nested Classes'
                 icon: *icon_quiz
-                date: 2020-09-18
+                date: 2020-09-17
                 link: 'https://usfca.instructure.com/courses/1594619/quizzes/2365041'
 
           - label: 'Dates and Deadlines'
@@ -780,12 +780,41 @@ weeks:
         sections:
           - label: 'Content'
             items:
-              - text: 'Lambda Functions'
-                type: 'has-text-grey'
+              - text: 'Generic Types'
+                link: 'https://usfca.zoom.us/rec/share/7mho8b8d025viXHLu1ca2WjJ72_O5fDDO0chDZH1dQvHiFhsD5Q9JrC7xjQhwwyY.r018d7YfaAHl4HRM?startTime=1600113358000'
+                icon: *icon_video
+                more: '(<a href="https://docs.google.com/presentation/d/e/2PACX-1vR3emcaoJyzOHdttpErEIDB8JcYhsnqCzzdxVxR5hs2yc7Ej62Z37aywR7hxRdJfcI8R4Ie6YVlHG0Z/pub?start=false&loop=false&delayms=3000">Slides</a>)'
 
-          - label: 'Dates and Deadlines'
+              - text: 'Generic Type Demo'
+                link: 'https://usfca.zoom.us/rec/share/b-14yGzi3U7x9spPzS_x48vuHI5nhvW0H8cqJjRUhRBTZDEj9y7VpejvoqB-D6QW.MB8WPTqpoI2c2XtY?startTime=1600115045000'
+                icon: *icon_video
+                more: '(<a href="https://github.com/usf-cs212-fall2020/lectures/blob/main/Inheritance/src/main/java/GenericTypesDemo.java">Code</a>)'
+
+              - text: 'Gadget Demo'
+                type: 'bump'
+                link: 'https://usfca.zoom.us/rec/share/zXU46HS1Dzrf51p1nvaIYte1hKbbOkgVJ_f92vX-8sTvBcpVbnhUvHfkTEojiFeI.Z0xL_HDzV46XgIRi?startTime=1600117106000'
+                icon: *icon_video
+                more: '(<a href="https://github.com/usf-cs212-fall2020/lectures/tree/main/Inheritance">Code</a>)'
+
+              - text: 'Brief History of Java'
+                type: 'bump'
+
+                link: 'https://usfca.zoom.us/rec/share/qdyKraNCm6TMcoCEt1x8CQZ2jiacbm0sRBkZxfZ3BOKOP6H-fAskCvtMt9_jXzpN.CvfBwh-8oDHy1ozu?startTime=1600126198000'
+                icon: *icon_video
+                more: '(<a href="https://docs.google.com/presentation/d/e/2PACX-1vRCN2ryK2qkn4u8UA_71VWhpFiRvKXsV9MtyVnKx49H8_AMYoks1396bAnEjOHhHReoee36Btcrifeg/pub?start=false&loop=false&delayms=3000">Slides</a>)'
+
+              - text: 'Lambda Functions'
+                icon: *icon_video
+                link: 'https://usfca.zoom.us/rec/share/fTnccRdQ-vxP-F8yeCf2Evpjon5JQWILbys_SMadyS-WyLSp38KU0KLphNAFbgu_.XItkl9wJiMZhrIoK?startTime=1600133508000'
+                more: '(<a href="https://docs.google.com/presentation/d/e/2PACX-1vTYZahVMTRTY4iCzX2a7sATAH034hkFNUPSI8Og-mfNN12ff-Se5v9dTk_0Ti4mZ6XKjjH99--NBDGa/pub?start=false&loop=false&delayms=3000">Slides</a>)'
+
+          - label: 'Assignments'
             dates: true
             items:
+              - text: 'Java Features'
+                icon: *icon_quiz
+                link: 'https://usfca.instructure.com/courses/1594619/quizzes/2364174'
+                date: 2020-09-17
 
       - date: 2020-09-17
         sections:
@@ -796,8 +825,32 @@ weeks:
 
           - label: 'Lecture (Live)'
             items:
+              - text: 'Lambda Expressions'
+                type: 'has-text-grey'
+
               - text: 'Stream Pipelines'
                 type: 'has-text-grey'
+
+          - label: 'Dates and Deadlines'
+            dates: true
+            items:
+              - text: 'Due BEFORE Class'
+                icon: *icon_time
+
+              - text: 'Java Features'
+                icon: *icon_quiz
+                link: 'https://usfca.instructure.com/courses/1594619/quizzes/2364174'
+                date: 2020-09-17
+
+              - text: 'Due at 11:59pm'
+                icon: *icon_time
+                type: 'bump'
+
+              - text: 'Nested Classes'
+                icon: *icon_quiz
+                date: 2020-09-17
+                link: 'https://usfca.instructure.com/courses/1594619/quizzes/2365041'
+
 
       - date: 2020-09-18
         sections:
@@ -839,6 +892,9 @@ weeks:
         sections:
           - label: 'Content'
             items:
+              - text: 'Stream Pipelines'
+                type: 'has-text-grey'
+
               - text: 'Logging'
                 type: 'has-text-grey'
 
