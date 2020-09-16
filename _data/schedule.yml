@@ -930,6 +930,7 @@ weeks:
 
           - label: 'Dates and Deadlines'
             dates: true
+            items:
               - text: 'Lambda Expressions'
                 icon: *icon_quiz
                 link: 'https://usfca.instructure.com/courses/1594619/quizzes/2364165'
