@@ -826,10 +826,21 @@ weeks:
           - label: 'Lecture (Live)'
             items:
               - text: 'Lambda Expressions'
-                type: 'has-text-grey'
+                icon: *icon_code
+                link: 'https://github.com/usf-cs212-fall2020/lectures/tree/main/LambdaExpressions'
+
+              - text: 'Stream Basics'
+                icon: *icon_slides
+                link: 'https://docs.google.com/presentation/d/e/2PACX-1vQD1FPd4zMLyJO_TQbE1GM_uPe7EJEUEe1LtYXMeyAxzLYxiHnqktrfdGpy1IB2SM2iHP4C9YvVq-IQ/pub?start=false&loop=false&delayms=3000'
+                type: 'bump'
 
               - text: 'Stream Pipelines'
-                type: 'has-text-grey'
+                icon: *icon_slides
+                link: 'https://docs.google.com/presentation/d/e/2PACX-1vS_fCBKBno20id01RNqaMuYn1nj4AG0V4UqgkYWqUJ0I0v_lVjtujUFF22At6R6w121qTz979ooZbBt/pub?start=false&loop=false&delayms=3000'
+
+              - text: 'Stream Pipelines'
+                icon: *icon_code
+                link: 'https://github.com/usf-cs212-fall2020/lectures/tree/main/StreamPipelines'
 
           - label: 'Dates and Deadlines'
             dates: true
