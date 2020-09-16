@@ -842,6 +842,14 @@ weeks:
                 icon: *icon_code
                 link: 'https://github.com/usf-cs212-fall2020/lectures/tree/main/StreamPipelines'
 
+          - label: 'Assignments'
+            dates: true
+            items:
+              - text: 'Lambda Expressions'
+                icon: *icon_quiz
+                link: 'https://usfca.instructure.com/courses/1594619/quizzes/2364165'
+                date: 2020-09-24
+
           - label: 'Dates and Deadlines'
             dates: true
             items:
@@ -919,6 +927,13 @@ weeks:
             items:
               - text: 'Exam 1 Review'
                 icon: *icon_exam
+
+          - label: 'Dates and Deadlines'
+            dates: true
+              - text: 'Lambda Expressions'
+                icon: *icon_quiz
+                link: 'https://usfca.instructure.com/courses/1594619/quizzes/2364165'
+                date: 2020-09-24
 
       - date: 2020-09-25
         sections:
