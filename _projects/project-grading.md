@@ -12,28 +12,27 @@ blurb: |
   <p>Each project grade is split into two components: functionality (passing tests) and design (passing code review). This guide details both the process for getting credit for project functionality.</p>
 ---
 
-## Functionality Grade
+This guide assumes you have already [setup your project](project-setup.html) and [tested your project](project-testing.html). This includes making a release of your project that passes the verification process on Github.
+
+## Eligibility
 {: .page-header }
-
-The following sections detail how to get your project functionality graded.
-
-### Eligibility
 
 Before making a request, you should make sure you are eligible to have your functionality verified:
 
-  - Do you have credit for the functionality of the previous project?
+  - Do you have credit for the functionality of the previous project? You can check your grades on [Canvas]({{ site.data.info.links.canvas.link }}). If you are missing a grade you should already have, please reach out to us on [Piazza]({{ site.data.info.links.piazza.link }})
 
-      For example, if you are on project 3, you must already have a non-zero functionality grade for project 2. If you are on project 1, you can skip this check.
+      *For example, if you are on project 3, you must already have a non-zero functionality grade for project 2. If you are on project 1, you can skip this check.*
 
-  - Do you have credit for the design of the previous 2 projects?
+  - Are you working only 1 project ahead?
 
-      For example, if you are on project 3, you must already have a non-zero design grade for project 1. You cannot work more than 1 project ahead! If you are on project 1 or 2, you can skip this check.
+      *For example, if you are on project 3, you must already have completed project 1 (both functionality and design) and have a non-zero functionality grade for project 2. If you are on project 1 or 2, you can skip this check.*
 
-  - Do you have a release for this project that 100% passed the verification action?
+  - Do you have a release for this project that passed the verification action on Github? If not, see the [Creating Releases](project-testing.html#creating-releases) section of the testing guide.
 
 If you answered yes to all of the above, you can request to have your functionality grade updated.
 
-### Requesting Grade
+## Requesting Grade
+{: .page-header }
 
 To request an update to your functionality grade, you must create a **project verification issue** on Github.
 
@@ -67,7 +66,7 @@ If you do not receive a comment from the bot within 10 minutes, try closing and 
 
 You only need to do this once per project.
 
-### Project Checkpoints
+### Functionality Grade
 
 Your functionality grade will be based on the **date you created the issue** that passed verification. If the issue date is before the checkpoint deadline, you will earn 100% on the project functionality. If the issue date is after the checkpoint deadline, your grade will be deducted 10% (up to a maximum of 30%) per week.
 

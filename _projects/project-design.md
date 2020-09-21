@@ -150,8 +150,7 @@ You should try to avoid making changes to your `main` branch after requesting co
 
 If you need to make significant changes, close the pull request, cancel your appointment, and re-request an appointment once you have a new release. Or, alternatively, make your changes in a different branch.
 
-## Code Review Grading
-{: .page-header }
+### Code Review Grade
 
 The results of each code review may be:
 
