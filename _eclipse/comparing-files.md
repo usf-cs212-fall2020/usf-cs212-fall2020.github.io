@@ -4,9 +4,6 @@ navbar: Guides
 title: Comparing Files in Eclipse
 key: 4
 
-tags:
-  - text: 'New'
-    type: 'is-primary'
 ---
 
 <style>

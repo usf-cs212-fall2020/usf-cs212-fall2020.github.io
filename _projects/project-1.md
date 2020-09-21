@@ -5,10 +5,6 @@ layout: guides
 key: 2.1
 bump: true
 
-tags:
-  - text: 'New'
-    type: 'is-primary'
-
 assignments:
   - text: 'Project 1 Functionality'
     link: 'https://usfca.instructure.com/courses/1594619/assignments/6987885'
