@@ -834,19 +834,6 @@ weeks:
                 icon: *icon_code
                 link: 'https://github.com/usf-cs212-fall2020/lectures/tree/main/LambdaExpressions'
 
-              - text: 'Stream Basics'
-                icon: *icon_slides
-                link: 'https://docs.google.com/presentation/d/e/2PACX-1vQD1FPd4zMLyJO_TQbE1GM_uPe7EJEUEe1LtYXMeyAxzLYxiHnqktrfdGpy1IB2SM2iHP4C9YvVq-IQ/pub?start=false&loop=false&delayms=3000'
-                type: 'bump'
-
-              - text: 'Stream Pipelines'
-                icon: *icon_slides
-                link: 'https://docs.google.com/presentation/d/e/2PACX-1vS_fCBKBno20id01RNqaMuYn1nj4AG0V4UqgkYWqUJ0I0v_lVjtujUFF22At6R6w121qTz979ooZbBt/pub?start=false&loop=false&delayms=3000'
-
-              - text: 'Stream Pipelines'
-                icon: *icon_code
-                link: 'https://github.com/usf-cs212-fall2020/lectures/tree/main/StreamPipelines'
-
           - label: 'Assignments'
             dates: true
             items:
@@ -904,11 +891,58 @@ weeks:
         sections:
           - label: 'Content'
             items:
-              - text: 'Stream Pipelines'
-                type: 'has-text-grey'
 
-              - text: 'Logging'
-                type: 'has-text-grey'
+              - text: 'Stream Basics'
+                icon: *icon_video
+                link: 'https://usfca.zoom.us/rec/share/jsRSId-wXT_ZyqXF1q95Jq79P-HIEA455-DtQ_8kjTjfvXNMAg2cf54LpN8quTA.HA2RCadlzAWe3hjk?startTime=1600717632000'
+                more: '(<a href="https://docs.google.com/presentation/d/e/2PACX-1vQD1FPd4zMLyJO_TQbE1GM_uPe7EJEUEe1LtYXMeyAxzLYxiHnqktrfdGpy1IB2SM2iHP4C9YvVq-IQ/pub?start=false&loop=false&delayms=3000">Slides</a>)'
+                type: 'bump'
+
+              - text: 'Stream Pipelines'
+                icon: *icon_slides
+                more: '(<a href="https://docs.google.com/presentation/d/e/2PACX-1vS_fCBKBno20id01RNqaMuYn1nj4AG0V4UqgkYWqUJ0I0v_lVjtujUFF22At6R6w121qTz979ooZbBt/pub?start=false&loop=false&delayms=3000">Slides</a>)'
+                link: 'https://usfca.zoom.us/rec/share/euCQHq-SFwRC9XkvtJe2m6v-cLP4k9NKkZJOI9NeEl0zIAVD0qf5tI-yScIcvBEg.FkARHS1lJ15_XfGq?startTime=1600718947000'
+
+              - text: 'Project Euler with Streams (Optional)'
+                icon: *icon_video
+                type: 'bump'
+                more: '(<a href="https://github.com/usf-cs212-fall2020/lectures/blob/main/StreamPipelines/src/main/java/Problem1Revisited.java">Code</a>)'
+                link: 'https://usfca.zoom.us/rec/share/29a-oUBWpDBnx-UDY43kq36eXEWrJDYPaoWX1rAkv68n5cZINvheO5S9eYcmFTO5.tBqrT_24ne8yMRHC?startTime=1600720918000'
+
+              - text: 'Stream Demo'
+                icon: *icon_video
+                link: 'https://usfca.zoom.us/rec/share/gNVDfKcLFdfN_B_hxzIjb31jefcK6fnsd9PJlyhBaXXeZEmrOBaufbizqmB_MeTb.HzG9rnlVMR9Ep9It?startTime=1600722040000'
+                more: '(<a href="https://github.com/usf-cs212-fall2020/lectures/blob/main/StreamPipelines/src/main/java/StreamDemo.java">Code</a>)'
+                type: 'bump'
+
+              - text: 'Infinite Stream Demo'
+                icon: *icon_video
+                link: 'https://usfca.zoom.us/rec/share/tIoxYZLjDv4Z80xZ0HiNR06yyL4YFYrpx052N57eJ_Yp0H3Hza5cGO3ba8Nd11iJ.TncB7RwJCASF0mmh?startTime=1600724319000'
+                more: '(<a href="https://github.com/usf-cs212-fall2020/lectures/blob/main/StreamPipelines/src/main/java/InfiniteStreamDemo.java">Code</a>)'
+
+              - text: 'Text File Parser Demo (Part 1)'
+                icon: *icon_video
+                link: 'https://usfca.zoom.us/rec/share/nurTTyH7AIBDrdYFmThmAuWPKX3pi6dYo8Z_DI01f_Xtbc0MWvpmaRbYFrL-R7l7.tq486OiOGBsDToiC?startTime=1600726733000'
+                more: '(<a href="https://github.com/usf-cs212-fall2020/lectures/blob/main/LambdaExpressions/src/main/java/TextFileParser.java">Code</a>)'
+                type: 'bump'
+
+              - text: 'Text File Streamer Demo (Part 2)'
+                icon: *icon_video
+                link: 'https://usfca.zoom.us/rec/share/4jbiqjbvRA2xdfmmADO-f-sIqsuysGQYfG9l6mPEADI5ds70Gm4UpSK5sMZ0zakc.pf0OlnfVCOR1dSnk?startTime=1600728111000'
+                more: '(<a href="https://github.com/usf-cs212-fall2020/lectures/blob/main/StreamPipelines/src/main/java/TextFileStreamer.java">Code</a>)'
+
+              - text: 'Stream Pipelines'
+                icon: *icon_code
+                type: 'bump'
+                link: 'https://github.com/usf-cs212-fall2020/lectures/tree/main/StreamPipelines'
+
+          - label: 'Assignments'
+            dates: true
+            items:
+              - text: 'Streams'
+                icon: *icon_quiz
+                link: 'https://usfca.instructure.com/courses/1594619/quizzes/2364161'
+                date: 2020-09-24
 
           - label: 'Dates and Deadlines'
             dates: true
@@ -941,6 +975,11 @@ weeks:
                 link: 'https://usfca.instructure.com/courses/1594619/quizzes/2364165'
                 date: 2020-09-24
 
+              - text: 'Streams'
+                icon: *icon_quiz
+                link: 'https://usfca.instructure.com/courses/1594619/quizzes/2364161'
+                date: 2020-09-24
+
       - date: 2020-09-25
         sections:
           - label: 'Livestream'
@@ -956,10 +995,10 @@ weeks:
               - text: 'Project Help'
                 icon: *icon_project
 
-          - label: 'Assignments'
-            dates: true
-            items:
-              - <<: *loggingsetup
+          # - label: 'Assignments'
+          #   dates: true
+          #   items:
+          #     - <<: *loggingsetup
 
           - label: 'Dates and Deadlines'
             dates: true
@@ -1017,7 +1056,7 @@ weeks:
           - label: 'Dates and Deadlines'
             dates: true
             items:
-              - <<: *loggingsetup
+              # - <<: *loggingsetup
 
               - text: 'Week 07 Attendance'
                 date: 2020-10-02
