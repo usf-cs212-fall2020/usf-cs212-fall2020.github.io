@@ -971,6 +971,7 @@ weeks:
             items:
               - text: 'Exam 1 Review'
                 icon: *icon_exam
+                link: 'guides/exam-1.html'
 
           - label: 'Dates and Deadlines'
             dates: true
