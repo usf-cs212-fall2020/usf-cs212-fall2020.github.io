@@ -44,7 +44,7 @@ To request an update to your functionality grade, you must create a **project ve
 
   1. Verify the issue is automatically assigned to `josecorella`. Jose is the teacher assistant that will process these issues.
 
-  1. Verify the issue has the `verify` label automatically applied. We use this to tell the difference between verification and code review requests.
+  1. Verify the issue has the `verify` label automatically applied. We use this to tell the difference between (functionality) verification and code review requests.
 
   1. Add the project label, either `project1`, `project2`, `project3`, or `project4`, in all lowercase with no spaces. These labels should already exist. We use these labels to track how long it takes to progress on specific projects.
 
