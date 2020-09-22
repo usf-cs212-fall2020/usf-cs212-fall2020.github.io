@@ -19,7 +19,7 @@ This guide assumes you have already [setup your project](project-setup.html) and
 
 Before making a request, you should make sure you are eligible to have your functionality verified:
 
-  - Do you have credit for the functionality of the previous project (not applicable for project 1)? You can check your grades on [Canvas]({{ site.data.info.links.canvas.link }}). If you are missing a grade you should already have, please reach out to us on [Piazza]({{ site.data.info.links.piazza.link }})
+  - Do you have credit for the functionality of the previous project? You can check your grades on [Canvas]({{ site.data.info.links.canvas.link }}). If you are missing a grade you should already have, please reach out to us on [Piazza]({{ site.data.info.links.piazza.link }})
 
       *For example, if you are on project 3, you must already have a non-zero functionality grade for project 2. If you are on project 1, you can skip this check.*
 
