@@ -25,51 +25,6 @@ This list is not exhaustive, and exactly what we look for will vary by project.
 
 This process, while used for grading, is better viewed as a one-on-one personalized training on how to refactor *your* code. This process only works if you are the one that wrote your code!
 
-## Code Review Eligibility
-{: .page-header }
-
-Before making a code review request, you should make sure you are eligible:
-
-  - Do you have credit for the functionality of the current project?
-
-      *For example, if you want a design grade for project 3, you must already have a non-zero functionality grade for project 3.*
-
-  - Do you have credit for the design of the previous project?
-
-      *For example, if you are on project 3, you must already have a non-zero design grade for project 2.  If you are on project 1, you can skip this check.*
-
-  - Does your code compile without any Java or Javadoc warnings?
-
-      There are two ways to check this locally. First, [configure Eclipse to show you warnings](../eclipse/configuring-eclipse.html). Second, you can [install the Maven command](https://maven.apache.org/install.html) and run this from your project repository:
-
-      ```
-      mvn -ntp -f SearchEngine/pom.xml clean compile
-      ```
-
-      The command above assumes your working directory is the `project-username` directory where `username` is your Github username. This is the same command run by Github Actions to check for warnings.
-
-  - Does your code have a `B` rating or higher on [CodeClimate](https://codeclimate.com/dashboard)?
-
-      ![Screenshot]({{ "/images/code-climate-overview.png" | relative_url }}){: style="width: 500px;"}
-
-      *If your code does not have a `B` or higher rating, you need to address enough issues to raise that rating before signing up for code review.*
-
-  - Do you have a release for this project that 100% passed the verification action?
-
-  - Are there 0 commits to your `main` branch since your release? You can check for commits on the releases page:
-
-      ![Screenshot]({{ "/images/github-release-with-change.png" | relative_url }}){: style="width: 500px;"}  
-
-      *If you have made changes to your `main` branch, create a new release with the latest changes before requesting review. We need to know the code being reviewed passes the tests!*
-
-  - Was your previous appointment last week or earlier?
-
-      *You can request at most one code review appointment per week. This does not guarantee an appointment per week! If you request an appointment late in the week, it is unlikely you will get one that week.*
-
-If you answered yes to all of the above, you can request to have your project design graded through the code review process.
-
-You need to verify eligibility before *every* code review.
-
 ## One-Time Setup
 {: .page-header }
 
@@ -119,6 +74,51 @@ You need to setup the Github Action for requesting a code review. This involves 
 
 The "Request Review" action should now show up in your "Actions" tab on Github.
 
+## Code Review Eligibility
+{: .page-header }
+
+Before making a code review request, you should make sure you are eligible:
+
+  - Do you have credit for the functionality of the current project?
+
+      *For example, if you want a design grade for project 3, you must already have a non-zero functionality grade for project 3.*
+
+  - Do you have credit for the design of the previous project?
+
+      *For example, if you are on project 3, you must already have a non-zero design grade for project 2.  If you are on project 1, you can skip this check.*
+
+  - Does your code compile without any Java or Javadoc warnings?
+
+      There are two ways to check this locally. First, [configure Eclipse to show you warnings](../eclipse/configuring-eclipse.html). Second, you can [install the Maven command](https://maven.apache.org/install.html) and run this from your project repository:
+
+      ```
+      mvn -ntp -f SearchEngine/pom.xml clean compile
+      ```
+
+      The command above assumes your working directory is the `project-username` directory where `username` is your Github username. This is the same command run by Github Actions to check for warnings.
+
+  - Does your code have a `B` rating or higher on [CodeClimate](https://codeclimate.com/dashboard)?
+
+      ![Screenshot]({{ "/images/code-climate-overview.png" | relative_url }}){: style="width: 500px;"}
+
+      *If your code does not have a `B` or higher rating, you need to address enough issues to raise that rating before signing up for code review.*
+
+  - Do you have a release for this project that 100% passed the verification action?
+
+  - Are there 0 commits to your `main` branch since your release? You can check for commits on the releases page:
+
+      ![Screenshot]({{ "/images/github-release-with-change.png" | relative_url }}){: style="width: 500px;"}  
+
+      *If you have made changes to your `main` branch, create a new release with the latest changes before requesting review. We need to know the code being reviewed passes the tests!*
+
+  - Was your previous appointment last week or earlier?
+
+      *You can request at most one code review appointment per week. This does not guarantee an appointment per week! If you request an appointment late in the week, it is unlikely you will get one that week.*
+
+If you answered yes to all of the above, you can request to have your project design graded through the code review process.
+
+You need to verify eligibility before *every* code review.
+
 ## Requesting Code Review
 {: .page-header }
 
@@ -140,7 +140,9 @@ After completing the one-time setup and verifying your eligibility, follow these
 
   7. Click on the pull request and follow the remaining instructions on the pull request.
 
-  8. Publish the pull request. Once the TA verifies your pull request, you will receive instructions on how to sign up for an appointment.
+  8. Publish the pull request, but do not merge or close the request. Once the TA verifies your pull request, you will receive instructions on how to sign up for an appointment.
+
+  9. <strong class="has-text-danger"><i class="fas fa-exclamation-circle"></i> Do NOT merge or close the pull request!</strong> Keep it open and unmerged, even after the TA approves your request. It will be used in the actual code review appointment.
 
 You need to do this once per code review appointment until you pass the project design.
 
