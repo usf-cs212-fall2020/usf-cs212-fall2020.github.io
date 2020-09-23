@@ -44,7 +44,7 @@ To request an update to your functionality grade, you must create a **project ve
 
   1. Verify the issue is automatically assigned to `josecorella`. Jose is the teacher assistant that will process these issues.
 
-  1. Verify the issue has the `verify` label automatically applied. We use this to tell the difference between verification and code review requests.
+  1. Verify the issue has the `verify` label automatically applied. We use this to tell the difference between (functionality) verification and code review requests.
 
   1. Add the project label, either `project1`, `project2`, `project3`, or `project4`, in all lowercase with no spaces. These labels should already exist. We use these labels to track how long it takes to progress on specific projects.
 
@@ -58,7 +58,8 @@ Save and open the issue. For an example, see the [example issue](https://github.
 
 Within 10 minutes, the github-actions bot should add a comment to the issue. The bot will check for any issues with the issue title, assignees, labels, and milestone. If everything looks good, the bot will also attempt to verify whether the release passed the tests.
 
-If there are any issues, the github-actions bot will close the issue. You must make the required changes and re-open the issue to continue.
+If there are any issues, the github-actions bot will close the issue.
+If your issue gets closed by the bot, you must **make the required changes and re-open the issue ASAP** to continue. **You will not get credit for functionality until you do so.**
 
 If there are no issues, the issue will remain open for the teacher assistant. The teacher assistant will respond once your grade is updated on Canvas. If you haven't received a response in 48 hours, please post on Piazza.
 

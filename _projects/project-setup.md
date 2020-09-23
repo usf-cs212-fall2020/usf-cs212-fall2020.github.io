@@ -12,7 +12,7 @@ The project is broken into two separate Github repositories and Eclipse projects
 
   - **SearchEngineTest**: This is where the project tests files, and expected output files are located. Everyone shares the same read-only repository. It will start with the [Project 1](project-1.html) test files first and will be updated throughout the semester with new test files for the other projects.
 
-When we verify the functionality and review the design of your project, we will only checkout the **SearchEngine** project each time. This helps avoid having to re-copy the large test files over and over again.
+When we verify the functionality and review the design of your project, we will only checkout the **SearchEngine** repository each time. This helps avoid having to re-copy the large test files over and over again.
 
 ## Walkthrough Video
 
