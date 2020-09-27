@@ -111,23 +111,23 @@ The project tests account for different path separators (forward slash <code>/</
 The following are a few examples (non-comprehensive) to illustrate the usage of the command-line arguments. Consider the following example:
 
 ```
-java Driver -path "../../project-tests/Project Tests/input/text/simple/hello.txt"
+java Driver -path "../../project-tests/SearchEngineTest/input/text/simple/hello.txt"
             -index index-text-simple-hello.json
 ```
 
 The above arguments indicate that `Driver` should build an inverted index from the single `hello.txt` file in the `input/text/simple` subdirectory of the Project Test's directory, and output the inverted index as JSON to the `index-simple-hello.json` file in the current working directory.
 
 ```
-java Driver -path "../../project-tests/Project Tests/input/text/simple/" -index
+java Driver -path "../../project-tests/SearchEngineTest/input/text/simple/" -index
 ```
 
 The above arguments indicate that `Driver` should build an inverted index from all of the text files found in the `text/simple` subdirectory of the Project Test's directory, and output the inverted index as JSON to the default path `index.json` in the current working directory.
 
 ```
-java Driver -path "../../project-tests/Project Tests/input/text/simple/"
+java Driver -path "../../project-tests/SearchEngineTest/input/text/simple/"
 ```
 
-The above arguments indicate that `Driver` should build an inverted index from all of the HTML files found in the `input/text/simple` subdirectory of the Project Test's directory, but it should **NOT** produce an output file. It must still build the inverted index however! (This will be useful in the future when we add the ability to search.)
+The above arguments indicate that `Driver` should build an inverted index from all of the HTML files found in the `input/text/simple` subdirectory of the SearchEngineTest's directory, but it should **NOT** produce an output file. It must still build the inverted index however! (This will be useful in the future when we add the ability to search.)
 
 ## Hints
 
