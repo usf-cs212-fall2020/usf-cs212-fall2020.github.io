@@ -1035,6 +1035,7 @@ weeks:
               - text: 'Exam 1'
                 type: 'has-text-weight-bold has-text-danger'
                 icon: *icon_exam
+                link: 'https://usfca.instructure.com/courses/1594619/quizzes/2366641'
 
       - date: 2020-10-01
         sections:
