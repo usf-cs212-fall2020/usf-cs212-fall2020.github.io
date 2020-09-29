@@ -18,7 +18,11 @@ When creating an account for this class (including accounts already created), ke
 
 You can see the [instructor's profile page](https://github.com/sjengle) for an example. When done with this class, you'll be able to show off your Github profile to potential employers.
 
-If you are unfamiliar with `git` and GitHub, there are some fantastic guides you can look at to learn more:
+If you are unfamiliar with `git` and GitHub, I recommend watching this workshop put together by two CS 212 teacher assistants:
+
+- [Git 101 Workshop, Part 1](https://www.cs.usfca.edu/~tutoring/git_workshop_part_1.mp4)
+
+Here are some other fantastic guides you can look at to learn more:
 
 - [**GitHub Guides**](https://guides.github.com/)  
   Guides for learning more about GitHub by Github.
