@@ -1049,6 +1049,7 @@ weeks:
               - text: 'Exam 1 Retake'
                 type: 'has-text-weight-bold has-text-danger'
                 icon: *icon_exam
+                link: 'https://usfca.instructure.com/courses/1594619/quizzes/2366878'
 
       - date: 2020-10-02
         sections:
