@@ -164,7 +164,7 @@ The results of each code review may be:
 
 No matter how many resubmissions it takes, your grade will be based on **date of your first code review** for that project. Note this is the date of the actual appointment, not the date you requested an appointment. You must plan ahead!
 
-If the appointment date is after the checkpoint deadline, your grade will be deducted 10% (up to a maximum of 30%) per week. See the [Schedule](schedule.html) for the design deadlines.
+If the appointment date is after the checkpoint deadline, your grade will be deducted 10% (up to a maximum of 30%) per week. See the [Schedule](/schedule.html) for the design deadlines.
 
 Abuse of the code review process may also result in deductions. For example, ignoring issues from a previous code review or missing an appointment may result in –5% to –10% deductions.
 
