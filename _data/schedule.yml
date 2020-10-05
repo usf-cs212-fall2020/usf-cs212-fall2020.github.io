@@ -1062,12 +1062,8 @@ weeks:
         sections:
           - label: 'Content'
             items:
-              - text: 'Multithreading'
+              - text: 'Regular Expressions'
                 type: 'has-text-grey'
-
-          - label: 'Dates and Deadlines'
-            dates: true
-            items:
 
       - date: 2020-10-08
         sections:
@@ -1078,7 +1074,10 @@ weeks:
 
           - label: 'Lecture (Live)'
             items:
-              - text: 'Multithreading'
+              - text: 'Logging'
+                type: 'has-text-grey'
+
+              - text: 'Multithreading: Introduction'
                 type: 'has-text-grey'
 
       - date: 2020-10-09
@@ -1127,7 +1126,7 @@ weeks:
         sections:
           - label: 'Content'
             items:
-              - text: 'Multithreading'
+              - text: 'Multithreading: Basics'
                 type: 'has-text-grey'
 
           - label: 'Dates and Deadlines'
@@ -1144,7 +1143,7 @@ weeks:
 
           - label: 'Lecture (Live)'
             items:
-              - text: 'Multithreading'
+              - text: 'Multithreading: Synchronization'
                 type: 'has-text-grey'
 
       - date: 2020-10-16
@@ -1183,7 +1182,7 @@ weeks:
         sections:
           - label: 'Content'
             items:
-              - text: 'Regular Expressions'
+              - text: 'Multithreading: Other Concepts'
                 type: 'has-text-grey'
 
       - date: 2020-10-22
@@ -1195,7 +1194,7 @@ weeks:
 
           - label: 'Lecture (Live)'
             items:
-              - text: 'Software Testing'
+              - text: 'Multithreading: Work Queues'
                 type: 'has-text-grey'
 
       - date: 2020-10-23
@@ -1235,6 +1234,9 @@ weeks:
         sections:
           - label: 'Content'
             items:
+              - text: 'Web Basics'
+                type: 'has-text-grey'
+
               - text: 'Sockets'
                 type: 'has-text-grey'
 
@@ -1374,6 +1376,9 @@ weeks:
               - text: 'SQL'
                 type: 'has-text-grey'
 
+              - text: 'Exam 2 Review'
+                type: 'has-text-grey'
+
       - date: 2020-11-13
         sections:
           - label: 'Livestream'
@@ -1454,11 +1459,6 @@ weeks:
 
               - <<: *htmlcleaner
 
-              # - text: 'Week 14 Attendance'
-              #   date: 2020-11-20
-              #   icon: *icon_attendance
-              #   link: 'https://usfca.instructure.com/courses/1594619/assignments/6987936'
-
   - week: 15
     days:
       - date: 2020-11-24
@@ -1494,7 +1494,10 @@ weeks:
         sections:
           - label: 'Content'
             items:
-              - text: 'JDBC'
+              - text: 'Software Testing'
+                type: 'has-text-grey'
+
+              - text: 'Evaluations'
                 type: 'has-text-grey'
 
           - label: 'Dates and Deadlines'
@@ -1512,6 +1515,9 @@ weeks:
           - label: 'Lecture (Live)'
             items:
               - text: 'JDBC'
+                type: 'has-text-grey'
+
+              - text: 'Search Engine Demo'
                 type: 'has-text-grey'
 
               - text: "What's Next"
