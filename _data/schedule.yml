@@ -1025,11 +1025,6 @@ weeks:
     days:
       - date: 2020-09-29
         sections:
-          # - label: 'Livestream'
-          #   items:
-          #     - zoom: lecture1
-          #     - zoom: lecture2
-
           - label: 'Lecture (Live)'
             items:
               - text: 'Exam 1'
@@ -1062,8 +1057,29 @@ weeks:
         sections:
           - label: 'Content'
             items:
-              - text: 'Regular Expressions'
-                type: 'has-text-grey'
+              - text: 'Learning Regular Expressions'
+                icon: *icon_video
+                link: 'https://www.linkedin.com/learning/learning-regular-expressions-2/'
+
+              - icon: *icon_nothing
+                more: '*<em>Login via <a href="https://myusf.usfca.edu/ets/educational-technologies/linkedin">MyUSF</a></em>'
+
+              - text: 'Regular Expressions in Java'
+                icon: *icon_video
+                link: 'https://www.youtube.com/playlist?list=PLm6V-0HXZmF0-si4t072pEON5BNVyss2g'
+                type: 'bump'
+
+              - text: 'Regular Expressions in Java'
+                icon: *icon_code
+                link: 'https://github.com/usf-cs212-fall2020/lectures/tree/main/RegularExpressions'
+
+          - label: 'Assignments'
+            dates: true
+            items:
+              - text: 'Regex Basics'
+                icon: *icon_quiz
+                date: 2020-10-08
+                link: 'https://usfca.instructure.com/courses/1594619/quizzes/2364182'
 
       - date: 2020-10-08
         sections:
@@ -1079,6 +1095,17 @@ weeks:
 
               - text: 'Multithreading: Introduction'
                 type: 'has-text-grey'
+
+          - label: 'Dates and Deadlines'
+            dates: true
+            items:
+              - text: 'Due BEFORE Class'
+                icon: *icon_time
+
+              - text: 'Regex Basics'
+                icon: *icon_quiz
+                date: 2020-10-08
+                link: 'https://usfca.instructure.com/courses/1594619/quizzes/2364182'
 
       - date: 2020-10-09
         sections:
