@@ -1039,11 +1039,6 @@ weeks:
 
       - date: 2020-10-01
         sections:
-          # - label: 'Livestream'
-          #   items:
-          #     - zoom: lecture1
-          #     - zoom: lecture2
-
           - label: 'Lecture (Live)'
             items:
               - text: 'Exam 1 Retake'
@@ -1053,11 +1048,6 @@ weeks:
 
       - date: 2020-10-02
         sections:
-          # - label: 'Livestream'
-          #   items:
-          #     - zoom: lab1
-          #     - zoom: lab2
-
           - label: 'TA Hours'
             items:
               - text: 'Homework Help'
@@ -1065,14 +1055,6 @@ weeks:
 
               - text: 'Project Help'
                 icon: *icon_project
-
-          - label: 'Dates and Deadlines'
-            dates: true
-            items:
-              - text: 'Week 07 Attendance'
-                date: 2020-10-02
-                icon: *icon_attendance
-                link: 'https://usfca.instructure.com/courses/1594619/assignments/6987927'
 
   - week: 8
     days:
@@ -1086,7 +1068,6 @@ weeks:
           - label: 'Dates and Deadlines'
             dates: true
             items:
-              - <<: *project1d
 
       - date: 2020-10-08
         sections:
@@ -1118,6 +1099,8 @@ weeks:
           - label: 'Assignments'
             dates: true
             items:
+              - <<: *project1d
+
               - <<: *loggingsetup
 
               - text: 'Piazza Participation 2'
@@ -1255,11 +1238,6 @@ weeks:
               - text: 'Sockets'
                 type: 'has-text-grey'
 
-          - label: 'Dates and Deadlines'
-            dates: true
-            items:
-              - <<: *project2d
-
       - date: 2020-10-29
         sections:
           - label: 'Livestream'
@@ -1304,18 +1282,19 @@ weeks:
           - label: 'Dates and Deadlines'
             dates: true
             items:
+              - text: 'Withdraw Deadline'
+                type: 'has-text-weight-bold has-text-danger'
+                icon: *icon_date
+
+              - <<: *project2d
+                type: 'has-text-usf-plum bump'
+
               - <<: *primefinder
 
               - text: 'Week 11 Attendance'
                 date: 2020-10-30
                 icon: *icon_attendance
                 link: 'https://usfca.instructure.com/courses/1594619/assignments/6987932'
-
-              - text: 'Withdraw Deadline'
-                date: 2020-10-30
-                show: true
-                icon: *icon_date
-                type: 'bump'
 
   - week: 12
     days:
@@ -1440,11 +1419,6 @@ weeks:
                 type: 'has-text-weight-bold has-text-danger'
                 icon: *icon_exam
 
-          - label: 'Dates and Deadlines'
-            dates: true
-            items:
-              - <<: *project3d
-
       - date: 2020-11-19
         sections:
           - label: 'Livestream'
@@ -1467,18 +1441,23 @@ weeks:
 
           - label: 'TA Hours'
             items:
+              - text: 'Homework Help'
+                icon: *icon_homework
+
               - text: 'Project Help'
                 icon: *icon_project
 
           - label: 'Dates and Deadlines'
             dates: true
             items:
+              - <<: *project3d
+
               - <<: *htmlcleaner
 
-              - text: 'Week 14 Attendance'
-                date: 2020-11-20
-                icon: *icon_attendance
-                link: 'https://usfca.instructure.com/courses/1594619/assignments/6987936'
+              # - text: 'Week 14 Attendance'
+              #   date: 2020-11-20
+              #   icon: *icon_attendance
+              #   link: 'https://usfca.instructure.com/courses/1594619/assignments/6987936'
 
   - week: 15
     days:
