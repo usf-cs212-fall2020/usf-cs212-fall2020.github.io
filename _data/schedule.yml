@@ -1091,23 +1091,23 @@ weeks:
           - label: 'Lecture (Live)'
             items:
               - text: 'Assertions'
-                type: *icon_slides
+                icon: *icon_slides
                 link: 'https://docs.google.com/presentation/d/e/2PACX-1vQLZuIGjcv7uS70ksf_1mgvrQleLkcNcmlyd5uDU5OOWbzKb4VAbMJwPpNR6RLvMeN3tbKyUh6vifBC/pub?start=false&loop=false&delayms=3000'
 
               - text: 'Logging'
-                type: *icon_slides
+                icon: *icon_slides
                 link: 'https://docs.google.com/presentation/d/e/2PACX-1vRILLDXMyJUyh2Ismcj_vFxn5Niz6l2aWrczI4hoZS9N-mW8VnY1bXS22A9PEjQ92HGhsczUr3eZMUE/pub?start=false&loop=false&delayms=3000'
 
           - label: 'Assignments'
             dates: true
             items:
               - text: 'Assertions'
-                type: *icon_quiz
+                icon: *icon_quiz
                 link: 'https://usfca.instructure.com/courses/1594619/quizzes/2364168'
                 date: 2020-10-15
 
               - text: 'Logging'
-                type: *icon_quiz
+                icon: *icon_quiz
                 date: 2020-10-15
                 link: 'https://usfca.instructure.com/courses/1594619/quizzes/2364166'
 
@@ -1192,12 +1192,12 @@ weeks:
             dates: true
             items:
               - text: 'Assertions'
-                type: *icon_quiz
+                icon: *icon_quiz
                 link: 'https://usfca.instructure.com/courses/1594619/quizzes/2364168'
                 date: 2020-10-15
 
               - text: 'Logging'
-                type: *icon_quiz
+                icon: *icon_quiz
                 date: 2020-10-15
                 link: 'https://usfca.instructure.com/courses/1594619/quizzes/2364166'
 
