@@ -1083,10 +1083,15 @@ weeks:
 
       - date: 2020-10-08
         sections:
-          - label: 'Livestream'
+          - label: 'Recordings'
             items:
-              - zoom: lecture1
-              - zoom: lecture2
+              - text: 'CS 212-01 Lecture'
+                icon: *icon_video
+                link: 'https://usfca.zoom.us/rec/share/Wir6b3YDse0bQCvc81E_15Blc5N29_GuQjxFEppYaIh75gtyRiO1isA9ER-Errg.sU1B89-ATY8bviVn?startTime=1602186063000'
+
+              - text: 'CS 212-02 Lecture'
+                icon: *icon_video
+                link: 'https://usfca.zoom.us/rec/share/W3b59xwn1VbMIXCTzgw_o3cqlOxBO6AQb8vxqMGaeWKSYlaJ7R4gUDaYCUKNidf3.1-_uw4HXjZ2S_ze8?startTime=1602199512000'
 
           - label: 'Lecture (Live)'
             items:
