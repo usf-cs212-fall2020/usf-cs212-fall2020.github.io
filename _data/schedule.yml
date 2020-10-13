@@ -1129,11 +1129,6 @@ weeks:
 
       - date: 2020-10-09
         sections:
-          - label: 'Livestream'
-            items:
-              - zoom: lab1
-              - zoom: lab2
-
           - label: 'TA Hours'
             items:
               - text: 'Homework Help'
@@ -1173,8 +1168,57 @@ weeks:
         sections:
           - label: 'Content'
             items:
-              - text: 'Multithreading: Basics'
-                type: 'has-text-grey'
+              - text: 'Multithreading Basics'
+                icon: *icon_video
+                link: 'https://usfca.zoom.us/rec/share/LHk99cL4tlBXaeSI8tuhSTJirOXctT8mDBKsC9hdA_ckmGTywwSF2-AiJ26lV6ss.s7OwBMqQb86nQ5RJ?startTime=1585020638000'
+                more: '(<a href="https://docs.google.com/presentation/d/e/2PACX-1vS8ND2vrfpyQRmHkPTbaD1J0FJmcuTJ9Fz2hRMXXthKZCQG-TFiSDL_BzKZP_triwmlyHnbPuOvQreR/pub?start=false&loop=false&delayms=3000">Slides</a>)'
+
+              - text: 'Thread Lifecycle'
+                icon: *icon_video
+                type: 'bump'
+                link: 'https://usfca.zoom.us/rec/share/2uBd2qnRDsu2lGVnALDdKRP9pzGjElZgpU0GdRq28nNwISAQzBbMFoPV29FL-eI.MhZhXFqHe-qhdI87?startTime=1585021696000'
+                more: '(<a href="https://docs.google.com/presentation/d/e/2PACX-1vQ4htqxS-iKhPZIf_Z9oak0MiEYiZm3rRczVdMpLaFDi0Pf4FWCgdmCKCTFEAfZs6mg2nWOZ9-NWGyE/pub?start=false&loop=false&delayms=3000">Slides</a>)'
+
+              - text: 'Thread State Demo'
+                icon: *icon_video
+                link: 'https://usfca.zoom.us/rec/share/LHMLyCqDjA_kvkpF1TQAJ39lDA6eWldOssrqkUtUmRv_6yOzZTR_OlYcsNYe3Y5G.a6s-Dmonawwc62HP?startTime=1585025584000'
+                more: '(<a href="https://github.com/usf-cs212-fall2020/lectures/blob/main/MultithreadingBasics/src/main/java/ThreadStateDemo.java">Code</a>)'
+
+              - text: 'Synchronization'
+                icon: *icon_video
+                type: 'bump'
+                link: 'https://usfca.zoom.us/rec/share/-ty9G7zfYfD1YjsHNqEu3wB6NRPdBw7leFvngcG4bZSThLemXijAznb-Hh5jTfYa.dR1SXY29jKQy024M?startTime=1585023083000'
+                more: '(<a href="https://docs.google.com/presentation/d/e/2PACX-1vSmLbpqA5l9aUbVmzca1YzKCV7TqKKbxN0DxSOEG1ynRFxkJLxhUoLexExYxC9hcEL-IShXZaGEEW85/pub?start=false&loop=false&delayms=3000">Slides</a>)'
+
+              - text: 'Liveness'
+                icon: *icon_video
+                link: 'https://usfca.zoom.us/rec/share/FlwwudRsaUa9SO5m6QRzTih-qamb0_jWKzeXcvZ2_wnIlXp2hO6a8P84ukNXy57o.ie0VtPFujaBsVgOk?startTime=1585024454000'
+                more: '(<a href="https://docs.google.com/presentation/d/e/2PACX-1vT8s8_xfa2GXOUKbQ0BgiMcu4kv53oUKqDI2oPoqVEmc-ei3doKVZbd3mGfFWZxwpCWGz_2UrOxWVkb/pub?start=false&loop=false&delayms=3000">Slides</a>)'
+
+              - text: 'Random Array Total'
+                icon: *icon_video
+                type: 'bump'
+                link: 'https://usfca.zoom.us/rec/share/mUX-Wf78VAa8YYfCMsWA9an6jwsFVw9TAHR9hgIGqrpcZFgmNdHqh2xWUZEGQGAV.Pnfn_mQW2ia830cu?startTime=1585027842000'
+                more: '(<a href="https://github.com/usf-cs212-fall2020/lectures/blob/main/MultithreadingBasics/src/main/java/RandomArrayTotal.java">Code</a>)'
+
+              - text: 'Bounded Buffer'
+                type: 'bump'
+                icon: *icon_video
+                link: 'https://usfca.zoom.us/rec/share/nBq322oFMBoTBgg9G862Y9FhLj8EmolCj5qGRUNhp5MQYpYz5YuEGuo0EtCwW3c9.tdOPrp9T8BAGpNjC?startTime=1585070553000'
+                more: '(Optional, <a href="https://github.com/usf-cs212-fall2020/lectures/tree/main/MultithreadingBasics/src/main/java">Code</a>)'
+
+          - label: 'Assignments'
+            dates: true
+            items:
+              - text: 'Thread Basics'
+                icon: *icon_quiz
+                link: 'https://usfca.instructure.com/courses/1594619/quizzes/2364169'
+                date: 2020-10-15
+
+              - text: 'Thread Demo Discussion'
+                icon: *icon_participation
+                link: 'https://usfca.instructure.com/courses/1594619/discussion_topics/7939458'
+                date: 2020-10-15
 
           - label: 'Dates and Deadlines'
             dates: true
@@ -1196,6 +1240,23 @@ weeks:
           - label: 'Dates and Deadlines'
             dates: true
             items:
+              - text: 'Due BEFORE Class'
+                icon: *icon_time
+
+              - text: 'Thread Basics'
+                icon: *icon_quiz
+                link: 'https://usfca.instructure.com/courses/1594619/quizzes/2364169'
+                date: 2020-10-15
+
+              - text: 'Thread Demo Discussion'
+                icon: *icon_participation
+                link: 'https://usfca.instructure.com/courses/1594619/discussion_topics/7939458'
+                date: 2020-10-15
+
+              - text: 'Due at 11:59pm'
+                icon: *icon_time
+                type: 'bump'
+
               - text: 'Assertions'
                 icon: *icon_quiz
                 link: 'https://usfca.instructure.com/courses/1594619/quizzes/2364168'
