@@ -1234,8 +1234,21 @@ weeks:
 
           - label: 'Lecture (Live)'
             items:
-              - text: 'Multithreading: Synchronization'
-                type: 'has-text-grey'
+              - text: 'Synchronization'
+                icon: *icon_slides
+                link: 'https://docs.google.com/presentation/d/e/2PACX-1vSmLbpqA5l9aUbVmzca1YzKCV7TqKKbxN0DxSOEG1ynRFxkJLxhUoLexExYxC9hcEL-IShXZaGEEW85/pub?start=false&loop=false&delayms=3000'
+
+              - text: 'Synchronization'
+                icon: *icon_code
+                link: 'https://github.com/usf-cs212-fall2020/lectures/tree/main/MultithreadingSynchronization'
+
+          - label: 'Assignments'
+            dates: true
+            items:
+              - text: 'Synchronization'
+                icon: *icon_quiz
+                date: 2020-10-22
+                link: 'https://usfca.instructure.com/courses/1594619/quizzes/2364170'
 
           - label: 'Dates and Deadlines'
             dates: true
@@ -1303,8 +1316,65 @@ weeks:
         sections:
           - label: 'Content'
             items:
-              - text: 'Multithreading: Other Concepts'
-                type: 'has-text-grey'
+              - text: 'Custom Locks'
+                icon: *icon_video
+                link: 'https://usfca.zoom.us/rec/share/cLweJf_WoZEOQOHLeexdfSwnin6iscF_RlrsozhUeA9FfFsydoMNGG6m-A0BilWN.G6SRAzDqqqHYLkgM?startTime=1585519600000'
+                more: '(<a href="https://docs.google.com/presentation/d/e/2PACX-1vQoYj1qXLVA-T_ialT92k57JjdZco9lxpos2iBLZ0XqaaVcqCXDyMueiE4aCJ1N_yilZvlangOlANYE/pub?start=false&loop=false&delayms=3000">Slides</a>)'
+
+              - text: 'Indexed Set Demo'
+                icon: *icon_video
+                type: 'bump'
+                link: 'https://usfca.zoom.us/rec/share/2YutjPz4d_iA7dnbBOj1IJTN2XVdh4m1O39aVoYUqV8Wvh_FnlNY81SH8NuaXRfX.FGRAEXcQVDELeLjK'
+                more: '(Playlist)'
+
+              - text: 'IndexedSet'
+                icon: *icon_nothing
+                link: 'https://usfca.zoom.us/rec/share/Mt2bDeU_8ZgXm6SAlgcAEwM8UcIdtz5h9lNvgxW5QBhJy2sGQrmKwUoEO9hVkpJd.izPLay8P-l00zuw_?startTime=1585523183000'
+                more: '(<a href="https://github.com/usf-cs212-fall2020/lectures/blob/main/MultithreadingSynchronization/src/main/java/IndexedSet.java">Code</a>)'
+
+              - text: 'SynchronizedSet'
+                icon: *icon_nothing
+                link: 'https://usfca.zoom.us/rec/share/Mt2bDeU_8ZgXm6SAlgcAEwM8UcIdtz5h9lNvgxW5QBhJy2sGQrmKwUoEO9hVkpJd.izPLay8P-l00zuw_?startTime=1585523624000'
+                more: '(<a href="https://github.com/usf-cs212-fall2020/lectures/blob/main/MultithreadingSynchronization/src/main/java/SynchronizedSet.java">Code</a>)'
+
+              - text: 'ConcurrentSet'
+                icon: *icon_nothing
+                link: 'https://usfca.zoom.us/rec/share/Mt2bDeU_8ZgXm6SAlgcAEwM8UcIdtz5h9lNvgxW5QBhJy2sGQrmKwUoEO9hVkpJd.izPLay8P-l00zuw_?startTime=1585524096000'
+                more: '(<a href="https://github.com/usf-cs212-fall2020/lectures/blob/main/MultithreadingSynchronization/src/main/java/ConcurrentSet.java">Code</a>)'
+
+              - text: 'SetDemo'
+                icon: *icon_nothing
+                link: 'https://usfca.zoom.us/rec/share/Mt2bDeU_8ZgXm6SAlgcAEwM8UcIdtz5h9lNvgxW5QBhJy2sGQrmKwUoEO9hVkpJd.izPLay8P-l00zuw_?startTime=1585524542000'
+                more: '(<a href="https://github.com/usf-cs212-fall2020/lectures/blob/main/MultithreadingSynchronization/src/main/java/SetDemo.java">Code</a>)'
+
+              - text: 'Volatile Keyword'
+                icon: *icon_video
+                type: 'bump'
+                link: 'https://usfca.zoom.us/rec/share/7KtbVo63JZwvMB1WwBaPf51KCijW1AQm49bvflpCZzEAgpeqB42KmLTaItXI0Vwe.C32Ct1_NOV4_bYgw?startTime=1585520837000'
+                more: '(<a href="https://docs.google.com/presentation/d/e/2PACX-1vT_oaCxYE96J-6QVRIzouWGEA5POWE1z2ONTRfvk7HoZocjTle4_U9Kj9A2P3bUKnzPt_ZLfqmB6-SE/pub?start=false&loop=false&delayms=3000">Slides</a>)'
+
+              - text: 'Thread Pools and Work Queues'
+                icon: *icon_video
+                link: 'https://usfca.zoom.us/rec/share/-mQt9foL5BLUGFpzNTj-XjEiKGi66BPfBCDW8IoEZ4UA9a0kMWPlMwyw4Ns7CJI8.s1C5g9LBdYv09ZLX?startTime=1585521602000'
+                more: '(<a href="https://docs.google.com/presentation/d/e/2PACX-1vQFW-o5-YNRauzCiaEtqsKQzBS22MvvQNBKEFU7b8IGPtyj5g4bCYQTu9lvVgF29wKMlwyVQjF9WV3o/pub?start=false&loop=false&delayms=3000">Slides</a>)'
+
+              - text: 'Work Queue Implementation'
+                icon: *icon_video
+                link: 'https://usfca.zoom.us/rec/share/JFE9jGPXi6pl4AFy7DuKzHyGsROTKENQ3_b1yeqS-5JtT_uPt8E6e00U6zbzN7iN.BfjuUF2fo_Z7XjoB?startTime=1585525726000'
+                more: '(<a href="https://github.com/usf-cs212-fall2020/lectures/blob/main/MultithreadingWorkQueues/src/main/java/WorkQueue.java">Code</a>)'
+
+          - label: 'Assignments'
+            dates: true
+            items:
+              - text: 'Work Queues'
+                icon: *icon_quiz
+                date: 2020-10-22
+                link: 'https://usfca.instructure.com/courses/1594619/quizzes/2364159'
+
+              - text: 'IndexedSet Discussion'
+                icon: *icon_participation
+                date: 2020-10-22
+                link: 'https://usfca.instructure.com/courses/1594619/discussion_topics/7939492'
 
       - date: 2020-10-22
         sections:
@@ -1315,8 +1385,34 @@ weeks:
 
           - label: 'Lecture (Live)'
             items:
-              - text: 'Multithreading: Work Queues'
-                type: 'has-text-grey'
+              - text: 'Work Queues'
+                icon: *icon_code
+                link: 'https://github.com/usf-cs212-fall2020/lectures/tree/main/MultithreadingWorkQueues'
+
+          - label: 'Dates and Deadlines'
+            dates: true
+            items:
+              - text: 'Due BEFORE Class'
+                icon: *icon_time
+
+              - text: 'Work Queues'
+                icon: *icon_quiz
+                date: 2020-10-22
+                link: 'https://usfca.instructure.com/courses/1594619/quizzes/2364159'
+
+              - text: 'IndexedSet Discussion'
+                icon: *icon_participation
+                date: 2020-10-22
+                link: 'https://usfca.instructure.com/courses/1594619/discussion_topics/7939492'
+
+              - text: 'Due at 11:59pm'
+                icon: *icon_time
+                type: 'bump'
+
+              - text: 'Synchronization'
+                icon: *icon_quiz
+                date: 2020-10-22
+                link: 'https://usfca.instructure.com/courses/1594619/quizzes/2364170'
 
       - date: 2020-10-23
         sections:
