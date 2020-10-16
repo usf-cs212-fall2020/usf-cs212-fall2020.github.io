@@ -1227,10 +1227,15 @@ weeks:
 
       - date: 2020-10-15
         sections:
-          - label: 'Livestream'
+          - label: 'Recordings'
             items:
-              - zoom: lecture1
-              - zoom: lecture2
+              - text: 'CS 212-01 Lecture'
+                icon: *icon_video
+                link: 'https://usfca.zoom.us/rec/share/rwoegg-4ZGqiPgtUZ-CCgV0aq7DZKovDGHfDHFImSEhM5lKTXk3sokz6IZUWPdno.y7S7upAYcF4Y7AW-?startTime=1602790121000'
+
+              - text: 'CS 212-02 Lecture'
+                icon: *icon_video
+                link: 'https://usfca.zoom.us/rec/share/-1-Z7hssDms6JUdfC4By8hyK9Opd5-TEeS6zEkFdyE7EDoQ_0DQmtFfA8s4w92ux.yNk0HHVBMEbZw8IC?startTime=1602804008000'
 
           - label: 'Lecture (Live)'
             items:
@@ -1282,11 +1287,6 @@ weeks:
 
       - date: 2020-10-16
         sections:
-          - label: 'Livestream'
-            items:
-              - zoom: lab1
-              - zoom: lab2
-
           - label: 'TA Hours'
             items:
               - text: 'Homework Help'
