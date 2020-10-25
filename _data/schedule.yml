@@ -1449,11 +1449,67 @@ weeks:
         sections:
           - label: 'Content'
             items:
-              - text: 'Web Basics'
-                type: 'has-text-grey'
+              - text: 'Web, HTTP, and HTML'
+                link: 'https://www.youtube.com/playlist?list=PLm6V-0HXZmF2VBZ1DNto-e6lG_zggopxz'
+                icon: *icon_video
 
-              - text: 'Sockets'
-                type: 'has-text-grey'
+              - text: 'Web Basics'
+                link: 'https://youtu.be/ajv8lkb0gxA'
+                more: '(<a href="https://drive.google.com/file/d/0BxYofk0iB_upNTVsMXdsa1F2bzg/view">Slides</a>, Optional)'
+                icon: *icon_nothing
+
+              - text: 'URL Basics'
+                link: 'https://youtu.be/cI-VhGh5P2c'
+                more: '(<a href="https://drive.google.com/file/d/0BxYofk0iB_upMUxuOWRuaUVIalU/view">Slides</a>, Optional)'
+                icon: *icon_nothing
+
+              - text: 'HTTP Basics'
+                link: 'https://youtu.be/L5UP8-3gA44'
+                more: '(<a href="https://drive.google.com/file/d/0BxYofk0iB_upTEhpWEw0TE9WSDA/view">Slides</a>)'
+                icon: *icon_nothing
+
+              - text: 'HTML Basics'
+                link: 'https://youtu.be/WwUHj6NAOjg'
+                more: '(<a href="https://drive.google.com/file/d/0BxYofk0iB_updW1qdnJEOXlMcTg/view">Slides</a>, Optional)'
+                icon: *icon_nothing
+
+              - text: 'Simple Sockets'
+                link: 'https://usfca.zoom.us/rec/share/1nE_2TgZxSvpyo99PNMwksYW8fNLgM_0OcTBgmmEZVmqIITSlHvw92ryTs5bwm0h.Hv2zqURWp0kmxGgY?startTime=1586139307000'
+                type: 'bump'
+                icon: *icon_video
+                more: '(<a href="https://github.com/usf-cs212-2020/lectures/tree/master/Sockets">Code</a>)'
+
+              - text: 'Dynamic Webpages'
+                link: 'https://usfca.zoom.us/rec/share/7KvTE5q-MoBiQH5-baSdv2kFyOzqm0kD-aufNOrxsXxT8bLizi-yG8ePF9qehnY2.pp3AfAMtyaiXnJZc?startTime=1586136729000'
+                type: 'bump'
+                icon: *icon_video
+                more: '(<a href="https://drive.google.com/open?id=0BxYofk0iB_upY1ozdHk5VVYycUE">Slides</a>)'
+
+              - text: 'Jetty and Servlets'
+                link: 'https://usfca.zoom.us/rec/share/pVBbE2AwBjPRPG6C-js_6jMmd5JT30iw869cBctQlcMTYac5WxTvUT1rlvNb_m4W.nqdLllLcxQkkQzGU?startTime=1586137298000'
+                icon: *icon_video
+                more: '(<a href="https://drive.google.com/open?id=0BxYofk0iB_upZFFPWUZocmdtLWM">Slides</a>)'
+
+          - label: 'Assignments'
+            dates: true
+            items:
+              - text: 'Due NEXT Week'
+                icon: *icon_time
+
+              - text: 'Web Basics'
+                link: 'https://usfca.instructure.com/courses/1594619/quizzes/2364163'
+                icon: *icon_quiz
+                date: 2020-11-03
+
+              - text: 'HTTP Basics'
+                link: 'https://usfca.instructure.com/courses/1594619/quizzes/2364173'
+                icon: *icon_quiz
+                date: 2020-11-03
+
+              - text: 'Dynamic Webpages'
+                link: 'https://usfca.instructure.com/courses/1594619/quizzes/2364176'
+                icon: *icon_quiz
+                date: 2020-11-03
 
       - date: 2020-10-29
         sections:
@@ -1528,6 +1584,22 @@ weeks:
             dates: true
             items:
               - <<: *project3f
+
+              - text: 'Web Basics'
+                link: 'https://usfca.instructure.com/courses/1594619/quizzes/2364163'
+                icon: *icon_quiz
+                date: 2020-11-03
+                type: 'bump'
+
+              - text: 'HTTP Basics'
+                link: 'https://usfca.instructure.com/courses/1594619/quizzes/2364173'
+                icon: *icon_quiz
+                date: 2020-11-03
+
+              - text: 'Dynamic Webpages'
+                link: 'https://usfca.instructure.com/courses/1594619/quizzes/2364176'
+                icon: *icon_quiz
+                date: 2020-11-03
 
       - date: 2020-11-05
         sections:
