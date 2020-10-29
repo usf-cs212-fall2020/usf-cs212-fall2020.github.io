@@ -1521,8 +1521,13 @@ weeks:
 
           - label: 'Lecture (Live)'
             items:
+              - text: 'Sockets'
+                icon: *icon_code
+                link: 'https://github.com/usf-cs212-fall2020/lectures/tree/main/Sockets'
+
               - text: 'Servlets'
-                type: 'has-text-grey'
+                icon: *icon_code
+                link: 'https://github.com/usf-cs212-fall2020/lectures/tree/main/ServletBasics'
 
           - label: 'Dates and Deadlines'
             dates: true
