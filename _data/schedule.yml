@@ -1665,7 +1665,8 @@ weeks:
           - label: 'Lecture (Live)'
             items:
               - text: 'Sessions'
-                type: 'has-text-grey'
+                icon: *icon_code
+                link: 'https://github.com/usf-cs212-fall2020/lectures/tree/main/Sessions'
 
       - date: 2020-11-06
         sections:
