@@ -1583,8 +1583,56 @@ weeks:
         sections:
           - label: 'Content'
             items:
-              - text: 'Servlets'
-                type: 'has-text-grey'
+              - text: 'Simple File Server'
+                icon: *icon_video
+                link: 'https://usfca.zoom.us/rec/share/ylOdkjYRdHPxT5ErT3oMlsNmzEi4PSd3MRYZgiA66JP05S5fSbcArQDuClhR2Cjw.bMs47Zg6CtsIDiHs?startTime=1586820856000'
+                more: '(<a href="https://github.com/usf-cs212-fall2020/lectures/blob/main/ServletBasics/src/main/java/SimpleFileServer.java">Code</a>)'
+
+              - text: 'Gallery Server'
+                icon: *icon_video
+                link: 'https://usfca.zoom.us/rec/share/yWzPiuOryYY2bbSOdVJtgdNIIjyH-sPpyYNh_Akn4Yx5T8CS_qYyr-fwbEER7fbd.mjY5QyBSYakSpg8B?startTime=1586823388000'
+                more: '(<a href="https://github.com/usf-cs212-fall2020/lectures/blob/main/ServletBasics/src/main/java/GalleryServer.java">Code</a>)'
+
+              - text: 'Context Server'
+                icon: *icon_video
+                link: 'https://usfca.zoom.us/rec/share/jC8CM2ZhCnwrXtV83BEydpp2tF4iRFZZF3rbY1qXwLWL5Uo_Zd1mVJHpM_GFHvbO.g_-ImH_8cM6i6hyb?startTime=1586822257000'
+                more: '(<a href="https://github.com/usf-cs212-fall2020/lectures/blob/main/ServletBasics/src/main/java/ContextServer.java">Code</a>)'
+
+              - text: 'Message Board Demo'
+                type: 'bump has-text-weight-bold'
+                icon: *icon_code
+                link: 'https://github.com/usf-cs212-fall2020/lectures/tree/main/ServletData'
+
+              - text: 'Introduction'
+                icon: *icon_video
+                link: 'https://usfca.zoom.us/rec/share/eXtAx-SzMe7cHY9MMvfpv6bqACoJaAs7YQKz4bEAma00XXibF5hnBqN6mbs7YoOH.h80dRoZt_nJWQJvR?startTime=1586824949000'
+                more: '(<a href="https://github.com/usf-cs212-fall2020/lectures/tree/main/ServletData">Code</a>)'
+
+              - text: 'Basic Servlet'
+                icon: *icon_video
+                link: 'https://usfca.zoom.us/rec/share/2di41toZbCiboheScjYsHogDRoKzpMHmUZy3DxyjI31ct0HY9KUx4OQwh11wSC7T.XRrAMOuRoT5m0eKW?startTime=1586827926000'
+                more: '(<a href="https://github.com/usf-cs212-fall2020/lectures/blob/main/ServletData/src/main/java/MessageServlet.java">Code</a>)'
+
+              - text: 'Bulma Servlet'
+                icon: *icon_video
+                link: 'https://usfca.zoom.us/rec/share/upnUxdeVNDM6QU1T51VlAmb8awEu-AANvxanXy-Lb0Zyibeisur4adhAycJd-FfJ.NFjsgo9n2f2rikmt?startTime=1586830193000'
+                more: '(<a href="https://github.com/usf-cs212-fall2020/lectures/blob/main/ServletData/src/main/java/BulmaMessageServlet.java">Code</a>)'
+
+          - label: 'Assignments'
+            dates: true
+            items:
+              - text: 'Due NEXT Week'
+                icon: *icon_time
+
+              - text: 'Servlet Contexts'
+                icon: *icon_quiz
+                date: 2020-11-10
+                link: 'https://usfca.instructure.com/courses/1594619/quizzes/2364157'
+
+              - text: 'Message Board'
+                icon: *icon_participation
+                date: 2020-11-10
+                link: 'https://usfca.instructure.com/courses/1594619/discussion_topics/7945163'
 
           - label: 'Dates and Deadlines'
             dates: true
@@ -1658,6 +1706,20 @@ weeks:
             items:
               - text: 'SQL'
                 type: 'has-text-grey'
+
+          - label: 'Dates and Deadlines'
+            dates: true
+            items:
+              - text: 'Servlet Contexts'
+                icon: *icon_quiz
+                date: 2020-11-10
+                link: 'https://usfca.instructure.com/courses/1594619/quizzes/2364157'
+
+              - text: 'Message Board'
+                icon: *icon_participation
+                date: 2020-11-10
+                link: 'https://usfca.instructure.com/courses/1594619/discussion_topics/7945163'
+
 
       - date: 2020-11-12
         sections:
