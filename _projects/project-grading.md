@@ -4,10 +4,6 @@ navbar: Guides
 layout: guides
 key: 1.3
 
-tags:
-  - text: 'Updated'
-    type: 'is-primary'
-
 blurb: |
   <p>Each project grade is split into two components: functionality (passing tests) and design (passing code review). This guide details both the process for getting credit for project functionality.</p>
 ---

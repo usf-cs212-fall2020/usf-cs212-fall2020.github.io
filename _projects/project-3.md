@@ -4,10 +4,6 @@ navbar: Guides
 layout: guides
 key: 2.3
 
-tags:
-  - text: 'New'
-    type: 'is-primary'
-
 assignments:
   - text: 'Project 3 Functionality'
     link: 'https://usfca.instructure.com/courses/1594619/assignments/6987889'

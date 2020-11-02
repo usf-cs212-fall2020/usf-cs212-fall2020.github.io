@@ -112,14 +112,14 @@ projects:
       icon: *icon_project
       type: 'has-text-usf-plum'
       date: 2020-12-01
-      link: 'https://usfca.instructure.com/courses/1594619/assignments/6987891'
+      link: '/guides/projects/project-4.html'
 
   - project4d: &project4d
       text: 'Project 4 Search Engine'
       icon: *icon_project
       type: 'has-text-usf-plum'
       date: 2020-12-08
-      link: 'https://usfca.instructure.com/courses/1594619/assignments/6987892'
+      link: '/guides/projects/project-4.html'
 
 homework:
   - argumentmap: &argumentmap
