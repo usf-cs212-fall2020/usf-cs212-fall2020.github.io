@@ -1789,17 +1789,26 @@ weeks:
 
           - label: 'Lecture (Live)'
             items:
+              - text: 'Project 4'
+                icon: *icon_website
+                link: '/guides/projects/project-4.html'
+
+              - text: 'Final Code Review'
+                icon: *icon_website
+                link: '/guides/projects/final-review.html'
+
+              - text: 'Exam 2 Review'
+                type: 'has-text-grey bump'
+
               - text: 'Database Accounts'
                 type: 'has-text-weight-bold'
                 link: 'https://usfca.instructure.com/courses/1594619/pages/database-accounts'
                 icon: *icon_website
+                type: 'bump'
 
               - text: 'SQL Faculty Demo'
                 link: '/guides/sql/sql-demo-intro.html'
                 icon: *icon_website
-
-              - text: 'Exam 2 Review'
-                type: 'has-text-grey bump'
 
           - label: 'Dates and Deadlines'
             dates: true
@@ -2006,6 +2015,7 @@ weeks:
             items:
               - text: 'Final Code Reviews'
                 icon: *icon_project
+                link: '/guides/projects/final-review.html'
 
           - label: 'Dates and Deadlines'
             items:
