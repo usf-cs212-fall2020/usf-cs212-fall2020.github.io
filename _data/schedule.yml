@@ -1675,11 +1675,6 @@ weeks:
 
       - date: 2020-11-06
         sections:
-          - label: 'Livestream'
-            items:
-              - zoom: lab1
-              - zoom: lab2
-
           - label: 'TA Hours'
             items:
               - text: 'Homework Help'
@@ -1710,8 +1705,66 @@ weeks:
         sections:
           - label: 'Content'
             items:
-              - text: 'SQL'
-                type: 'has-text-grey'
+              - text: 'Database Accounts'
+                type: 'has-text-weight-bold'
+                link: 'https://usfca.instructure.com/courses/1594619/pages/database-accounts'
+                icon: *icon_website
+
+              - text: 'Relational Databases'
+                icon: *icon_video
+                link: 'https://usfca.zoom.us/rec/share/CStR91g1UGqHnHEDZaW9WPcWbJH7ksmQK2vvAUC9owoq6tooPPXEvhywvUZVL_yh._XQvNsHhnnqIX3SV?startTime=1587416156000'
+                more: '(<a href="https://drive.google.com/open?id=0BxYofk0iB_upQkdxdlZCOUZSYm8">Slides</a>)'
+                type: 'bump'
+
+              - text: 'Structured Query Language'
+                icon: *icon_video
+                link: 'https://usfca.zoom.us/rec/share/TORilh_EUT6bR03BkghYSCViX-x_1qQnK7lmWxe5GH7xF2k3tH8Ui5WEJsdQhC24.AnApWcVU_tBiyVvp?startTime=1587417626000'
+                more: '(<a href="https://drive.google.com/open?id=0BxYofk0iB_upblRyQ09qU1ExQkE">Slides</a>)'
+
+              - text: 'SQL Introduction'
+                icon: *icon_website
+                link: 'guides/sql/'
+                type: 'bump has-text-weight-bold'
+
+              - text: 'Getting Started'
+                icon: *icon_video
+                link: 'https://usfca.zoom.us/rec/share/bH7_X46D8hNYxbeoDBLSua6sT2a71_5_N_RSST4cq4rceSLAXk8Dag5Y21ie4PgE.SI0yJ8foTqnV43y1?startTime=1587429429000'
+                more: '(<a href="/guides/sql/sql-intro-started.html">Guide</a>)'
+
+              - text: 'Joining Data'
+                icon: *icon_video
+                link: 'https://usfca.zoom.us/rec/share/S81b0WbmmRIZrLJ7tImLVYpQoqUGB93v4sokSBv9j6_RN8awNeXm7BSGy9wKFsnk.CTqRwo9MYN9CQDaW?startTime=1587431239000'
+                more: '(<a href="/guides/sql/sql-intro-joining.html">Guide</a>)'
+
+              - text: 'Enforcing Relationships'
+                icon: *icon_video
+                link: 'https://usfca.zoom.us/rec/share/q-69_Ld_qpxNpjvP2kgndRBXpnCAD2f3YZ9dJBnuAIAW8TwFkf0FMUPznT7x56Cs.1GCNmYTsWHdGSG-7?startTime=1587432880000'
+                more: '(<a href="/guides/sql/sql-intro-enforcing.html">Guide</a>)'
+
+          - label: 'Assignments'
+            dates: true
+            items:
+              - text: 'Due BEFORE Livestream'
+                icon: *icon_time
+
+              - text: 'SQL Discussion'
+                icon: *icon_participation
+                date: 2020-11-12
+                link: 'https://usfca.instructure.com/courses/1594619/discussion_topics/7947510'
+
+              - text: 'Due 11:59pm Friday'
+                icon: *icon_time
+                type: 'bump'
+
+              - text: 'SQL Joins'
+                icon: *icon_quiz
+                date: 2020-11-13
+                link: 'https://usfca.instructure.com/courses/1594619/quizzes/2364175'
+
+              - text: 'SQL Grouping'
+                icon: *icon_quiz
+                date: 2020-11-13
+                link: 'https://usfca.instructure.com/courses/1594619/quizzes/2364162'
 
           - label: 'Dates and Deadlines'
             dates: true
@@ -1736,11 +1789,29 @@ weeks:
 
           - label: 'Lecture (Live)'
             items:
-              - text: 'SQL'
-                type: 'has-text-grey'
+              - text: 'Database Accounts'
+                type: 'has-text-weight-bold'
+                link: 'https://usfca.instructure.com/courses/1594619/pages/database-accounts'
+                icon: *icon_website
+
+              - text: 'SQL Faculty Demo'
+                link: '/guides/sql/sql-demo-intro.html'
+                icon: *icon_website
 
               - text: 'Exam 2 Review'
-                type: 'has-text-grey'
+                type: 'has-text-grey bump'
+
+          - label: 'Dates and Deadlines'
+            dates: true
+            items:
+              - text: 'Due BEFORE Lecture'
+                icon: *icon_time
+
+              - text: 'SQL Discussion'
+                icon: *icon_participation
+                date: 2020-11-12
+                link: 'https://usfca.instructure.com/courses/1594619/discussion_topics/7947510'
+
 
       - date: 2020-11-13
         sections:
@@ -1771,6 +1842,17 @@ weeks:
                 date: 2020-11-13
                 icon: *icon_attendance
                 link: 'https://usfca.instructure.com/courses/1594619/assignments/6987934'
+
+              - text: 'SQL Joins'
+                icon: *icon_quiz
+                date: 2020-11-13
+                link: 'https://usfca.instructure.com/courses/1594619/quizzes/2364175'
+                type: 'bump'
+
+              - text: 'SQL Grouping'
+                icon: *icon_quiz
+                date: 2020-11-13
+                link: 'https://usfca.instructure.com/courses/1594619/quizzes/2364162'
 
   - week: 14
     days:
