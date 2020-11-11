@@ -1798,7 +1798,9 @@ weeks:
                 link: '/guides/projects/final-review.html'
 
               - text: 'Exam 2 Review'
-                type: 'has-text-grey bump'
+                type: 'bump'
+                link: '/guides/exam-2.html'
+                icon: *icon_exam
 
               - text: 'Database Accounts'
                 type: 'has-text-weight-bold'
