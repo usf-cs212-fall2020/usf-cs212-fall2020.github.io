@@ -1790,7 +1790,7 @@ weeks:
 
               - text: 'CS 212-02 Lecture'
                 icon: *icon_video
-                link: ''
+                link: 'https://usfca.zoom.us/rec/share/nUimNVFm3M8NWP2sKA0dPD4bv1kkE9EMUBgT1od_zqCFJCO5M3C0179dvwedeJxs.EZFAOmXxZIwRewkB?startTime=1605226824000'
 
           - label: 'Lecture (Live)'
             items:
