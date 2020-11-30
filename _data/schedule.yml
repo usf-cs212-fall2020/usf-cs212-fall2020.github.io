@@ -1874,11 +1874,6 @@ weeks:
     days:
       - date: 2020-11-17
         sections:
-          - label: 'Livestream'
-            items:
-              - zoom: lecture1
-              - zoom: lecture2
-
           - label: 'Lecture (Live)'
             items:
               - text: 'Exam 2'
@@ -1887,11 +1882,6 @@ weeks:
 
       - date: 2020-11-19
         sections:
-          - label: 'Livestream'
-            items:
-              - zoom: lecture1
-              - zoom: lecture2
-
           - label: 'Lecture (Live)'
             items:
               - text: 'Exam 2 Retake'
@@ -1900,11 +1890,6 @@ weeks:
 
       - date: 2020-11-20
         sections:
-          - label: 'Livestream'
-            items:
-              - zoom: lab1
-              - zoom: lab2
-
           - label: 'TA Hours'
             items:
               - text: 'Homework Help'
@@ -1955,11 +1940,35 @@ weeks:
         sections:
           - label: 'Content'
             items:
-              - text: 'Software Testing'
-                type: 'has-text-grey'
+              - text: 'Introduction to JDBC'
+                link: 'https://usfca.zoom.us/rec/share/3MlKfp6o3D5IHInh1BjPGf8uBtrhT6a803cdqPMFnk_tags1WMyhtGDXT-Z_QFVj?startTime=1588625744000'
+                icon: *icon_video
+                more: '(<a href="https://drive.google.com/open?id=0BxYofk0iB_upNUp2V1BiWGw3NlU">Slides</a>)'
 
-              - text: 'Evaluations'
-                type: 'has-text-grey'
+              - text: 'Faculty Contact Server'
+                icon: *icon_code
+                link: 'https://github.com/usf-cs212-fall2020/lectures/tree/main/JDBC'
+                type: 'bump has-text-weight-bold'
+
+              - text: 'SQL and HTML'
+                link: 'https://usfca.zoom.us/rec/share/zuFNCo38xjNJU4HVuUDCa6cKBYW0eaa8hCUZ__tcn0fL2ExKmacrlBv5FuFBVL5x?startTime=1588627518000'
+                icon: *icon_video
+                more: '(<a href="https://github.com/usf-cs212-fall2020/lectures/tree/main/JDBC/src/main/resources">Code</a>)'
+
+              - text: 'Database Connector'
+                link: 'https://usfca.zoom.us/rec/share/HzBH7a0Y70jItVoRfMeAX_3lItV1LWy8VRaB6GzDDVK1tUq4Joty0KSN0BepdJX6.FMK8aajnZ98-tFUV?startTime=1588635007000'
+                icon: *icon_video
+                more: '(<a href="https://github.com/usf-cs212-fall2020/lectures/blob/main/JDBC/src/main/java/DatabaseConnector.java">Code</a>)'
+
+              - text: 'Faculty Server'
+                link: 'https://usfca.zoom.us/rec/share/cbG3MiPDqdHtUR3asWBA2YpxEeW-ka_9FPhNpX5lx1SXCqs9Y2xWJdnEjsQeMq-A.S7JdvsLUG6RpkhsC?startTime=1588636871000'
+                icon: *icon_video
+                more: '(<a href="https://github.com/usf-cs212-fall2020/lectures/blob/main/JDBC/src/main/java/FacultyServer.java">Code</a>)'
+
+              - text: 'Faculty Servlet'
+                link: 'https://usfca.zoom.us/rec/share/EckLP0zxYcAkFSdFey4FQPviG-qXGaMVIbr948JkvC_zxHms2wrmnaRWNN6cg-0f.N3DOpCYZxXC_A1pF?startTime=1588639483000'
+                icon: *icon_video
+                more: '(<a href="https://github.com/usf-cs212-fall2020/lectures/blob/main/JDBC/src/main/java/FacultyServlet.java">Code</a>)'
 
           - label: 'Dates and Deadlines'
             dates: true
@@ -1975,14 +1984,18 @@ weeks:
 
           - label: 'Lecture (Live)'
             items:
-              - text: 'JDBC'
-                type: 'has-text-grey'
+              # - text: 'Software Testing'
+              #   type: 'has-text-grey'
 
               - text: 'Search Engine Demo'
                 type: 'has-text-grey'
 
               - text: "What's Next"
-                type: 'has-text-grey'
+                type: 'has-text-grey bump'
+
+              - text: 'Evaluations'
+                icon: *icon_website
+                link: 'https://usfca.instructure.com/courses/1594619/pages/course-evaluations'
 
           - label: 'Dates and Deadlines'
             dates: true
