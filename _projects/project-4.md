@@ -40,19 +40,22 @@ This is the **last project** for this course. There will be no code review/desig
 </tr>
 
 <tr>
-  <td nowrap class="has-text-centered">30</td>
+  <td nowrap class="has-text-centered">40</td>
   <td nowrap class="has-text-centered"><a href="project-4b.html">Search Engine<br/> Core Functionality</a></td>
   <td width="100%">You must fully pass <strong>both</strong> the functionality and the design of <a href="project-3.html">project 3</a> to be eligible for these points, as well as fully pass the <a href="project-4a.html">web crawler</a> functionality.</td>
 </tr>
 
 <tr>
-  <td nowrap class="has-text-centered">70</td>
+  <td nowrap class="has-text-centered">60</td>
   <td nowrap class="has-text-centered"><a href="project-4b.html">Search Engine<br/> Extra Functionality</a></td>
   <td width="100%">You must fully pass <strong>both</strong> the functionality and the design of <a href="project-3.html">project 3</a> to be eligible for these points, as well as fully pass <strong>both</strong> the <a href="project-4a.html">web crawler</a> and <a href="project-4b.html">core search engine</a> functionality.</td>
 </tr>
 </tbody>
 
 </table>
+
+
+### Extra Credit
 
 Students may complete additional functionality for the [search engine](project-4b.html) as extra credit. There is no cap on how much extra credit you can earn for this specific project, however the overall project category grade will be capped to 110% at the end of the semester.
 

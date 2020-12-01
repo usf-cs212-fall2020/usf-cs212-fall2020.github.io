@@ -1991,7 +1991,8 @@ weeks:
                 type: 'has-text-grey'
 
               - text: "What's Next"
-                type: 'has-text-grey bump'
+                icon: *icon_slides
+                link: 'https://docs.google.com/presentation/d/e/2PACX-1vSAwIgCXMm1R3S7R-PH41iTVo5dEf-TwJ01WzmxLfqeP4O_rMN4XJdL_Z6UrDyIDOg88eEZXoYbs4hi/pub?start=false&loop=false&delayms=3000'
 
               - text: 'Evaluations'
                 icon: *icon_website
